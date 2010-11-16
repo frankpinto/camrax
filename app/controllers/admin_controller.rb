@@ -1,7 +1,7 @@
 class AdminController < ApplicationController
   def index
     if session[:logged_in]
-      redirect_to :controller => 'cateogires' action => 'list'
+      redirect_to :controller => 'categories', action => 'list'
     end
   end
 
