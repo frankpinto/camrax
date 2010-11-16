@@ -1,0 +1,11 @@
+<% form_for @cat do |form| %>
+  <%= form.label :title %>
+  <%= form.text_field :title %><br />
+  <% form.fields_for :languages do |language| %>
+    <%= language.label :language %>
+    <%= language.text_field :language %><br />
+    <%= language.label :words %>
+    <%= language.text_field :words %>
+  <% end %>
+  <input type="submit" value="Submit!" />
+<% end %>

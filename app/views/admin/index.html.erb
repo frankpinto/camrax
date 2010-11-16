@@ -1,0 +1,13 @@
+<div style="margin: 0 auto 0 auto; padding-left: 10px; border: 1px dotted">
+<h1>Login</h1>
+<%= flash[:notice] -%>
+<%= flash[:error] -%>
+<% form_tag '/admin/login' do |f| %>
+  <label for="username">Username: </label><br />
+  <input type="text" name="username" value="" id="username"/><br />
+  <label for="password">Password: </label><br />
+  <input type="password" name="password" value="" id="password"/>
+
+  <p><input type="submit" value="Login"/></p>
+<% end %>
+</div>
