@@ -1,0 +1,20 @@
+<%= render :partial => 'list' %>
+<% form_for @category do |f| %>
+  <h3>Quick Category Add</h3>
+  <fieldset>
+    <p><label>Title:</label><input type="text" class="text-long" /></p>
+    <p><label>Redirect To (Leave Blank if None):</label><input type="text" class="text-long" /></p> <!--Make autocomplete -->
+    <p><label>Authorities (Comma Separated List):</label><input type="text" class="text-long" /></p>
+    <!--
+    <select>
+      <option>Select one</option>
+      <option>Select two</option>
+      <option>Select tree</option>
+      <option>Select one</option>
+      <option>Select two</option>
+      <option>Select tree</option>
+    </select>-->
+    <p><label>Category Text:</label><textarea rows="1" cols="1"></textarea></p>
+    <input type="submit" value="Create New Category" />
+  </fieldset>
+<% end %>
