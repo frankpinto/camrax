@@ -22,14 +22,16 @@ class ApplicationController < ActionController::Base
   def logged_in?
     session[:logged_in]
   end
+
   def verify_login
+    flash[:error] = "This action requires login."
     redirect_to :controller => 'admin', :action => 'login' unless logged_in?
   end
 
-  def require_login actions
+  def self.require_login actions
     if actions.class == Array
       actions.each do |action|
-        before_filter {|controller| verify_login if controller.action == action}
+        before_filter {|controller| verify_login if controller.action_name == action}
       end
     elsif actions.class == String || actions.class == Symbol
         before_filter {|controller| verify_login if controller.action == actions}

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101116202951) do
+ActiveRecord::Schema.define(:version => 20101119035210) do
 
   create_table "authors", :force => true do |t|
     t.string "first_name"
@@ -63,11 +63,13 @@ ActiveRecord::Schema.define(:version => 20101116202951) do
   end
 
   create_table "categories", :force => true do |t|
-    t.string "title",       :null => false
-    t.string "alias"
-    t.string "authorities"
-    t.text   "body"
-    t.text   "extra"
+    t.string   "title",       :null => false
+    t.string   "alias"
+    t.string   "authorities"
+    t.text     "body"
+    t.text     "extra"
+    t.datetime "created_at"
+    t.datetime "modified_at"
   end
 
   create_table "ckeditor_assets", :force => true do |t|
@@ -107,11 +109,6 @@ ActiveRecord::Schema.define(:version => 20101116202951) do
   create_table "subcategories", :force => true do |t|
     t.string  "title"
     t.integer "category_id"
-  end
-
-  create_table "tests", :force => true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
 end

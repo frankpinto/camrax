@@ -10556,3 +10556,1808 @@ Rendering template within layouts/application
 Rendering categories/show
   [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 106) [0m
 Completed in 45ms (View: 14, DB: 10) | 200 OK [http://localhost/categories/106]
+
+
+Processing ApplicationController#edit (for 127.0.0.1 at 2010-11-16 23:25:56) [GET]
+  Parameters: {"id"=>"106"}
+
+NoMethodError (undefined method `require_login' for CategoriesController:Class):
+  app/controllers/categories_controller.rb:2
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_file'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:379:in `load_file'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:259:in `require_or_load'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:80:in `const_missing'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:92:in `const_missing'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/inflector.rb:364:in `constantize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/inflector.rb:363:in `each'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/inflector.rb:363:in `constantize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:444:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (3.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:26:37) [GET]
+  Parameters: {"id"=>"106"}
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+NoMethodError (undefined method `action' for #<CategoriesController:0x6ed2b54>):
+  app/controllers/application_controller.rb:32:in `require_login'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:182:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:166:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:225:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:629:in `run_before_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:36:07) [GET]
+  Parameters: {"id"=>"106"}
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+TypeError (exception class/object expected):
+  app/controllers/application_controller.rb:33:in `raise'
+  app/controllers/application_controller.rb:33:in `require_login'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:182:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:166:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:225:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:629:in `run_before_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (139.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+/!\ FAILSAFE /!\  Tue Nov 16 23:36:26 -0500 2010
+  Status: 500 Internal Server Error
+  C:/Users/Frank Pinto/Documents/Spruce/camrax/app/controllers/application_controller.rb:33: syntax error, unexpected ')', expecting '}'
+...if (raise controller.inspect))}
+                              ^
+C:/Users/Frank Pinto/Documents/Spruce/camrax/app/controllers/application_controller.rb:37: syntax error, unexpected kELSE, expecting '}'
+C:/Users/Frank Pinto/Documents/Spruce/camrax/app/controllers/application_controller.rb:39: syntax error, unexpected kEND, expecting '}'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:379:in `load_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:259:in `require_or_load'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:80:in `const_missing'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:92:in `const_missing'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:89:in `dispatch'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+    C:/Program Files (x86)/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    C:/Program Files (x86)/Ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:37:13) [GET]
+  Parameters: {"id"=>"106"}
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+RuntimeError (#<CategoriesController:0x6f3b924 @performed_redirect=false, @menu_categories={"v"=>[#<Category id: 16, title: "Visions", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 17, title: "Volucraries", alias: nil, authorities: nil, body: nil, extra: nil>], "w"=>[#<Category id: 14, title: "Wands", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 15, title: "War Cries", alias: nil, authorities: nil, body: nil, extra: nil>], "l"=>[#<Category id: 56, title: "Laments", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 57, title: "Lapidaries", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 58, title: "Liveries", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 59, title: "Lotteries", alias: nil, authorities: nil, body: nil, extra: nil>], "a"=>[#<Category id: 4, title: "Acroslics", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 5, title: "Adages", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 6, title: "Allegories", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 7, title: "Amulets", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 8, title: "Aphorisms", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 9, title: "Apologues", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 10, title: "Apophthegms", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 11, title: "Apparatus", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 12, title: "Arms", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 13, title: "Astrology", alias: nil, authorities: nil, body: nil, extra: nil>], "m"=>[#<Category id: 49, title: "Masques", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 50, title: "Maxims", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 51, title: "Metamorphoses", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 52, title: "Moral Sentences", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 53, title: "Morality Plays", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 54, title: "Mottos", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 55, title: "Mythologies", alias: nil, authorities: nil, body: nil, extra: nil>], "b"=>[#<Category id: 93, title: "Badges", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 94, title: "Baguettes", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 95, title: "Ballets", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 96, title: "Bestiaries", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 97, title: "Blasons", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 98, title: "Burlesques", alias: nil, authorities: nil, body: nil, extra: nil>], "n"=>[#<Category id: 46, title: "Nebulae", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 47, title: "Novels", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 48, title: "Nugae", alias: nil, authorities: nil, body: nil, extra: nil>], "c"=>[#<Category id: 99, title: "Centos", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 100, title: "Centuries of Nostradamus", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 101, title: "Cimiers", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 102, title: "Cognizances", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 103, title: "Coins", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 104, title: "Comedies", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 105, title: "Complaints", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 106, title: "Cyphers", alias: nil, authorities: nil, body: "<p align=\"center\"><em>Cypher comes from sifr the Ar...", extra: nil>], "o"=>[#<Category id: 45, title: "Oracles", alias: nil, authorities: nil, body: nil, extra: nil>], "d"=>[#<Category id: 86, title: "Dances of Death", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 87, title: "Devices", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 88, title: "Dictes", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 89, title: "Divinations", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 90, title: "Dowsing", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 91, title: "Dramatic Writings", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 92, title: "Dreams", alias: nil, authorities: nil, body: nil, extra: nil>], "p"=>[#<Category id: 38, title: "Parables", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 39, title: "Paradoxes", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 40, title: "Parerga", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 41, title: "Paroemia", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 42, title: "Physiologus", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 43, title: "Prophesies", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 44, title: "Proverbs", alias: nil, authorities: nil, body: nil, extra: nil>], "e"=>[#<Category id: 75, title: "Elegies", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 76, title: "Emblems", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 77, title: "Enigmas", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 78, title: "Epic Poems", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 79, title: "Epigrams", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 82, title: "Epistola Laconica", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 80, title: "Epitaphs", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 81, title: "Epopees", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 83, title: "Equestrian Games", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 84, title: "Equivoques", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 85, title: "Exempla", alias: nil, authorities: nil, body: nil, extra: nil>], "f"=>[#<Category id: 68, title: "Fables", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 69, title: "Facetiae", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 70, title: "Fates", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 71, title: "Festivals", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 72, title: "Figure Poems", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 73, title: "Foggie", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 74, title: "Fools", alias: nil, authorities: nil, body: nil, extra: nil>], "r"=>[#<Category id: 35, title: "Rebuses", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 36, title: "Reverses of Medals", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 37, title: "Ridicula", alias: nil, authorities: nil, body: nil, extra: nil>], "g"=>[#<Category id: 67, title: "Gnomes", alias: nil, authorities: nil, body: nil, extra: nil>], "s"=>[#<Category id: 27, title: "Satires", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 28, title: "Scomma", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 29, title: "Sentences", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 30, title: "Signs", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 31, title: "Signs of Honor", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 32, title: "Similitudes", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 33, title: "Spectacles", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 34, title: "Symbols", alias: nil, authorities: nil, body: nil, extra: nil>], "h"=>[#<Category id: 64, title: "Herbals", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 65, title: "Hieroglyphics", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 66, title: "Histories", alias: nil, authorities: nil, body: nil, extra: nil>], "t"=>[#<Category id: 18, title: "Talismans", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 19, title: "Technopaegnia", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 20, title: "Tessera", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 21, title: "Testaments", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 22, title: "Titulus", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 23, title: "Tragedies", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 24, title: "Travesties", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 25, title: "Triumphs", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 26, title: "Trophies", alias: nil, authorities: nil, body: nil, extra: nil>], "i"=>[#<Category id: 61, title: "Iconologies", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 63, title: "Inscriptions", alias: nil, authorities: nil, body: nil, extra: nil>, #<Category id: 62, title: "Insegni", alias: nil, authorities: nil, body: nil, extra: nil>], "j"=>[#<Category id: 60, title: "Jokes", alias: nil, authorities: nil, body: nil, extra: nil>]}, @before_filter_chain_aborted=false, @action_name="edit", @_response=#<ActionController::Response:0x6f3ba50 @block=nil, @writer=#<Proc:0x06ebd614@C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/response.rb:46>, @body=["", []], @template=#<ActionView::Base:0x6f3b870 @helpers=#<ActionView::Base::ProxyModule:0x6f3b820>, @controller=#<CategoriesController:0x6f3b924 ...>, @view_paths=["C:/Users/Frank Pinto/Documents/Spruce/camrax/app/views", "C:/Users/Frank Pinto/Documents/Spruce/camrax/vendor/gems/ckeditor-3.4.3/app/views"], @_current_render=nil, @assigns_added=nil, @_first_render=nil, @assigns={}>, @redirected_to=nil, @request=#<ActionController::Request:0x6f3ba8c @parameters={"action"=>"edit", "id"=>"106", "controller"=>"categories"}, @request_method=:get, @content_type=nil, @env={"action_controller.rescue.request"=>#<ActionController::Request:0x6f3ba8c ...>, "SERVER_NAME"=>"localhost", "PATH_INFO"=>"/categories/106/edit", "HTTP_ACCEPT_ENCODING"=>"gzip,deflate", "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12", "rack.url_scheme"=>"http", "rack.run_once"=>false, "rack.input"=>#<StringIO:0x6f72780>, "action_controller.request.request_parameters"=>{}, "SCRIPT_NAME"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "HTTP_CACHE_CONTROL"=>"max-age=0", "HTTP_ACCEPT_LANGUAGE"=>"en-us,en;q=0.5", "HTTP_HOST"=>"localhost:3000", "rack.errors"=>#<IO:0x2436adc>, "REMOTE_ADDR"=>"127.0.0.1", "SERVER_SOFTWARE"=>"Mongrel 1.1.5", "HTTP_KEEP_ALIVE"=>"115", "REQUEST_PATH"=>"/categories/106/edit", "rack.request.query_hash"=>{}, "HTTP_COOKIE"=>"_session_id=695ea2667ae24f6f9e75d01b3167e044; PHPSESSID=b9slc5upeh6n00p2v107033603; _rails-ckeditor-demo-app_session=BAh7BzoQX2NzcmZfdG9rZW4iMVBEaGVJZVlEZEx6dmdXMFg5Rk5qdSt1Z1d2OFBWeWFVZVhhcU5XOXpiSzg9Og9zZXNzaW9uX2lkIiVmZTBjMzVmOGUyNTMwZTI5NDUzY2YxMTg2MjJmNjYyOQ%3D%3D--564f2f160a198bb4afe768c8b52cbb3688453b76", "HTTP_ACCEPT_CHARSET"=>"ISO-8859-1,utf-8;q=0.7,*;q=0.7", "HTTP_VERSION"=>"HTTP/1.1", "rack.multithread"=>false, "rack.version"=>[1, 1], "action_controller.request.path_parameters"=>{"action"=>"edit", "id"=>"106", "controller"=>"categories"}, "REQUEST_URI"=>"/categories/106/edit", "rack.multiprocess"=>false, "SERVER_PORT"=>"3000", "rack.request.query_string"=>"", "action_controller.rescue.response"=>#<ActionController::Response:0x6f3ba50 ...>, "rack.session.options"=>{:path=>"/", :cookie_only=>true, :expire_after=>nil, :httponly=>true, :domain=>nil, :key=>"_session_id", :secure=>false}, "GATEWAY_INTERFACE"=>"CGI/1.2", "QUERY_STRING"=>"", "action_controller.request.query_parameters"=>{}, "rack.session"=>{"flash"=>{:notice=>"Successfully logged in."}, :logged_in=>true, :_csrf_token=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM="}, "HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "HTTP_CONNECTION"=>"keep-alive", "REQUEST_METHOD"=>"GET"}>, @session={"flash"=>{:notice=>"Successfully logged in."}, :logged_in=>true, :_csrf_token=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM="}, @status=200, @assigns=[], @header={"Cache-Control"=>"no-cache"}>, @template=#<ActionView::Base:0x6f3b870 @helpers=#<ActionView::Base::ProxyModule:0x6f3b820>, @controller=#<CategoriesController:0x6f3b924 ...>, @view_paths=["C:/Users/Frank Pinto/Documents/Spruce/camrax/app/views", "C:/Users/Frank Pinto/Documents/Spruce/camrax/vendor/gems/ckeditor-3.4.3/app/views"], @_current_render=nil, @assigns_added=nil, @_first_render=nil, @assigns={}>, @_session={"flash"=>{:notice=>"Successfully logged in."}, :logged_in=>true, :_csrf_token=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM="}, @real_format=nil, @_params={"action"=>"edit", "id"=>"106", "controller"=>"categories"}, @performed_render=false, @request_origin="127.0.0.1 at 2010-11-16 23:37:13", @url=#<ActionController::UrlRewriter:0x6f3b0f0 @parameters={"action"=>"edit", "id"=>"106", "controller"=>"categories"}, @request=#<ActionController::Request:0x6f3ba8c @parameters={"action"=>"edit", "id"=>"106", "controller"=>"categories"}, @request_method=:get, @content_type=nil, @env={"rack.session.record"=>#<ActiveRecord::SessionStore::Session id: 1, session_id: "695ea2667ae24f6f9e75d01b3167e044", data: "BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g...", created_at: "2010-11-15 20:14:26", updated_at: "2010-11-17 04:36:07">, "action_controller.rescue.request"=>#<ActionController::Request:0x6f3ba8c ...>, "SERVER_NAME"=>"localhost", "rack.request.cookie_hash"=>{"_session_id"=>"695ea2667ae24f6f9e75d01b3167e044", "PHPSESSID"=>"b9slc5upeh6n00p2v107033603", "_rails-ckeditor-demo-app_session"=>"BAh7BzoQX2NzcmZfdG9rZW4iMVBEaGVJZVlEZEx6dmdXMFg5Rk5qdSt1Z1d2OFBWeWFVZVhhcU5XOXpiSzg9Og9zZXNzaW9uX2lkIiVmZTBjMzVmOGUyNTMwZTI5NDUzY2YxMTg2MjJmNjYyOQ==--564f2f160a198bb4afe768c8b52cbb3688453b76"}, "PATH_INFO"=>"/categories/106/edit", "HTTP_ACCEPT_ENCODING"=>"gzip,deflate", "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12", "rack.url_scheme"=>"http", "rack.run_once"=>false, "rack.input"=>#<StringIO:0x6f72780>, "action_controller.request.request_parameters"=>{}, "SCRIPT_NAME"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "HTTP_CACHE_CONTROL"=>"max-age=0", "HTTP_ACCEPT_LANGUAGE"=>"en-us,en;q=0.5", "HTTP_HOST"=>"localhost:3000", "rack.errors"=>#<IO:0x2436adc>, "REMOTE_ADDR"=>"127.0.0.1", "SERVER_SOFTWARE"=>"Mongrel 1.1.5", "HTTP_KEEP_ALIVE"=>"115", "REQUEST_PATH"=>"/categories/106/edit", "rack.request.cookie_string"=>"_session_id=695ea2667ae24f6f9e75d01b3167e044; PHPSESSID=b9slc5upeh6n00p2v107033603; _rails-ckeditor-demo-app_session=BAh7BzoQX2NzcmZfdG9rZW4iMVBEaGVJZVlEZEx6dmdXMFg5Rk5qdSt1Z1d2OFBWeWFVZVhhcU5XOXpiSzg9Og9zZXNzaW9uX2lkIiVmZTBjMzVmOGUyNTMwZTI5NDUzY2YxMTg2MjJmNjYyOQ%3D%3D--564f2f160a198bb4afe768c8b52cbb3688453b76", "rack.request.query_hash"=>{}, "HTTP_COOKIE"=>"_session_id=695ea2667ae24f6f9e75d01b3167e044; PHPSESSID=b9slc5upeh6n00p2v107033603; _rails-ckeditor-demo-app_session=BAh7BzoQX2NzcmZfdG9rZW4iMVBEaGVJZVlEZEx6dmdXMFg5Rk5qdSt1Z1d2OFBWeWFVZVhhcU5XOXpiSzg9Og9zZXNzaW9uX2lkIiVmZTBjMzVmOGUyNTMwZTI5NDUzY2YxMTg2MjJmNjYyOQ%3D%3D--564f2f160a198bb4afe768c8b52cbb3688453b76", "HTTP_ACCEPT_CHARSET"=>"ISO-8859-1,utf-8;q=0.7,*;q=0.7", "HTTP_VERSION"=>"HTTP/1.1", "rack.multithread"=>false, "rack.version"=>[1, 1], "action_controller.request.path_parameters"=>{"action"=>"edit", "id"=>"106", "controller"=>"categories"}, "REQUEST_URI"=>"/categories/106/edit", "rack.multiprocess"=>false, "SERVER_PORT"=>"3000", "rack.request.query_string"=>"", "action_controller.rescue.response"=>#<ActionController::Response:0x6f3ba50 @block=nil, @writer=#<Proc:0x06ebd614@C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/response.rb:46>, @body=["", []], @template=#<ActionView::Base:0x6f3b870 @helpers=#<ActionView::Base::ProxyModule:0x6f3b820>, @controller=#<CategoriesController:0x6f3b924 ...>, @view_paths=["C:/Users/Frank Pinto/Documents/Spruce/camrax/app/views", "C:/Users/Frank Pinto/Documents/Spruce/camrax/vendor/gems/ckeditor-3.4.3/app/views"], @_current_render=nil, @assigns_added=nil, @_first_render=nil, @assigns={}>, @redirected_to=nil, @request=#<ActionController::Request:0x6f3ba8c ...>, @session={"flash"=>{:notice=>"Successfully logged in."}, :logged_in=>true, :_csrf_token=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM="}, @status=200, @assigns=[], @header={"Cache-Control"=>"no-cache"}>, "rack.session.options"=>{:path=>"/", :cookie_only=>true, :expire_after=>nil, :httponly=>true, :domain=>nil, :key=>"_session_id", :secure=>false, :id=>"695ea2667ae24f6f9e75d01b3167e044"}, "GATEWAY_INTERFACE"=>"CGI/1.2", "QUERY_STRING"=>"", "action_controller.request.query_parameters"=>{}, "rack.session"=>{"flash"=>{:notice=>"Successfully logged in."}, :logged_in=>true, :_csrf_token=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM="}, "HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "HTTP_CONNECTION"=>"keep-alive", "REQUEST_METHOD"=>"GET"}>>, @_request=#<ActionController::Request:0x6f3ba8c @parameters={"action"=>"edit", "id"=>"106", "controller"=>"categories"}, @request_method=:get, @content_type=nil, @env={"rack.session.record"=>#<ActiveRecord::SessionStore::Session id: 1, session_id: "695ea2667ae24f6f9e75d01b3167e044", data: "BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g...", created_at: "2010-11-15 20:14:26", updated_at: "2010-11-17 04:36:07">, "action_controller.rescue.request"=>#<ActionController::Request:0x6f3ba8c ...>, "SERVER_NAME"=>"localhost", "rack.request.cookie_hash"=>{"_session_id"=>"695ea2667ae24f6f9e75d01b3167e044", "PHPSESSID"=>"b9slc5upeh6n00p2v107033603", "_rails-ckeditor-demo-app_session"=>"BAh7BzoQX2NzcmZfdG9rZW4iMVBEaGVJZVlEZEx6dmdXMFg5Rk5qdSt1Z1d2OFBWeWFVZVhhcU5XOXpiSzg9Og9zZXNzaW9uX2lkIiVmZTBjMzVmOGUyNTMwZTI5NDUzY2YxMTg2MjJmNjYyOQ==--564f2f160a198bb4afe768c8b52cbb3688453b76"}, "PATH_INFO"=>"/categories/106/edit", "HTTP_ACCEPT_ENCODING"=>"gzip,deflate", "HTTP_USER_AGENT"=>"Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12", "rack.url_scheme"=>"http", "rack.run_once"=>false, "rack.input"=>#<StringIO:0x6f72780>, "action_controller.request.request_parameters"=>{}, "SCRIPT_NAME"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "HTTP_CACHE_CONTROL"=>"max-age=0", "HTTP_ACCEPT_LANGUAGE"=>"en-us,en;q=0.5", "HTTP_HOST"=>"localhost:3000", "rack.errors"=>#<IO:0x2436adc>, "REMOTE_ADDR"=>"127.0.0.1", "SERVER_SOFTWARE"=>"Mongrel 1.1.5", "HTTP_KEEP_ALIVE"=>"115", "REQUEST_PATH"=>"/categories/106/edit", "rack.request.cookie_string"=>"_session_id=695ea2667ae24f6f9e75d01b3167e044; PHPSESSID=b9slc5upeh6n00p2v107033603; _rails-ckeditor-demo-app_session=BAh7BzoQX2NzcmZfdG9rZW4iMVBEaGVJZVlEZEx6dmdXMFg5Rk5qdSt1Z1d2OFBWeWFVZVhhcU5XOXpiSzg9Og9zZXNzaW9uX2lkIiVmZTBjMzVmOGUyNTMwZTI5NDUzY2YxMTg2MjJmNjYyOQ%3D%3D--564f2f160a198bb4afe768c8b52cbb3688453b76", "rack.request.query_hash"=>{}, "HTTP_COOKIE"=>"_session_id=695ea2667ae24f6f9e75d01b3167e044; PHPSESSID=b9slc5upeh6n00p2v107033603; _rails-ckeditor-demo-app_session=BAh7BzoQX2NzcmZfdG9rZW4iMVBEaGVJZVlEZEx6dmdXMFg5Rk5qdSt1Z1d2OFBWeWFVZVhhcU5XOXpiSzg9Og9zZXNzaW9uX2lkIiVmZTBjMzVmOGUyNTMwZTI5NDUzY2YxMTg2MjJmNjYyOQ%3D%3D--564f2f160a198bb4afe768c8b52cbb3688453b76", "HTTP_ACCEPT_CHARSET"=>"ISO-8859-1,utf-8;q=0.7,*;q=0.7", "HTTP_VERSION"=>"HTTP/1.1", "rack.multithread"=>false, "rack.version"=>[1, 1], "action_controller.request.path_parameters"=>{"action"=>"edit", "id"=>"106", "controller"=>"categories"}, "REQUEST_URI"=>"/categories/106/edit", "rack.multiprocess"=>false, "SERVER_PORT"=>"3000", "rack.request.query_string"=>"", "action_controller.rescue.response"=>#<ActionController::Response:0x6f3ba50 @block=nil, @writer=#<Proc:0x06ebd614@C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/response.rb:46>, @body=["", []], @template=#<ActionView::Base:0x6f3b870 @helpers=#<ActionView::Base::ProxyModule:0x6f3b820>, @controller=#<CategoriesController:0x6f3b924 ...>, @view_paths=["C:/Users/Frank Pinto/Documents/Spruce/camrax/app/views", "C:/Users/Frank Pinto/Documents/Spruce/camrax/vendor/gems/ckeditor-3.4.3/app/views"], @_current_render=nil, @assigns_added=nil, @_first_render=nil, @assigns={}>, @redirected_to=nil, @request=#<ActionController::Request:0x6f3ba8c ...>, @session={"flash"=>{:notice=>"Successfully logged in."}, :logged_in=>true, :_csrf_token=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM="}, @status=200, @assigns=[], @header={"Cache-Control"=>"no-cache"}>, "rack.session.options"=>{:path=>"/", :cookie_only=>true, :expire_after=>nil, :httponly=>true, :domain=>nil, :key=>"_session_id", :secure=>false, :id=>"695ea2667ae24f6f9e75d01b3167e044"}, "GATEWAY_INTERFACE"=>"CGI/1.2", "QUERY_STRING"=>"", "action_controller.request.query_parameters"=>{}, "rack.session"=>{"flash"=>{:notice=>"Successfully logged in."}, :logged_in=>true, :_csrf_token=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM="}, "HTTP_ACCEPT"=>"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "HTTP_CONNECTION"=>"keep-alive", "REQUEST_METHOD"=>"GET"}>, @alphabet=["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"], @_headers={"Cache-Control"=>"no-cache"}>):
+  app/controllers/application_controller.rb:34:in `require_login'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:182:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:182:in `evaluate_method'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:166:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:225:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:629:in `run_before_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (59.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:38:12) [GET]
+  Parameters: {"id"=>"106"}
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 106) [0m
+Rendering template within layouts/application
+Rendering categories/edit
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 106) [0m
+Completed in 54ms (View: 25, DB: 9) | 200 OK [http://localhost/categories/106/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-16 23:39:00) [GET]
+
+ActionController::RoutingError (No route matches "/logout" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-11-16 23:39:06) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin
+Completed in 30ms (DB: 10) | 302 Found [http://localhost/admin/logout]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:39:07) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 47ms (View: 14, DB: 11) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:44:19) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 37ms (View: 7, DB: 10) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:44:30) [POST]
+  Parameters: {"authenticity_token"=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM=", "username"=>"admin", "password"=>"camrax"}
+  [4;36;1mCategory Load (8.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin/panel
+Completed in 96ms (DB: 9) | 302 Found [http://localhost/admin/login]
+
+
+Processing AdminController#panel (for 127.0.0.1 at 2010-11-16 23:44:40) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/panel
+Completed in 40ms (View: 10, DB: 9) | 200 OK [http://localhost/admin/panel]
+
+
+Processing AdminController#logout (for 127.0.0.1 at 2010-11-16 23:45:22) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin
+Completed in 29ms (DB: 9) | 302 Found [http://localhost/admin/logout]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:45:23) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 35ms (View: 7, DB: 11) | 200 OK [http://localhost/admin]
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:45:31) [GET]
+  Parameters: {"id"=>"106"}
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 106) [0m
+Rendering template within layouts/application
+Rendering categories/edit
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 106) [0m
+Completed in 55ms (View: 26, DB: 11) | 200 OK [http://localhost/categories/106/edit]
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:48:01) [GET]
+  Parameters: {"id"=>"106"}
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 106) [0m
+Rendering template within layouts/application
+Rendering categories/edit
+  [4;35;1mLanguage Load (1.0ms)[0m   [0mSELECT * FROM "languages" WHERE ("languages".category_id = 106) [0m
+Filter chain halted as [:edit] rendered_or_redirected.
+Completed in 54ms (View: 22, DB: 11) | 200 OK [http://localhost/categories/106/edit]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:48:26) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 37ms (View: 8, DB: 9) | 200 OK [http://localhost/admin]
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:54:12) [GET]
+  Parameters: {"id"=>"106"}
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:verify_login] rendered_or_redirected.
+Completed in 32ms (DB: 11) | 302 Found [http://localhost/categories/106/edit]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:54:13) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin
+Completed in 30ms (DB: 10) | 302 Found [http://localhost/admin/login]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:54:14) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 39ms (View: 8, DB: 10) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:54:53) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 34ms (View: 6, DB: 10) | 200 OK [http://localhost/admin]
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:55:12) [GET]
+  Parameters: {"id"=>"106"}
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:verify_login] rendered_or_redirected.
+Completed in 29ms (DB: 10) | 302 Found [http://localhost/categories/106/edit]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:55:13) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+ActionView::MissingTemplate (Missing template admin/login.erb in view path app/views:vendor/gems/ckeditor-3.4.3/app/views):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/paths.rb:74:in `find_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1389:in `default_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:896:in `render_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:56:18) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+ActionView::MissingTemplate (Missing template admin/login.erb in view path app/views:vendor/gems/ckeditor-3.4.3/app/views):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/paths.rb:74:in `find_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1389:in `default_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:896:in `render_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:56:52) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+ActionView::MissingTemplate (Missing template admin/login.erb in view path app/views:vendor/gems/ckeditor-3.4.3/app/views):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/paths.rb:74:in `find_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1389:in `default_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:896:in `render_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:57:03) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin
+Completed in 29ms (DB: 9) | 302 Found [http://localhost/admin/login]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:57:04) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 35ms (View: 6, DB: 11) | 200 OK [http://localhost/admin]
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-16 23:58:01) [GET]
+  Parameters: {"id"=>"106"}
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin/login
+Filter chain halted as [:verify_login] rendered_or_redirected.
+Completed in 30ms (DB: 10) | 302 Found [http://localhost/categories/106/edit]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:58:03) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin
+Completed in 31ms (DB: 10) | 302 Found [http://localhost/admin/login]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:58:04) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 37ms (View: 8, DB: 11) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-16 23:59:49) [POST]
+  Parameters: {"authenticity_token"=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM=", "username"=>"admin", "password"=>"camrax"}
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin
+Completed in 29ms (DB: 10) | 302 Found [http://localhost/admin/login]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-16 23:59:50) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+NameError (undefined local variable or method `action' for #<AdminController:0x6f4fec4>):
+  app/controllers/admin_controller.rb:4:in `index'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (58.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-17 00:00:05) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/categories/list
+Completed in 34ms (DB: 11) | 302 Found [http://localhost/admin]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-17 00:00:06) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/list
+Completed in 92ms (View: 60, DB: 10) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-17 00:00:41) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering categories/edit
+  [4;35;1mLanguage Load (0.0ms)[0m   [0mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+Completed in 57ms (View: 24, DB: 11) | 200 OK [http://localhost/categories/4/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-17 00:00:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/mmmenu5_125x20_over.gif" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-17 00:01:03) [GET]
+  Parameters: {"id"=>"106"}
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 106) [0m
+Rendering template within layouts/application
+Rendering categories/edit
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 106) [0m
+Completed in 56ms (View: 24, DB: 9) | 200 OK [http://localhost/categories/106/edit]
+
+
+Processing CategoriesController#update (for 127.0.0.1 at 2010-11-17 00:01:17) [PUT]
+  Parameters: {"category"=>{"body"=>"<p align=\"center\">\r\n\t<em>Cypher comes from sifr the Arabic word for zero or possibly, according to <a href=\"books1.php4#Contile\">Luca Contile</a>, from the Hebrew Sefer or Sefarim meaning letter or number. Rebus is the dative plural of the Latin res, thing and could be derived from the phrase according to <a href=\"books1.php4#Delepierre\">Delepierre</a> De rebus quae geruntur = On things which have been done i.e. news of the day. </em></p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secret codes were employed by the Romans and described by Cicero. In the modern era the <em>pictura</em> or image in the Spanish <a href=\"emblemintro.php4\">emblem</a> book is called the <em>cifra</em>. Originally <em>cifra</em> was used for letters which had no meaning such as the letter H the status of which has since classical times always been somewhat unresolved. Was the H just a mode of pronunciation, a breathing, as in Greek or was it a letter in its own right? The word <em>cifra</em> was used in this sense at least as early as 1181 in the <em>Anticlaudianus</em> by Alain de Lille. Subsequently, ciphre&nbsp;developed into a synonym for hieroglyph and was employed throughout Europe as a literary genre akin to the enigma&nbsp;usually depicting a group of letters. Tesauro gives the example of SPQR, <em>Senatus Populusque Romanus</em>, the symbol of Rome.</p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"books1.php4#Ruscelli\">Ruscelli</a> in his <em>Discorso</em> says ciphers are essentially the same as rebuses and are &lsquo;giovenili&rsquo; or childish. <a href=\"books1.php4#Menestrier\">Menestrier</a> (1694 177) also points out the similarity to rebuses. Estienne in his review of the genre (<a href=\"books1.php4#EstienneII\">Estienne</a> 1645 258) describes how cyphers employ secret inks or other materials to conceal the meaning of the message. A Renaissance example of a cipher was the letter S worn by the Duchess of Urbino about her brow in <a href=\"books1.php4#Castiglione\">Castiglione&#39;s</a> <em>The Courtier</em>. The assembled company attempted to decipher this but were unable to do so.</p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A rebus is indeed similar to the cipher in its recreational and literary use although, as the proliferation of publications shown in the bibliography demonstrates, the cipher had serious military and diplomatic uses. The rebus can be defined as a visual pun where there is a combination of words, syllables or pictures which when deciphered forms a word or phrase. A typical and famous rebus was:</p>\r\n<p class=\"seealso\">\r\n\tra&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ram<br />\r\n\tra es et in ram II<br />\r\n\tra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ram</p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Latin for three is <em>ter</em> and for two is <em>bis</em>. Thus the rebus reads <em>Terra es et in terram ibis</em> or &lsquo;You come from the earth and you will go to the earth.&rsquo;</p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There were many collections of rebuses; creating and deciphering these was more than just a pastime but reflected the reverence that was felt for the word, or a combination of words and somehow reflected the affinity between the divine and the <em>logos</em> which was also evidenced in the contemporary obsession with Egyptian hieroglyphs and the Kabbala. The rebus was a common literary form of the age; an extreme example was the <em>Cestus sapphicus</em>, by Nils Thomasson published in 1661, a wedding poem of 31 stanzas of which every word had at least one syllable printed as a picture. Thomasson also sets out in his introduction the rules for creating rebuses. An example was that a picture of an object should not be used to represent that word; i.e. you should not use a picture of a mouse to illustrate the word mouse. In the rules of blason using a rebus was called canting arms or in French <em>armes parlantes</em>. An example was the arms of Leon in Spain which was blazoned as <em>Argent a lion purpue</em> or in plain English: a purple lion on a silver ground.</p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The popularity of rebuses no doubt partly explains the Renaissance enthusiasm for the hieroglyph. Even Pirckheimer, the scholar whose 1515 edition of the Hieroglyphica of Horapollo (for slide-show see <a href=\"horapolloflash.php4\">here</a>) was illustrated by Durer, employed simple rebuses in some of his notes. (see the <a href=\"blog.php4\">blog</a> on the origin of the <a href=\"hieroglyphintro.php4\">hieroglyphs</a> in the Poliphili)</p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another similar genre was the acrostic. This had been validated for its spirituality as far back as St. Augustine who used the example of the name Adam which could mean the sphere of the whole world in Greek.</p>\r\n<p class=\"seealso\">\r\n\tA = Anatolen = East</p>\r\n<p class=\"seealso\">\r\n\tD = Dusin = West</p>\r\n<p class=\"seealso\">\r\n\tA = Arkon = North</p>\r\n<p class=\"seealso\">\r\n\tM = Mesembrian = South</p>\r\n<p class=\"booknodescription\">\r\n\t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The importance that was attached to this type of recreation is shown by the appointment by Louis XIII of France of a court anagrammatist who received the enormous salary of 12,000 livres a year.</p>\r\n", "title"=>"Cyphers"}, "authenticity_token"=>"3GapRBkDht1xHBDOD7M+w6L9W7Ja9OoAMMI7iq6szIM=", "id"=>"106"}
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 106) [0m
+  [4;35;1mCategory Update (3.0ms)[0m   [0mUPDATE "categories" SET "body" = '<p align="center">
+	<em>Cypher comes from sifr the Arabic word for zero or possibly, according to <a href="books1.php4#Contile">Luca Contile</a>, from the Hebrew Sefer or Sefarim meaning letter or number. Rebus is the dative plural of the Latin res, thing and could be derived from the phrase according to <a href="books1.php4#Delepierre">Delepierre</a> De rebus quae geruntur = On things which have been done i.e. news of the day. </em></p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Secret codes were employed by the Romans and described by Cicero. In the modern era the <em>pictura</em> or image in the Spanish <a href="emblemintro.php4">emblem</a> book is called the <em>cifra</em>. Originally <em>cifra</em> was used for letters which had no meaning such as the letter H the status of which has since classical times always been somewhat unresolved. Was the H just a mode of pronunciation, a breathing, as in Greek or was it a letter in its own right? The word <em>cifra</em> was used in this sense at least as early as 1181 in the <em>Anticlaudianus</em> by Alain de Lille. Subsequently, ciphre&nbsp;developed into a synonym for hieroglyph and was employed throughout Europe as a literary genre akin to the enigma&nbsp;usually depicting a group of letters. Tesauro gives the example of SPQR, <em>Senatus Populusque Romanus</em>, the symbol of Rome.</p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="books1.php4#Ruscelli">Ruscelli</a> in his <em>Discorso</em> says ciphers are essentially the same as rebuses and are &lsquo;giovenili&rsquo; or childish. <a href="books1.php4#Menestrier">Menestrier</a> (1694 177) also points out the similarity to rebuses. Estienne in his review of the genre (<a href="books1.php4#EstienneII">Estienne</a> 1645 258) describes how cyphers employ secret inks or other materials to conceal the meaning of the message. A Renaissance example of a cipher was the letter S worn by the Duchess of Urbino about her brow in <a href="books1.php4#Castiglione">Castiglione&#39;s</a> <em>The Courtier</em>. The assembled company attempted to decipher this but were unable to do so.</p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A rebus is indeed similar to the cipher in its recreational and literary use although, as the proliferation of publications shown in the bibliography demonstrates, the cipher had serious military and diplomatic uses. The rebus can be defined as a visual pun where there is a combination of words, syllables or pictures which when deciphered forms a word or phrase. A typical and famous rebus was:</p>
+<p class="seealso">
+	ra&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ram<br />
+	ra es et in ram II<br />
+	ra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ram</p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Latin for three is <em>ter</em> and for two is <em>bis</em>. Thus the rebus reads <em>Terra es et in terram ibis</em> or &lsquo;You come from the earth and you will go to the earth.&rsquo;</p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There were many collections of rebuses; creating and deciphering these was more than just a pastime but reflected the reverence that was felt for the word, or a combination of words and somehow reflected the affinity between the divine and the <em>logos</em> which was also evidenced in the contemporary obsession with Egyptian hieroglyphs and the Kabbala. The rebus was a common literary form of the age; an extreme example was the <em>Cestus sapphicus</em>, by Nils Thomasson published in 1661, a wedding poem of 31 stanzas of which every word had at least one syllable printed as a picture. Thomasson also sets out in his introduction the rules for creating rebuses. An example was that a picture of an object should not be used to represent that word; i.e. you should not use a picture of a mouse to illustrate the word mouse. In the rules of blason using a rebus was called canting arms or in French <em>armes parlantes</em>. An example was the arms of Leon in Spain which was blazoned as <em>Argent a lion purpue</em> or in plain English: a purple lion on a silver ground.</p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The popularity of rebuses no doubt partly explains the Renaissance enthusiasm for the hieroglyph. Even Pirckheimer, the scholar whose 1515 edition of the Hieroglyphica of Horapollo (for slide-show see <a href="horapolloflash.php4">here</a>) was illustrated by Durer, employed simple rebuses in some of his notes. (see the <a href="blog.php4">blog</a> on the origin of the <a href="hieroglyphintro.php4">hieroglyphs</a> in the Poliphili)</p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Another similar genre was the acrostic. This had been validated for its spirituality as far back as St. Augustine who used the example of the name Adam which could mean the sphere of the whole world in Greek.</p>
+<p class="seealso">
+	A = Anatolen = East</p>
+<p class="seealso">
+	D = Dusin = West</p>
+<p class="seealso">
+	A = Arkon = North</p>
+<p class="seealso">
+	M = Mesembrian = South</p>
+<p class="booknodescription">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The importance that was attached to this type of recreation is shown by the appointment by Louis XIII of France of a court anagrammatist who received the enormous salary of 12,000 livres a year.</p>
+' WHERE "id" = 106[0m
+Redirected to http://localhost:3000/categories/106
+Completed in 158ms (DB: 14) | 302 Found [http://localhost/categories/106]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2010-11-17 00:01:19) [GET]
+  Parameters: {"id"=>"106"}
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 106) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 106) [0m
+Completed in 43ms (View: 14, DB: 10) | 200 OK [http://localhost/categories/106]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 20:43:33) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 268ms (View: 100, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-18 20:43:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/mmmenu5_125x20_over.gif" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-18 20:43:46) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering admin/index
+Completed in 8220ms (View: 14, DB: 9) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#login (for 127.0.0.1 at 2010-11-18 20:44:02) [POST]
+  Parameters: {"authenticity_token"=>"23MXjUVmsPpdxBdS0ElpvkUAxtC5ar89TERFlpcoFLA=", "username"=>"admin", "password"=>"camrax"}
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin
+Completed in 31ms (DB: 10) | 302 Found [http://localhost/admin/login]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-18 20:44:03) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/categories/list
+Completed in 31ms (DB: 11) | 302 Found [http://localhost/admin]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 20:44:05) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/list
+Completed in 83ms (View: 48, DB: 10) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#edit (for 127.0.0.1 at 2010-11-18 20:45:02) [GET]
+  Parameters: {"id"=>"106"}
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 106) [0m
+Rendering template within layouts/application
+Rendering categories/edit
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 106) [0m
+Completed in 198ms (View: 87, DB: 12) | 200 OK [http://localhost/categories/106/edit]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:07:29) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 81ms (View: 50, DB: 11) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:07:42) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 67ms (View: 36, DB: 9) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:08:45) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 162ms (View: 130, DB: 10) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:10:46) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 32ms (View: 2, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:11:34) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 34ms (View: 5, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:11:43) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 28ms (View: 1, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:12:10) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 29ms (View: 2, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:12:17) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 28ms (View: 1, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:12:33) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 29ms (View: 1, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:18:16) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 30ms (View: 1, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:18:26) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+
+NoMethodError (undefined method `layout' for #<CategoriesController:0x6f34a0c>):
+  app/controllers/categories_controller.rb:6:in `index'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-18 22:18:39) [GET]
+
+SyntaxError (C:/Users/Frank Pinto/Documents/Spruce/camrax/app/controllers/categories_controller.rb:6: syntax error, unexpected tSTRING_BEG, expecting kEND
+    render 'index', :layout 'application'
+                             ^):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_file'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:379:in `load_file'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:259:in `require_or_load'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:80:in `const_missing'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:92:in `const_missing'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/inflector.rb:364:in `constantize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/inflector.rb:363:in `each'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/inflector.rb:363:in `constantize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:444:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (54.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:18:47) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 32ms (View: 5, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:19:10) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 30ms (View: 2, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:19:28) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 28ms (View: 1, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:19:39) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 29ms (View: 2, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:19:53) [GET]
+  [4;35;1mCategory Load (10.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 31ms (View: 4, DB: 10) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:19:59) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/index
+Completed in 30ms (View: 1, DB: 11) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-18 22:20:09) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 32ms (View: 5, DB: 9) | 200 OK [http://localhost/]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:20:51) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering categories/list
+Completed in 65ms (View: 35, DB: 10) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:23:21) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 68ms (View: 38, DB: 9) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:24:11) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 152ms (View: 49, DB: 10) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:30:08) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 69ms (View: 37, DB: 10) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#debug (for 127.0.0.1 at 2010-11-18 22:34:42) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/debug
+Completed in 50ms (View: 21, DB: 10) | 200 OK [http://localhost/categories/debug]
+
+
+Processing CategoriesController#debug (for 127.0.0.1 at 2010-11-18 22:37:24) [GET]
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/debug
+Completed in 49ms (View: 20, DB: 10) | 200 OK [http://localhost/categories/debug]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:48:47) [GET]
+
+SyntaxError (C:/Users/Frank Pinto/Documents/Spruce/camrax/app/models/category.rb:9: syntax error, unexpected kALIAS
+    if alias.empty?
+            ^
+C:/Users/Frank Pinto/Documents/Spruce/camrax/app/models/category.rb:15: syntax error, unexpected kEND, expecting $end):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:380:in `load_file'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:379:in `load_file'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:259:in `require_or_load'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:80:in `const_missing'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:92:in `const_missing'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:437:in `load_missing_constant'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:96:in `const_missing'
+  app/controllers/application_controller.rb:13:in `menu'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:178:in `evaluate_method'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.8/lib/active_support/callbacks.rb:166:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:225:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:629:in `run_before_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:615:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (69.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:49:08) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+
+ActionView::TemplateError (undefined local variable or method `category' for #<ActionView::Base:0x6ee694c>) on line #1 of app/views/categories/list.html.erb:
+1:   <%= link_to category.title, edit_category_path(category) %><br />
+2: <h3>Sample section</h3>
+3: <table cellpadding="0" cellspacing="0">
+4: <% @categories.each do |category| %>
+
+    app/views/categories/list.html.erb:1
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    app/controllers/categories_controller.rb:14:in `list'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (152.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:49:26) [GET]
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 91ms (View: 59, DB: 10) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:50:10) [GET]
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSQLite3::SQLException: no such column: created_at: SELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: created_at: SELECT * FROM "categories"  ORDER BY created_at ASC LIMIT 10):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract_adapter.rb:221:in `log'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite_adapter.rb:172:in `execute'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite_adapter.rb:417:in `catch_schema_changes'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite_adapter.rb:172:in `execute'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite_adapter.rb:320:in `select'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/base.rb:664:in `find_by_sql'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/base.rb:1578:in `find_every'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/base.rb:618:in `find'
+  app/controllers/categories_controller.rb:13:in `list'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (68.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCategories (20100918211032)
+Migrating to CreateLanguages (20100918211426)
+Migrating to CreateSubcategories (20100918213604)
+Migrating to CreateBooks (20100918213833)
+Migrating to CreateAuthors (20100918221326)
+Migrating to CreateTests (20100918231902)
+Migrating to AddFields (20101112032254)
+Migrating to CreateSessions (20101115195205)
+Migrating to CreateCkeditorAssets (20101116202951)
+Migrating to EditCat (20101119035210)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mDROP TABLE "tests"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mALTER TABLE "categories" ADD "created_at" datetime[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mALTER TABLE "categories" ADD "modified_at" datetime[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20101119035210')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("authors")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("authors_books")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books_categories")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books_subcategories")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("categories")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("ckeditor_assets")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('fk_user')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_info('fk_assetable')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('idx_assetable_type')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("languages")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("sessions")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("subcategories")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: near "12": syntax error: UPDATE categories SET created_at=2010-11-15 12:00:22[0m
+  [4;35;1mSQL (132.0ms)[0m   [0mUPDATE categories SET created_at='2010-11-15 12:00:41'[0m
+  [4;36;1mCategory Load (9.0ms)[0m   [0;1mSELECT * FROM "categories" [0m
+  [4;35;1mCategory Load (9.0ms)[0m   [0mSELECT * FROM "categories" [0m
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 22:59:22) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 126ms (View: 6, DB: 14) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:00:01) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 49ms (View: 13, DB: 12) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:00:17) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 49ms (View: 13, DB: 15) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:00:42) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 49ms (View: 12, DB: 14) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:02:39) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 44ms (View: 7, DB: 15) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:03:42) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 51ms (View: 13, DB: 15) | 200 OK [http://localhost/categories/list]
+
+
+Processing CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:04:02) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering categories/list
+Completed in 49ms (View: 13, DB: 15) | 200 OK [http://localhost/categories/list]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:11:18) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+
+ActionView::MissingTemplate (Missing template admin/categories/list.erb in view path app/views:vendor/gems/ckeditor-3.4.3/app/views):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/paths.rb:74:in `find_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1389:in `default_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  app/controllers/admin/categories_controller.rb:12:in `list'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:11:20) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+
+ActionView::MissingTemplate (Missing template admin/categories/list.erb in view path app/views:vendor/gems/ckeditor-3.4.3/app/views):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/paths.rb:74:in `find_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1389:in `default_template'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+  app/controllers/admin/categories_controller.rb:12:in `list'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:19:27) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/list
+
+ActionView::TemplateError (undefined method `edit_category_path' for #<ActionView::Base:0x70a0d14>) on line #6 of app/views/admin/categories/list.html.erb:
+3: <% @categories.each do |category| %>
+4:   <tr>
+5:     <td><%= category.title %></td>
+6:     <td class="action"><a href="<%= category_path(category) %>" class="view">View</a><a href="<%= edit_category_path(category) %>" class="edit">Edit</a><a href="/categories/<%= category.id %>/destroy" class="delete">Delete</a></td>
+7:   </tr>                        
+8: <% end %>
+9: </table>
+
+    app/views/admin/categories/list.html.erb:6
+    app/views/admin/categories/list.html.erb:3:in `each'
+    app/views/admin/categories/list.html.erb:3
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    app/controllers/admin/categories_controller.rb:12:in `list'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (76.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:27:47) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/list
+
+ActionView::TemplateError (undefined method `edit_category_path' for #<ActionView::Base:0x6dbc06c>) on line #6 of app/views/admin/categories/list.html.erb:
+3: <% @categories.each do |category| %>
+4:   <tr>
+5:     <td><%= category.title %></td>
+6:     <td class="action"><a href="<%= category_path(category) %>" class="view">View</a><a href="<%= edit_category_path(category) %>" class="edit">Edit</a><a href="/categories/<%= category.id %>/destroy" class="delete">Delete</a></td>
+7:   </tr>                        
+8: <% end %>
+9: </table>
+
+    app/views/admin/categories/list.html.erb:6
+    app/views/admin/categories/list.html.erb:3:in `each'
+    app/views/admin/categories/list.html.erb:3
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:942:in `render_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    app/controllers/admin/categories_controller.rb:12:in `list'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (74.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:28:09) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/list
+Completed in 47ms (View: 13, DB: 13) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#debug (for 127.0.0.1 at 2010-11-18 23:28:17) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/debug
+Completed in 44ms (View: 10, DB: 12) | 200 OK [http://localhost/admin/categories/debug]
+
+
+Processing Admin::CategoriesController#debug (for 127.0.0.1 at 2010-11-18 23:28:39) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/debug
+Completed in 36ms (View: 2, DB: 13) | 200 OK [http://localhost/admin/categories/debug]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-18 23:28:49) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/list
+Completed in 124ms (View: 7, DB: 12) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#debug (for 127.0.0.1 at 2010-11-18 23:32:20) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/debug
+Completed in 45ms (View: 12, DB: 11) | 200 OK [http://localhost/admin/categories/debug]
+
+
+Processing Admin::CategoriesController#debug (for 127.0.0.1 at 2010-11-18 23:34:14) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/debug
+Completed in 35ms (View: 2, DB: 13) | 200 OK [http://localhost/admin/categories/debug]
+
+
+Processing Admin::CategoriesController#debug (for 127.0.0.1 at 2010-11-18 23:34:34) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/debug
+Completed in 35ms (View: 1, DB: 11) | 200 OK [http://localhost/admin/categories/debug]
+
+
+Processing Admin::CategoriesController#debug (for 127.0.0.1 at 2010-11-18 23:35:12) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/debug
+Completed in 36ms (View: 2, DB: 11) | 200 OK [http://localhost/admin/categories/debug]
+
+
+Processing Admin::CategoriesController#debug (for 127.0.0.1 at 2010-11-18 23:35:49) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/debug
+Completed in 46ms (View: 12, DB: 12) | 200 OK [http://localhost/admin/categories/debug]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-18 23:38:08) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (2.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (7.0ms)
+Completed in 54ms (View: 20, DB: 13) | 200 OK [http://localhost/admin/categories/]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-18 23:48:56) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (2.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 60ms (View: 25, DB: 14) | 200 OK [http://localhost/admin/categories/]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-18 23:53:31) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 48ms (View: 14, DB: 12) | 200 OK [http://localhost/admin/categories/]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-18 23:55:01) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (2.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #2 of app/views/admin/categories/index.html.erb:
+1: <%= render :partial => 'list' %>
+2: <% form_for @category do |f| %>
+3:   <h3>Quick Category Add</h3>
+4:   <fieldset>
+5:     <p><label>Title:</label><input type="text" class="text-long" /></p>
+
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/record_identifier.rb:76:in `dom_id'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/record_identification_helper.rb:16:in `dom_id'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/form_helper.rb:293:in `apply_form_for_options!'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/helpers/form_helper.rb:277:in `form_for_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:235:in `form_for'
+    app/views/admin/categories/index.html.erb:2
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-18 23:55:20) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (2.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 56ms (View: 9, DB: 15) | 200 OK [http://localhost/admin/categories/]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-19 00:02:37) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (10.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC[0m
+Rendered admin/categories/_list (133.0ms)
+Completed in 188ms (View: 141, DB: 22) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-19 00:03:03) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (49.0ms)
+Completed in 99ms (View: 51, DB: 23) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-19 00:05:07) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (50.0ms)
+Completed in 92ms (View: 58, DB: 12) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-19 00:06:13) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (51.0ms)
+Completed in 101ms (View: 64, DB: 12) | 200 OK [http://localhost/admin/categories/list]
