@@ -1,0 +1,136 @@
+<% form_for [:admin, @book] do |f| %>
+  <h3>Title</h3>
+  <fieldset>
+    <p>
+      <label for="short_title">Short Title:</label>
+      <input type="text" name="book[short_title]" id="short_title" class="text-medium"/>
+    </p>
+    <p>
+      <label>Full Title:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[full_title]" id="full_title" class="text-long" />
+    </p>
+  </fieldset>
+
+  <h3>Content</h3>
+  <fieldset>
+    <p>
+      <label>Brief Description:</label>
+      <textarea name="book[brief_description]" id="brief_description"></textarea>
+    </p>
+    <p>
+      <label>Full Description:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <textarea name="book[full_description]" id="full_description"></textarea>
+    </p>
+    <p>
+      <label>End Line:</label>
+      <input type="text" name="book[endline]" id="endline" class="text-medium"/>
+    </p>
+    <p>
+      <label>Notes:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <textarea name="book[notes]" id="notes"></textarea>
+    </p>
+  </fieldset>
+
+  <h3>Publisher Information:</h3>
+  <fieldset>
+    <p>
+      <label>Publisher:</label>
+      <input type="text" name="book[publisher]" id="publisher" class="text-long" />
+    </p>
+    <p>
+      <label>Location:</label>
+      <input type="text" name="book[publisher_location]" id="publisher_location" class="text-long" />
+    </p>
+    <p>
+      <label>Date Published:</label>
+      <input type="text" name="book[date]" id="date" class="text-small" />
+    </p>
+  </fieldset>
+
+  <h3>Original Information:</h3>
+  <fieldset>
+    <p>
+      <label>Cover:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[cover]" id="cover" class="text-long" value="Fill with file attachment" />
+    </p>
+    <p>
+      <label>Source:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[origin]" id="origin" class="text-long" />
+    </p>
+    <p>
+      <label>Language:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[language]" id="language" class="text-long" />
+    </p>
+    <p>
+      <label>Number of Pages:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[number_of_pages]" id="number_of_pages" class="text-small" />
+    </p>
+    <p>
+      <label>Size:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[size]" id="size" class="text-long" />
+    </p>
+    <p>
+      <label>Location of Original:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[location_of_original]" id="location_of_original" class="text-long" />
+    </p>
+    <p>
+      <label>Part of RRs Collection?</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= check_box 'book', 'rrs' %>
+    </p>
+    <p>
+      <label>Condition:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[condition]" id="condition" class="text-medium" />
+    </p>
+    <p>
+      <label>Printer:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[printer]" id="printer" class="text-long" />
+    </p>
+  </fieldset>
+
+  <h3>Extra Information:</h3>
+  <fieldset>
+    <p>
+      <label>Bibliography:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <textarea name="book[bibliography]" id="bibliography"></textarea>
+    </p>
+    <p>
+      <label>ISBN #:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[isbn]" id="isbn" class="text-medium" />
+    </p>
+    <p>
+      <label>ID #:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[id_number]" id="id_number" class="text-medium" />
+    </p>
+    <p>
+      <label>Spare 1:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[spare1]" id="spare1" class="text-medium" />
+    </p>
+    <p>
+      <label>Spare 2:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[spare2]" id="spare2" class="text-medium" />
+    </p>
+  </fieldset>
+
+  <input type="submit" value="Create New Book" />
+<% end %>
+<% content_for :head do %>
+  <%= include_puny_mce :plugins => %w(Paste Link TextColor Entities EditSource) %>
+<% end %>
+<%= puny_mce [%w(notes notes), %w(brief_description brief_description), %w(full_description full_description), %w(bibliography bibliography)], :profile => :source %>
