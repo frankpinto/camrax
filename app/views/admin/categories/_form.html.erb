@@ -1,6 +1,7 @@
 <% form_for [:admin, @category] do |f| %>
+  <h3>Essentials</h3>
   <fieldset>
-    <p><label>Title:</label><input type="text" name="category[title]" class="text-long" /></p>
+    <p><label>Title:</label><%= f.text_field :title, :class => 'text-long' %></p>
     <p><label>Redirect To:</label>
       <input type="text" class="text-long autocomplete" />
       <input type="hidden" name="category[redirect_id]" >
@@ -10,13 +11,31 @@
       <span id="redirect"></span>
       <a href="javascript:void(0)" class="close"><span class="ui-icon ui-icon-close"></span></a>
     </div>
-    <p><label>Authorities (Comma Separated List):</label><input type="text" name="category[authorities]" class="text-long" /></p>
-    <p><label>Category Text:</label><textarea name="category[body]" id="book_body"></textarea></p>
-    <p><label>Extra:</label><textarea name="category[extra]" id="book_extra"></textarea></p>
-    <input type="submit" value="Create New Category" />
   </fieldset>
+
+    <h3>Category Text</h3>
+    <fieldset>
+      <p><label>Authorities:</label><%= f.text_field :authorities, :class => 'text-long' %></p>
+      <p><label>Body:</label><%= f.text_area :body %></p>
+      <p><label>Extra:</label><%= f.text_area :extra %></p>
+      <input type="submit" value="<%= submit_label %>" />
+    </fieldset>
+
+    <h3>Alternate Languages for Title</h3>
+    <fieldset class="languages">
+    <% f.fields_for :languages do |language| %>
+      <div class="language">
+        <p><label>Language:</label><%= language.text_field :language, :class => 'text-long' %></p>
+      </div>
+      <div class="words">
+        <p><label>Words:</label><%= language.text_field :words, :class => 'text-long' %>
+          <a href="javascript:void(0)" id="add_language"><span class="add_language"></span></a>
+        </p>
+      </div>
+    <% end %>
+    </fieldset>
 <% end %>
 <% content_for :head do %>
   <%= include_puny_mce :plugins => %w(Paste Image Link TextColor EditSource Entities) %>
 <% end %>
-<%= puny_mce [%w(body book_body), %w(extra book_extra)], :profile => :almost %>
+<%= puny_mce [%w(body category_body), %w(extra category_extra)], :profile => :almost %>

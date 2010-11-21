@@ -18119,3 +18119,925 @@ Rendering admin/categories/edit
 Rendered admin/categories/_form (9.0ms)
   [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
 Completed in 75ms (View: 40, DB: 12) | 200 OK [http://localhost/admin/categories/4/edit]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-21 16:17:55) [GET]
+  [4;35;1mCategory Load (100.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (49.0ms)
+Completed in 182ms (View: 52, DB: 101) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2010-11-21 16:17:59) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;35;1mLanguage Load (0.0ms)[0m   [0mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+Completed in 85ms (View: 48, DB: 13) | 200 OK [http://localhost/categories/4]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2010-11-21 16:31:03) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;36;1mLanguage Load (1.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+Completed in 52ms (View: 13, DB: 14) | 200 OK [http://localhost/categories/4]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:31:21) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 152ms (View: 104, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:32:03) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+Rendered admin/categories/_form (10.0ms)
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 6) [0m
+Completed in 71ms (View: 35, DB: 13) | 200 OK [http://localhost/admin/categories/6/edit]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:33:19) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mCategory Load (13.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+Rendered admin/categories/_form (11.0ms)
+  [4;35;1mLanguage Load (1.0ms)[0m   [0mSELECT * FROM "languages" WHERE ("languages".category_id = 6) [0m
+Completed in 83ms (View: 39, DB: 15) | 200 OK [http://localhost/admin/categories/6/edit]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:35:55) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+
+ActionView::TemplateError (index 27425 out of string) on line #3 of app/views/admin/categories/edit.html.erb:
+1: <h3>Edit <%= @category.title %></h3>
+2: <% submit_label = 'Save Category' %>
+3: <%= render :partial => 'form', :locals => submit_label %>
+4: <% form_for @category do |form| %>
+5:   <%= form.label :title %>
+6:   <%= form.text_field :title %><br />
+
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:41:in `[]='
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:41:in `render_partial'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/partials.rb:184:in `render_partial'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:267:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/admin/categories/edit.html.erb:3
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (84.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:36:18) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+
+ActionView::TemplateError (Symbol as array index) on line #3 of app/views/admin/categories/edit.html.erb:
+1: <h3>Edit <%= @category.title %></h3>
+2: <% submit_label = 'Save Category' %>
+3: <%= render :partial => 'form', :locals => [submit_label] %>
+4: <% form_for @category do |form| %>
+5:   <%= form.label :title %>
+6:   <%= form.text_field :title %><br />
+
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:28:in `[]'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable_partial.rb:28:in `render_partial'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/partials.rb:184:in `render_partial'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:267:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/admin/categories/edit.html.erb:3
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:34:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:306:in `with_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:30:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+    haml (3.0.24) [v] rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendered rescues/_trace (82.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:36:37) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+Rendered admin/categories/_form (12.0ms)
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 6) [0m
+Completed in 78ms (View: 40, DB: 11) | 200 OK [http://localhost/admin/categories/6/edit]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-21 16:36:56) [GET]
+  [4;35;1mCategory Load (121.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (94.0ms)
+Completed in 260ms (View: 110, DB: 122) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:38:01) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+Rendered admin/categories/_form (8.0ms)
+  [4;35;1mLanguage Load (1.0ms)[0m   [0mSELECT * FROM "languages" WHERE ("languages".category_id = 6) [0m
+Completed in 74ms (View: 37, DB: 15) | 200 OK [http://localhost/admin/categories/6/edit]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:39:53) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+Rendered admin/categories/_form (9.0ms)
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 6) [0m
+Completed in 73ms (View: 39, DB: 12) | 200 OK [http://localhost/admin/categories/6/edit]
+
+
+Processing Admin::CategoriesController#update (for 127.0.0.1 at 2010-11-21 16:41:14) [PUT]
+  Parameters: {"category"=>{"redirect_id"=>"", "body"=>"<p>Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&nbsp; Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><p></p><p></p><br/>", "title"=>"Allegories", "authorities"=>"Frank, Joseph, and Pinto", "extra"=>"<br/>"}, "authenticity_token"=>"RL98t/xrCPsxull88xbC0VHDH97wcyP+7l6CXdLLhNg=", "id"=>"6"}
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+  [4;35;1mCategory Update (3.0ms)[0m   [0mUPDATE "categories" SET "authorities" = 'Frank, Joseph, and Pinto', "body" = '<p>Lorem ipsum dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&nbsp; Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p><p></p><p></p><br/>', "extra" = '<br/>' WHERE "id" = 6[0m
+Redirected to http://localhost:3000/categories/6
+Completed in 237ms (DB: 15) | 302 Found [http://localhost/admin/categories/6]
+
+
+Processing CategoriesController#show (for 127.0.0.1 at 2010-11-21 16:41:15) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering categories/show
+  [4;36;1mLanguage Load (1.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 6) [0m
+Completed in 46ms (View: 12, DB: 14) | 200 OK [http://localhost/categories/6]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2010-11-21 16:41:52) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Redirected to http://localhost:3000/admin/categories
+Completed in 35ms (DB: 12) | 302 Found [http://localhost/admin]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-21 16:41:53) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 81ms (View: 22, DB: 15) | 200 OK [http://localhost/admin/categories]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-21 16:44:01) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (129.0ms)
+Completed in 170ms (View: 133, DB: 13) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:44:06) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+Rendered admin/categories/_form (8.0ms)
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+Completed in 74ms (View: 37, DB: 12) | 200 OK [http://localhost/admin/categories/4/edit]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 16:49:04) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (0.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+  [4;35;1mLanguage Load (0.0ms)[0m   [0mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+Rendered admin/categories/_form (23.0ms)
+Completed in 75ms (View: 40, DB: 11) | 200 OK [http://localhost/admin/categories/4/edit]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:49:31) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (9.0ms)
+Completed in 64ms (View: 18, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:50:01) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (12.0ms)
+Completed in 67ms (View: 20, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:50:43) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (14.0ms)
+Completed in 70ms (View: 23, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:51:45) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (12.0ms)
+Completed in 73ms (View: 21, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::BooksController#index (for 127.0.0.1 at 2010-11-21 16:52:44) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mBook Load (1.0ms)[0m   [0mSELECT * FROM "books" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/books/index
+Rendered admin/books/_list (8.0ms)
+Completed in 94ms (View: 26, DB: 13) | 200 OK [http://localhost/admin/books/]
+
+
+Processing Admin::BooksController#new (for 127.0.0.1 at 2010-11-21 16:52:48) [GET]
+  [4;36;1mCategory Load (13.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/books/new
+Completed in 100ms (View: 42, DB: 14) | 200 OK [http://localhost/admin/books/new]
+
+
+Processing Admin::BooksController#list (for 127.0.0.1 at 2010-11-21 16:52:54) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mBook Load (1.0ms)[0m   [0;1mSELECT * FROM "books" ORDER BY short_title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/books/_list (11.0ms)
+Completed in 61ms (View: 13, DB: 13) | 200 OK [http://localhost/admin/books/list]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-21 16:52:58) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 148ms (View: 14, DB: 13) | 200 OK [http://localhost/admin/categories]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-21 16:53:03) [GET]
+  [4;35;1mCategory Load (13.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (49.0ms)
+Completed in 91ms (View: 52, DB: 14) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:53:07) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (13.0ms)
+Completed in 76ms (View: 21, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:58:09) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (13.0ms)
+Completed in 161ms (View: 111, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 16:58:22) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (17.0ms)
+Completed in 106ms (View: 26, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:02:54) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (16.0ms)
+Completed in 78ms (View: 25, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:03:17) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (12.0ms)
+Completed in 67ms (View: 15, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:09:13) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (91.0ms)
+Completed in 151ms (View: 101, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:10:39) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (14.0ms)
+Completed in 77ms (View: 22, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:14:24) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 140ms (View: 14, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:14:55) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (14.0ms)
+Completed in 69ms (View: 22, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-21 17:15:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-icons_228ef1_256x240.png" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:16:07) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (9.0ms)
+Completed in 61ms (View: 13, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-21 17:16:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-icons_228ef1_256x240.png" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-21 17:16:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-icons_228ef1_256x240.png" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-21 17:16:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-icons_228ef1_256x240.png" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-11-21 17:16:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-icons_228ef1_256x240.png" with {:method=>:get}):
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:442:in `recognize'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:437:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  haml (3.0.24) [v] rails/./lib/sass/plugin/rack.rb:41:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/abstract_store.rb:128:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+  C:/Program Files (x86)/Ruby/lib/ruby/gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+
+Rendering rescues/layout (not_found)
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:17:09) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (98.0ms)
+Completed in 158ms (View: 101, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:17:37) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 65ms (View: 13, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:20:17) [GET]
+  [4;35;1mCategory Load (14.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (17.0ms)
+Completed in 205ms (View: 137, DB: 14) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:20:35) [GET]
+  [4;36;1mCategory Load (13.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (15.0ms)
+Completed in 78ms (View: 24, DB: 14) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:20:52) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (9.0ms)
+Completed in 134ms (View: 13, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:21:12) [GET]
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (15.0ms)
+Completed in 75ms (View: 28, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:22:19) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (11.0ms)
+Completed in 144ms (View: 16, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:22:46) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (11.0ms)
+Completed in 62ms (View: 14, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:23:32) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (9.0ms)
+Completed in 132ms (View: 13, DB: 11) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:25:14) [GET]
+  [4;36;1mCategory Load (13.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 65ms (View: 13, DB: 14) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:26:04) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (12.0ms)
+Completed in 139ms (View: 16, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:28:28) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 62ms (View: 14, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:36:49) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (14.0ms)
+Completed in 146ms (View: 22, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:37:42) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 62ms (View: 13, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:38:38) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (14.0ms)
+Completed in 70ms (View: 21, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:40:24) [GET]
+  [4;36;1mCategory Load (14.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (35.0ms)
+Completed in 102ms (View: 39, DB: 14) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:47:15) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 64ms (View: 13, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:48:17) [GET]
+  [4;36;1mCategory Load (13.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (15.0ms)
+Completed in 73ms (View: 22, DB: 14) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:49:24) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 63ms (View: 13, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:51:52) [GET]
+  [4;36;1mCategory Load (17.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (16.0ms)
+Completed in 82ms (View: 25, DB: 18) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:52:20) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (13.0ms)
+Completed in 71ms (View: 21, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:52:51) [GET]
+  [4;36;1mCategory Load (14.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 67ms (View: 13, DB: 15) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:57:19) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (10.0ms)
+Completed in 140ms (View: 13, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 17:58:16) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (13.0ms)
+Completed in 67ms (View: 21, DB: 13) | 200 OK [http://localhost/admin/categories/new]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mCategory Load (1.0ms)[0m   [0mSELECT * FROM "categories" LIMIT 1[0m
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+  [4;35;1mLanguage Create (1.0ms)[0m   [0mINSERT INTO "languages" ("language", "words", "category_id") VALUES(NULL, NULL, 4)[0m
+  [4;36;1mLanguage Update (1.0ms)[0m   [0;1mUPDATE "languages" SET "words" = 'Hello', "language" = 'French' WHERE "id" = 2[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-21 18:01:38) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (2.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 69ms (View: 14, DB: 15) | 200 OK [http://localhost/admin/categories/]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 18:01:45) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mCategory Load (13.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (1.0ms)[0m   [0;1mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+  [4;35;1mLanguage Load (1.0ms)[0m   [0mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+Rendered admin/categories/_form (29.0ms)
+Completed in 78ms (View: 38, DB: 15) | 200 OK [http://localhost/admin/categories/4/edit]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 18:04:23) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mCategory Load (14.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 4) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+  [4;36;1mLanguage Load (1.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 4) [0m
+Rendered admin/categories/_form (22.0ms)
+Completed in 66ms (View: 25, DB: 15) | 200 OK [http://localhost/admin/categories/4/edit]
+
+
+Processing Admin::BooksController#index (for 127.0.0.1 at 2010-11-21 18:05:15) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mBook Load (1.0ms)[0m   [0;1mSELECT * FROM "books" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/books/index
+Rendered admin/books/_list (84.0ms)
+Completed in 142ms (View: 89, DB: 13) | 200 OK [http://localhost/admin/books/]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-21 18:07:45) [GET]
+  [4;35;1mCategory Load (11.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;36;1mCategory Load (2.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 65ms (View: 15, DB: 13) | 200 OK [http://localhost/admin/categories]
+
+
+Processing Admin::CategoriesController#new (for 127.0.0.1 at 2010-11-21 18:08:51) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendering admin/categories/new
+Rendered admin/categories/_form (9.0ms)
+Completed in 60ms (View: 12, DB: 12) | 200 OK [http://localhost/admin/categories/new]
+
+
+Processing Admin::CategoriesController#create (for 127.0.0.1 at 2010-11-21 18:09:55) [POST]
+  Parameters: {"category"=>{"redirect_id"=>"", "body"=>"lorem!", "title"=>"Test Cat", "languages_attributes"=>{"0"=>{"words"=>"Frank", "language"=>"French"}, "1"=>{"words"=>"Anne", "language"=>"Spanish"}, "2"=>{"words"=>"John", "language"=>"Englsih"}}, "authorities"=>"Frank, John, Jose", "extra"=>"dah dah dah<br/>"}, "authenticity_token"=>"RL98t/xrCPsxull88xbC0VHDH97wcyP+7l6CXdLLhNg="}
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Create (2.0ms)[0m   [0mINSERT INTO "categories" ("redirect_id", "title", "body", "modified_at", "authorities", "extra", "created_at") VALUES(NULL, 'Test Cat', 'lorem!', NULL, 'Frank, John, Jose', 'dah dah dah<br/>', '2010-11-21 23:09:55')[0m
+  [4;36;1mLanguage Create (0.0ms)[0m   [0;1mINSERT INTO "languages" ("language", "words", "category_id") VALUES('French', 'Frank', 108)[0m
+  [4;35;1mLanguage Create (0.0ms)[0m   [0mINSERT INTO "languages" ("language", "words", "category_id") VALUES('Spanish', 'Anne', 108)[0m
+  [4;36;1mLanguage Create (0.0ms)[0m   [0;1mINSERT INTO "languages" ("language", "words", "category_id") VALUES('Englsih', 'John', 108)[0m
+Redirected to http://localhost:3000/categories/
+Completed in 134ms (DB: 14) | 302 Found [http://localhost/admin/categories]
+
+
+Processing CategoriesController#index (for 127.0.0.1 at 2010-11-21 18:09:56) [GET]
+  [4;35;1mCategory Load (12.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/application
+Rendering categories/index
+Completed in 129ms (View: 96, DB: 12) | 200 OK [http://localhost/categories/]
+
+
+Processing Admin::CategoriesController#index (for 127.0.0.1 at 2010-11-21 18:10:05) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (2.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY created_at ASC LIMIT 10[0m
+Rendering template within layouts/admin
+Rendering admin/categories/index
+Rendered admin/categories/_list (5.0ms)
+Completed in 65ms (View: 15, DB: 15) | 200 OK [http://localhost/admin/categories]
+
+
+Processing Admin::CategoriesController#list (for 127.0.0.1 at 2010-11-21 18:10:11) [GET]
+  [4;36;1mCategory Load (12.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "categories" ORDER BY title ASC[0m
+Rendering template within layouts/admin
+Rendered admin/categories/_list (49.0ms)
+Completed in 88ms (View: 53, DB: 12) | 200 OK [http://localhost/admin/categories/list]
+
+
+Processing Admin::CategoriesController#edit (for 127.0.0.1 at 2010-11-21 18:10:26) [GET]
+  Parameters: {"id"=>"108"}
+  [4;36;1mCategory Load (11.0ms)[0m   [0;1mSELECT * FROM "categories" ORDER BY title ASC[0m
+  [4;35;1mCategory Load (0.0ms)[0m   [0mSELECT * FROM "categories" WHERE ("categories"."id" = 108) [0m
+Rendering template within layouts/admin
+Rendering admin/categories/edit
+  [4;36;1mLanguage Load (0.0ms)[0m   [0;1mSELECT * FROM "languages" WHERE ("languages".category_id = 108) [0m
+Rendered admin/categories/_form (26.0ms)
+Completed in 69ms (View: 30, DB: 11) | 200 OK [http://localhost/admin/categories/108/edit]
+  [4;35;1mLanguage Load (1.0ms)[0m   [0mSELECT * FROM "languages" [0m

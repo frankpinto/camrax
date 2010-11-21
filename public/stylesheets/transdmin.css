@@ -15,6 +15,10 @@
 @import url("jNice.css");
 /*@import url("hack.css");*/
 
+#container {
+  min-height: 500px;
+}
+
 #sidebar .sideNav li.nested_item {
   list-style: circle inside;
   width: 73%;
@@ -75,4 +79,31 @@ div.error {
   margin-top: 10px;
   color: red;
   font-weight: bold;
+}
+
+div.language {
+  float: left;
+  display: block;
+  width: 40%;
+  margin-right: 10%;
+}
+
+div.words {
+  float: left;
+  display: block;
+  width: 50%;
+}
+
+span.add_language {
+  background-image: url(/images/jqueryui/ui-icons_228ef1_256x240.png);
+  background-position: -32px -128px;  
+  display: inline;
+  float: left;
+  text-indent: -99999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 8px;
 }

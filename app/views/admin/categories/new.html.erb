@@ -1,2 +1,2 @@
-<h3>Add A Category</h3>
-<%= render :partial => 'form' %>
+<% submit_label = 'Create New Category' %>
+<%= render :partial => 'form', :locals => {:submit_label => submit_label} %>

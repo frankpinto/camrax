@@ -23,10 +23,12 @@ class Admin::CategoriesController < ApplicationController
 
   def edit
     @category = Category.find params[:id]
+    @subtitle = 'Edit ' + @category.title
   end
 
   def update
     @cat = Category.find params[:id]
+    @cat.modified_at = Time.now
     if @cat.update_attributes params[:category]
       redirect_to '/categories/' + params[:id].to_s
     else
@@ -60,6 +62,7 @@ class Admin::CategoriesController < ApplicationController
   def new
     @category = Category.new
     @category.languages = [Language.new]
+    @subtitle = 'Add A Category'
   end
 
   def debug
