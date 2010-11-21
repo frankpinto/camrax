@@ -17,6 +17,10 @@ module PunyMCE
       :toolbar => %w( bold italic underline strike ul ol left center right removeformat link unlink image ),
       :plugins => %w( Paste Image Link )
     },
+    :almost => {
+    :toolbar => %w(bold italic underline strike increasefontsize decreasefontsize ul ol indent outdent left center right style textcolor removeformat link unlink image editsource),
+    :plugins => %w(Paste Link TextColor Entities EditSource Image)
+    },
     :full => {
       :toolbar => %w( bold italic underline strike increasefontsize decreasefontsize ul ol indent outdent left center right style textcolor removeformat link unlink image emoticons editsource ),
       :plugins => %w( BBCode Paste Image Emoticons Link ForceBlocks Protect TextColor EditSource Safari2x Entities ForceNL TabFocus )

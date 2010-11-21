@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20101119035210) do
+ActiveRecord::Schema.define(:version => 20101121190029) do
 
   create_table "authors", :force => true do |t|
     t.string "first_name"
@@ -44,12 +44,15 @@ ActiveRecord::Schema.define(:version => 20101119035210) do
     t.string   "origin"
     t.string   "submitted_by"
     t.string   "isbn"
-    t.string   "rrs"
+    t.boolean  "rrs",                  :limit => 255
     t.text     "bibliography"
     t.string   "id_number"
     t.string   "spare1"
     t.string   "spare2"
     t.boolean  "modern"
+    t.string   "cover_file_name"
+    t.string   "cover_content_type"
+    t.string   "language"
   end
 
   create_table "books_categories", :id => false, :force => true do |t|
@@ -63,8 +66,8 @@ ActiveRecord::Schema.define(:version => 20101119035210) do
   end
 
   create_table "categories", :force => true do |t|
-    t.string   "title",       :null => false
-    t.string   "alias"
+    t.string   "title",                      :null => false
+    t.integer  "redirect_id", :limit => 255
     t.string   "authorities"
     t.text     "body"
     t.text     "extra"

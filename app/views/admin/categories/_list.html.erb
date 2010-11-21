@@ -1,13 +1,18 @@
+<% for name in APP[:flash_names] %>
+  <% if flash[name] %>
+    <%= "<div class=\"#{name}\">#{flash[name]}</div>" %>
+  <% end %>
+<% end %>
 <% if controller.action_name != 'list' %>
-  <h3>Recently Added or Updated Categories<a href="/admin/categories/list">(View All)</a></h3>
+  <h3>Recently Added or Updated Categories <a href="/admin/categories/list">(View All)</a></h3>
 <% else %>
   <h3>All Categories</h3>
 <% end %>
-<table cellpadding="0" cellspacing="0">
+<table cellpadding="0" cellspacing="0" class="list">
 <% @categories.each do |category| %>
   <tr>
     <td><%= category.title %></td>
-    <td class="action"><a href="<%= category_path(category) %>" class="view">View</a><a href="<%= edit_admin_category_path(category) %>" class="edit">Edit</a><a href="/categories/<%= category.id %>/destroy" class="delete">Delete</a></td>
+    <td class="action"><a href="<%= category_path(category) %>" class="view">View</a><a href="<%= edit_admin_category_path(category) %>" class="edit">Edit</a><a href="/admin/categories/destroy/<%= category.id %>" class="delete">Delete</a></td>
   </tr>                        
 <% end %>
 </table>

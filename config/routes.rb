@@ -16,6 +16,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :categories, :requirements => {:id => /\d+/}, :only => [:index, :show]
   map.namespace :admin do |a|
     a.resources :categories, :requirements => {:id => /\d+/}, :only => [:edit, :update, :new, :create, :destroy]
+    a.resources :books, :requirements => {:id => /\d+/}, :only => [:edit, :update, :new, :create, :destroy]
   end
 
 

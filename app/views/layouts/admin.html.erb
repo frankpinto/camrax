@@ -8,10 +8,15 @@
 <link href="/stylesheets/transdmin.css" rel="stylesheet" type="text/css" media="screen" />
 <!--[if IE 6]><link rel="stylesheet" type="text/css" media="screen" href="style/css/ie6.css" /><![endif]-->
 <!--[if IE 7]><link rel="stylesheet" type="text/css" media="screen" href="style/css/ie7.css" /><![endif]-->
+<link href="/stylesheets/jquery-ui-1.8.6.custom.css" rel="stylesheet" type="text/css" media="screen" />
 
 <!-- JavaScripts-->
-<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<%= javascript_include_tag :ckeditor %>
+<%= yield :head %>
+<script type="text/javascript" src="/javascripts/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-ui-1.8.6.custom.min.js"></script>
 <script type="text/javascript" src="/javascripts/jNice.js"></script>
+<script type="text/javascript" src="/javascripts/application.js"></script>
 </head>
 
 <body>
@@ -22,7 +27,7 @@
         <!-- You can name the links with lowercase, they will be transformed to uppercase by CSS, we prefered to name them with uppercase to have the same effect with disabled stylesheet -->
         <ul id="mainNav">
         	<li><a href="#" class="active">ADMINISTRATION</a></li> <!-- Use the "active" class for the active menu item  -->
-        	<li class="logout"><a href="#">LOGOUT</a></li>
+        	<li class="logout"><a href="/admin/logout">LOGOUT</a></li>
         </ul>
         <!-- // #end mainNav -->
         
@@ -30,16 +35,22 @@
           <div id="container">
             <div id="sidebar">
               <ul class="sideNav">
-                <li><a href="#" <%= 'class="active"' if controller.controller_name == 'categories' %>>Categories</a></li>
+                <li><a href="/admin/categories" <%= 'class="active"' if controller.controller_name == 'categories' %>>Categories</a>
                 <% if @cat_expanded %>
-                  <li class="square"><a href="#">View All</a></li>
-                  <li class="square"><a href="#">Add Category</a></li>
+                  <ul class="nested_menu">
+                    <li class="nested_item"><a href="/admin/categories/list">View All</a></li>
+                    <li class="nested_item last"><a href="/admin/categories/new">Add Category</a></li>
+                  </ul>
                 <% end %>
-                <li><a href="#">Books</a></li>
+                </li>
+                <li><a href="/admin/books/" <%= 'class="active"' if controller.controller_name == 'books' %>>Books</a>
                 <% if @books_expanded %>
-                  <li class="square"><a href="#">View All</a></li>
-                  <li class="square"><a href="#">Add Book</a></li>
+                  <ul class="nested_menu">
+                    <li class="nested_item"><a href="/admin/books/list">View All</a></li>
+                    <li class="nested_item last"><a href="/admin/books/new">Add Book</a></li>
+                  </ul>
                 <% end %>
+                </li>
               </ul>
               <!-- // .sideNav -->
             </div>    

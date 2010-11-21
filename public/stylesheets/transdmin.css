@@ -13,4 +13,66 @@
 @import url("reset.css");
 @import url("layout.css");
 @import url("jNice.css");
-@import url("hack.css");
+/*@import url("hack.css");*/
+
+#sidebar .sideNav li.nested_item {
+  list-style: circle inside;
+  width: 73%;
+}
+
+#sidebar .sideNav li.nested_item.last {
+  border-bottom: none;
+}
+
+#sidebar .sideNav li.nested_item a {
+  display: inline;
+  padding-left: 0px;
+  background-color: white;
+}
+
+.nested_menu {
+  margin-left: 15%;
+}
+
+.punymce {
+  margin-top: 4px;
+}
+
+div.redirect {
+  clear: both;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  padding: 3px 0px 3px 0px;
+  width: 50%;
+  display: none;
+}
+
+div.redirect span {
+  vertical-align: text-top;
+}
+
+div.redirect span.bullet {
+ float: left;
+ margin-right: 0.3em;
+}
+
+div.redirect span#redirect {
+  position: relative;
+  top: 3px;
+}
+
+div.redirect span.ui-icon-close {
+ float: right;
+ margin-right: 0.3em;
+}
+
+div.notice {
+  margin-top: 10px;
+  color: blue;
+}
+
+div.error {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}

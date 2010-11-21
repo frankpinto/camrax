@@ -1,9 +1,11 @@
 class Admin::CategoriesController < ApplicationController
   layout 'admin'
   before_filter :init_layout
+  before_filter :verify_login, :only => [:index, :edit, :new, :list]
 
   def init_layout
     @title = 'Categories'
+    @cat_expanded = true
   end
 
   def index
@@ -20,37 +22,59 @@ class Admin::CategoriesController < ApplicationController
   end
 
   def edit
-    @cat = Category.find params[:id]
+    @category = Category.find params[:id]
   end
 
   def update
     @cat = Category.find params[:id]
-    @cat.update_attributes! params[:category]
-
-    redirect_to '/categories/' + params[:id].to_s
+    if @cat.update_attributes params[:category]
+      redirect_to '/categories/' + params[:id].to_s
+    else
+      flash[:error] =  'Problem updating Category.'
+      render 'edit'
+    end
   end
 
   def create
-    c = Category.new params[:category]
+    @category = Category.new params[:category]
 
-    if c.save
-      render :text => 'success!'
+    if @category.save
+      redirect_to '/categories/' + params[:id].to_s
     else
-      render :text => 'fuck!'
+      render 'new'
     end
   end
 
   def destroy
-    render :text => "This is destroy!"
+    @category = Category.find(params[:id])
+
+    if @category.destroy
+      flash[:notice] =  'Category successfully deleted.'
+    else
+      flash[:error] =  'Category couldn\'t be deleted.'
+    end
+
+    redirect_to :action => 'list'
   end
 
   def new
-    @cat = Category.new
-    @cat.languages = [Language.new]
+    @category = Category.new
+    @category.languages = [Language.new]
   end
 
   def debug
-    #@subtitle = 'Testing'
+    @subtitle = 'Testing'
     @text = session.inspect
+  end
+
+  def search
+    respond_to do |format|
+      format.js do 
+        cats = Category.find(:all, :conditions => ['title LIKE ?', '%' + params[:term] + '%'], :limit => 5, :order => 'title ASC')
+        options = cats.collect {|cat| {:label => cat.title, :value => '', :id => cat.id}}
+        options = [{:label => 'No Matches', :value => '', :id => ''}] if cats.empty?
+        render :text => options.to_json
+      end
+    end
   end
 end

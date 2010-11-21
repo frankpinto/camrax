@@ -1,11 +1,12 @@
 class CategoriesController < ApplicationController
-  before_filter :verify_login, :only => [:edit, :new, :list]
-
   def index
   end
 
   def show
-    @category = Category.find params[:id]
+    @category = Category.find params[:id], :include => :redirect
+    if !@category.redirect.blank?
+      redirect_to :action => 'show', :id => @category.redirect.id
+    end
     @width = '33%' #@category.modern ? '33%' : '50%'
   end
 

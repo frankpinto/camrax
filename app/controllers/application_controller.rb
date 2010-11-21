@@ -24,8 +24,10 @@ class ApplicationController < ActionController::Base
   end
 
   def verify_login
-    flash[:error] = "This action requires login."
-    redirect_to :controller => 'admin', :action => 'login' unless logged_in?
+    unless logged_in?
+      flash[:error] = "This action requires login."
+      redirect_to :controller => '/admin', :action => 'login' 
+    end
   end
 
   def self.require_login actions

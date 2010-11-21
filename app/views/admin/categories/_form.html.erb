@@ -1,0 +1,22 @@
+<% form_for [:admin, @category] do |f| %>
+  <fieldset>
+    <p><label>Title:</label><input type="text" name="category[title]" class="text-long" /></p>
+    <p><label>Redirect To:</label>
+      <input type="text" class="text-long autocomplete" />
+      <input type="hidden" name="category[redirect_id]" >
+    </p>
+    <div class="ui-state-highlight redirect">
+      <span class="ui-icon ui-icon-radio-on bullet"></span>
+      <span id="redirect"></span>
+      <a href="javascript:void(0)" class="close"><span class="ui-icon ui-icon-close"></span></a>
+    </div>
+    <p><label>Authorities (Comma Separated List):</label><input type="text" name="category[authorities]" class="text-long" /></p>
+    <p><label>Category Text:</label><textarea name="category[body]" id="book_body"></textarea></p>
+    <p><label>Extra:</label><textarea name="category[extra]" id="book_extra"></textarea></p>
+    <input type="submit" value="Create New Category" />
+  </fieldset>
+<% end %>
+<% content_for :head do %>
+  <%= include_puny_mce :plugins => %w(Paste Image Link TextColor EditSource Entities) %>
+<% end %>
+<%= puny_mce [%w(body book_body), %w(extra book_extra)], :profile => :almost %>
