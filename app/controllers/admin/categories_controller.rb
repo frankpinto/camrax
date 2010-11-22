@@ -23,12 +23,23 @@ class Admin::CategoriesController < ApplicationController
 
   def edit
     @category = Category.find params[:id]
+    @category.languages << Language.new
     @subtitle = 'Edit ' + @category.title
   end
 
   def update
     @cat = Category.find params[:id]
     @cat.modified_at = Time.now
+
+    # Fix language bug
+    if params[:category][:languages_attributes]['0'][:language].blank? || params[:category][:languages_attributes]['0'][:words].blank?
+      params[:category].delete :languages_attributes
+      params[:category][:language_ids] = [] 
+    end
+
+    # Remove nested attribute because I did it myself
+    params[:category].delete :books_attributes if params[:category].has_key? :books_attributes
+
     if @cat.update_attributes params[:category]
       flash[:notice] = 'Category succesfully updated!'
       redirect_to :action => 'add_books', :id => params[:id]
@@ -39,6 +50,10 @@ class Admin::CategoriesController < ApplicationController
   end
 
   def create
+    if params[:category][:languages_attributes][0][:language].blank? || params[:category][:languages_attributes][0][:words].blank?
+      params[:category].delete :languages_attributes
+      params[:category][:language_ids] = [] 
+    end
     @category = Category.new params[:category]
 
     if @category.save

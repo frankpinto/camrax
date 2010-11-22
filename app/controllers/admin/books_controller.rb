@@ -25,7 +25,6 @@ class Admin::BooksController < ApplicationController
     @book = Book.new
   end
 
-
   def create
     @book = Book.new params[:book]
     if @book.save
@@ -50,9 +49,13 @@ class Admin::BooksController < ApplicationController
 
   def search
     respond_to do |format|
+      # Only do something if javascript was requested (for now)
       format.js do 
+        # Get books that match autocomplete terms
         books = Book.find(:all, :conditions => ['full_title LIKE ? OR short_title LIKE ?', '%' + params[:term] + '%', '%' + params[:term] + '%'], :limit => 5, :order => 'short_title ASC', :include => :authors)
-        options = books.collect {|book| {:label => book.short_title, :value => '', :id => book.id}}
+
+        # Turn into form that jquery autocomplete likes
+        options = books.collect {|book| {:label => book.short_title, :value => '', :id => book.id, :modern => book.modern}}
         options = [{:label => 'No Matches', :value => '', :id => ''}] if books.empty?
         render :text => options.to_json
       end

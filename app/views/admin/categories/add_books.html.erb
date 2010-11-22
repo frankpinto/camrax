@@ -3,7 +3,7 @@
   <fieldset>
     <p>
       <label>Book Title (Short or Long):</label>
-      <input class="text-long ac_bibliography" />
+      <input class="text-long ac_sources" />
       <% @category.books.each do |book| %>
         <input type="hidden" name="category[book_ids][]" id="book_<%= book.id %>" value="<%= book.id %>" />
       <% end %>
@@ -11,7 +11,7 @@
   </fieldset>
 
   <h3>Bibliography</h3>
-  <div class="ui-state-highlight bibliography" <%= 'style="display: none"' if @category.books.empty? %>>
+  <div class="ui-state-highlight bibliography" <%= 'style="display: none"' unless @category.has_bibliography? %>>
     <% f.fields_for :books do |book| %>
       <% unless book.object.modern? %>
         <div>
@@ -24,7 +24,7 @@
   </div>
 
   <h3>Modern Sources</h3>
-  <div class="ui-state-highlight bibliography" <%= 'style="display: none"' if @category.books.empty? %>>
+  <div class="ui-state-highlight modern_sources" <%= 'style="display: none"' unless @category.has_modern? %>>
     <% f.fields_for :books do |book| %>
       <% if book.object.modern? %>
         <div>

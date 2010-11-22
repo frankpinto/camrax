@@ -13,7 +13,9 @@ ActionController::Routing::Routes.draw do |map|
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   map.resources :products
-  map.resources :categories, :requirements => {:id => /\d+/}, :only => [:index, :show]
+  map.resources :categories, :requirements => {:id => /\d+/}, :only => [:index, :show] do |categories|
+    categories.resources :books, :only => [:index, :show]
+  end
   map.namespace :admin do |a|
     a.resources :categories, :requirements => {:id => /\d+/}, :only => [:edit, :update, :new, :create, :destroy]
     a.resources :books, :requirements => {:id => /\d+/}, :only => [:edit, :update, :new, :create, :destroy]

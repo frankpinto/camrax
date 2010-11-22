@@ -42,7 +42,7 @@
   margin-top: 4px;
 }
 
-div.redirect, div.bibliography{
+#main div.ui-state-highlight {
   clear: both;
   margin-left: 14px;
   margin-bottom: 14px;

@@ -1,0 +1,662 @@
+--- 
+- author: Johannes Agricola
+  books: 
+  - title: Book of German Proverbs
+    Publishing Year: 
+    description: Many editions, the largest of which had 750 proverbs.
+    Publishing Location: 
+    Publisher: 
+- author: Tim Agnellini
+  books: 
+  - title: Proverbii Weigel
+    Publishing Year: 
+    description: "Persian and Turkish proverbs trans. into Latin and Italian "
+    Publishing Location: 
+    Publisher: 
+- author: Alardus Amstelredamus,
+  books: 
+  - title: Selectae Similitudines sive Collationes
+    Publishing Year: "1543"
+    description: "First Published in Cologne in 1539, written after the example of Erasmus's <em>Adagia</em>.   "
+    Publishing Location: Paris
+    Publisher: Girault
+- author: Anon
+  books: 
+  - title: Adagia ie Proverbiorum, paroemiarum et parabol
+    Publishing Year: 
+    description: A collection of Proverbs and other forms from Erasmus, Junius, Canterus, Stephanus
+    Publishing Location: 
+    Publisher: 
+- author: Anon
+  books: 
+  - title: Adagia in Latin and English
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Anon
+  books: 
+  - title: Adagia Optimorum Utriusque Linguae
+    Publishing Year: "1603"
+    Publishing Location: Venice
+    Publisher: Paulus Manutius
+- author: Anon
+  books: 
+  - title: Adagia sive Proverbia Graecorum Plantin
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Anon
+  books: 
+  - title: Adagialia sacra Novi Test. Schotto
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Anon
+  books: 
+  - title: Adagios Portuguezes
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Michael Apostolios
+  books: 
+  - title: Paroemiae
+    Publishing Year: "1609"
+    description: 1st Latin and Greek edition. Byzantine proverbs
+    Publishing Location: Leiden
+    Publisher: Elsevier
+- author: "Cato "
+  books: 
+  - title: Collectio Distichorum Vulgaris
+    Publishing Year: 
+    description: (Moral Distichs)
+    Publishing Location: 
+    Publisher: 
+- author: Randle Cotgravc
+  books: 
+  - title: A dictionarie of the French and English tongues
+    Publishing Year: 
+    description: In addition to translations, this dictionary contains many proverbs.
+    Publishing Location: 
+    Publisher: 
+- author: Thomas Drax
+  books: 
+  - title: Bibliotheca Scholastica Instructissima; or a Treasure of Ancient Adages
+    Publishing Year: "1633"
+    Publishing Location: London
+    Publisher: ""
+- author: Duplessis
+  books: 
+  - title: Bibliographie paroemiolog.
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Desiderius Erasmus
+  books: 
+  - title: Adagia
+    Publishing Year: 
+    description: "First edition "
+    Publishing Location: 
+    Publisher: 
+  - title: Adagiorum Opus
+    Publishing Year: 
+    description: "1st Aldine ed. 1508. Other editions, Lyons: Gryphius 1550, Lyons: Gryphius 1559, Froben 1559."
+    Publishing Location: 
+    Publisher: 
+  - title: Collectanea adagiorum veterum
+    Publishing Year: "1510"
+    Publishing Location: Strassburg
+    Publisher: Schurer
+  - title: Adagiorum epitome
+    Publishing Year: "1545"
+    Publishing Location: Antwerp
+    Publisher: Hillenius
+  - title: Adagiorum chiliades
+    Publishing Year: "1559"
+    Publishing Location: Lyon
+    Publisher: Gryphe
+- author: Henri Estienne
+  books: 
+  - title: Les Pr&eacute;mices ou les Proverbes Epigrammatis&eacute;s
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+  - title: Comicorum Graecorum sententiae, id est gnomai
+    Publishing Year: "1569"
+    description: This is perhaps the tiniest book produced by Henri Estienne (32mo)
+    Publishing Location: Geneva
+    Publisher: Estiene
+- author: Sebastian Franck
+  books: 
+  - title: Sprichw&ouml;rter
+    Publishing Year: "1570"
+    Publishing Location: Frankfurt
+    Publisher: Egenolffs heirs
+- author: Giraldi
+  books: 
+  - title: Philosophi Pythagorae symbolorum interpretatio
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Gruter
+  books: 
+  - title: Florilegium ethico-politicum
+    Publishing Year: 
+    description: "A large collection of Latin, Greek, German, Dutch, Italian, French, Spanish and English proverbs. Gruter was librarian of the Palatine library in Heidelberg and a neoLatin poet.&nbsp;&nbsp;&nbsp; "
+    Publishing Location: 
+    Publisher: 
+- author: Heywood
+  books: 
+  - title: Proverbs
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Joseph Lange
+  books: 
+  - title: Adagia, sive Sententiae proverbiales
+    Publishing Year: "1596"
+    Publishing Location: Strasbourg
+    Publisher: Rihelius
+- author: Jacques Lanniet
+  books: 
+  - title: Receuil des plus illustres proverbes
+    Publishing Year: 
+    description: A collection of illustrated proverbs 3+1 vols&nbsp; 4th Part contains proverbs based on the life of Till Eulenspiegel&ndash; very rare.
+    Publishing Location: 
+    Publisher: 
+- author: Mitelli
+  books: 
+  - title: Proverbi figurati
+    Publishing Year: 
+    description: Frontispiece and 48 pl.
+    Publishing Location: 
+    Publisher: 
+- author: Cesar Oudin
+  books: 
+  - title: Refranes o Proverbios Castellanos
+    Publishing Year: "1624"
+    description: |-
+      Third French edition 288 pages. Oudin was also the first French translator of Don Quixote.<br />
+        Second edition Paris: Orry, 1609<br />
+        Another edition Paris: De La Coste, 1659
+    Publishing Location: Paris
+    Publisher: Billaine
+- author: John Ray
+  books: 
+  - title: A collection of English proverbs
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: le Roux
+  books: 
+  - title: Dictionnaire comique, satirique, critique, libre et proverbial
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: "Andreas Schott, "
+  books: 
+  - title: Adagia
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Richard Taverner
+  books: 
+  - title: Proverbs or Adages Gathered out of the Chiliades of Erasmus
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: |-
+    de
+    Lille
+  books: 
+  - title: Anticlaudianus
+    Publishing Year: "1536"
+    description: |-
+      Another ed. Venice: Combeis, 1582; Antwerp: Trognaesius,
+      1621. Originally composed in 1181, this was satire in the style of
+      Claudian&#8217;s In Rufinus
+    Publishing Location: Basle
+    Publisher: Petrus
+- author: Albricus
+  books: 
+  - title: |-
+      Allegoria poetica &#8230;poeticarum
+      fabularum
+    Publishing Year: "1520"
+    Publishing Location: de Marnef
+    Publisher: Unknown
+- author: Apuleius
+  books: 
+  - title: |-
+      Metamorphosis (Asinus
+      Aureus)
+    Publishing Year: 
+    description: Mid 2<sup>nd</sup> Century AD
+    Publishing Location: 
+    Publisher: 
+  - title: The Golden Ass
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+  - title: Comentarii a P. Beroaldo conditi in asinu
+    Publishing Year: "1504"
+    Publishing Location: Zanis
+    Publisher: Unknown
+  - title: |-
+      --------------------------------------L'ane
+      dore, XI (Traduit en francais par J. Louveau)
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Jean D&#8217;Arras
+  books: 
+  - title: L&#8217;Histoire de Melusine
+    Publishing Year: "1477"
+    description: |-
+      A romance &#8211; the tale of the tutelary water-sprite of
+      the house of Lusignan
+    Publishing Location: Lyons
+    Publisher: Huss, c
+- author: Adrien Baillet
+  books: 
+  - title: La Vie de Descartes
+    Publishing Year: "1691"
+    description: |-
+      (<em>The Dream of
+      Descartes</em>) describes the epiphany in which Descartes chooses the
+      path of self-knowledge.
+    Publishing Location: Paris
+    Publisher: Hosqhenels
+- author: |-
+    de
+    Verville
+  books: 
+  - title: |-
+      Le
+      cabinet de Minerve
+    Publishing Year: 
+    description: Other eds 1597, 1601 See also Colonna
+    Publishing Location: 
+    Publisher: 
+- author: John Bunyan
+  books: 
+  - title: Pilgrims Progress
+    Publishing Year: "1678"
+    description: "\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 Another ed. London:\n\
+      Sturt, 1760. Numerous other editions later and in many languages."
+    Publishing Location: London
+    Publisher: J. Sturt
+- author: Robert Burton
+  books: 
+  - title: The Anatomy of Melancholy
+    Publishing Year: "1621"
+    description: |-
+      Written under the pseudonym Democritus Junior. A satire
+      but also a precursor of modern psychology. Has over 13,000 citations. 8 other
+      editions before 1676 then forgotten until Dr. Johnson brought it back into
+      vogue.
+    Publishing Location: Oxford
+    Publisher: Cripps
+- author: Francesco Colonna
+  books: 
+  - title: Hypnerotomachia
+    Publishing Year: "1499"
+    description: "First edition. Frequently referred to as the most\n\
+      beautiful book of the fifteenth century. "
+    Publishing Location: Poliphili Venice
+    Publisher: Aldus
+  - title: ""
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Cantimpr&eacute;
+  books: 
+  - title: "Bonum universale de apibus Dovai: 1597, 1605, 1627"
+    Publishing Year: 
+    description: <em>Originally written c1260. An allegory on the human condition. Also called Bienboec.</em>
+    Publishing Location: 
+    Publisher: 
+- author: Dante
+  books: 
+  - title: Commedia
+    Publishing Year: 
+    description: |-
+      First printed in Florence
+      in 1481&nbsp;<br />
+      <a href="books1.php4#Dante">more</a>
+    Publishing Location: 
+    Publisher: 
+- author: Deguileville
+  books: 
+  - title: Pelerinage de Vie Humaine
+    Publishing Year: 
+    description: |-
+      (<em>The Pilgrimage of
+      Human Life</em>)&nbsp; The first of the late medieval allegories which
+      depicts the Pilgrim journeying through life, overcoming the perils of material
+      temptation, earning his place in heaven and achieving reunion with God. Mankind
+      travels through life with his Scarf of Faith and Staff of Hope.
+    Publishing Location: 
+    Publisher: 
+- author: "Bonaventure Desp\xE9riers"
+  books: 
+  - title: Cymbalum mundi
+    Publishing Year: "1537"
+    description: |-
+      Allegorical and facetious stories with anagrams. A
+      forerunner of Rabelais. Other editions Lyons:
+      Bonyn, 1538, 1711, Amsterdam: 1732, Amsterdam: 1755, Avignon:
+      1778 * BII, 644
+    Publishing Location: Paris
+    Publisher: Morin
+- author: Dryden
+  books: 
+  - title: The Hind and the Panther Holy-Rood
+    Publishing Year: "1687"
+    description: |-
+      His longest poem, this was a theological and political
+      &#8216;fable&#8217; not wholly admired by contemporaries and certainly not by
+      the authorities.
+    Publishing Location: House
+    Publisher: ""
+- author: William Dunbar
+  books: 
+  - title: The Thissill and the Rois
+    Publishing Year: 
+    description: |-
+      An allegory to commemorate the marriage of Margaret Tudor
+      to Scotland's
+      King James IV.
+    Publishing Location: 
+    Publisher: 
+- author: |-
+    de
+    Guildford
+  books: 
+  - title: |-
+      The Owl and
+      the Nightingale
+    Publishing Year: 
+    description: |-
+      A poem of 2,000 lines in the form of debate between an owl
+      and a nightingale symbolizing respectively asceticism and pleasure or
+      philosophy and art.
+    Publishing Location: 
+    Publisher: 
+- author: Hesiod
+  books: 
+  - title: |-
+      Theogonia <span style="font-family:Verdana;font-style:normal;mso-bidi-font-style:
+        italic">Ferrara</span><span style="font-family:
+      Verdana;font-style:normal;mso-bidi-font-style:italic">: Gallum, 1474</span>
+    Publishing Year: 
+    description: |-
+      Describing the battle for the creation of the Earth in his
+      Theogony this was also the first illustration of the struggle or fight, the
+      first of the two principal themes of allegory. Other eds. Paris: Bogardus, 1543. Many other eds. And
+      trans. particularly contained in Opera Omnia.
+    Publishing Location: 
+    Publisher: 
+- author: Homer
+  books: 
+  - title: Batrachomyomachia
+    Publishing Year: "1486"
+    description: |-
+      <em>(The Battle
+      of the Mice and Frogs</em>) a poem
+      traditionally believed to have been written by Homer. Suidas, the 10th Century
+      encyclopaedist, however, says that the real author was Pigres of Caria&nbsp;in
+      about 480BC<em>Venice</em><em>: Aldus, 1504 </em>this ed.
+      contains Homer&#8217;s complete works, Paris, Gourmontius, 1507 (2<sup>nd</sup>
+      book printed in Greek in Paris), Wittenberg: Grunenberger, 1513, Basle:
+      Froben, 1518, Paris: Tiletanum, 1542.
+    Publishing Location: Venice
+    Publisher: Cretensis
+- author: Lorris,de Meung
+  books: 
+  - title: |-
+      Roman
+      de la Rose
+    Publishing Year: 
+    description: |-
+      Begun end of C13th by Guillaume de Lorris&nbsp;but
+      finished by Jean de Meung&nbsp;after the former died. De Meung had an
+      altogether different style with long, meandering and sometimes irrelevant
+      commentaries.<br />
+      Another edition Paris: Galliot du Pr&eacute;, 1526
+    Publishing Location: 
+    Publisher: 
+- author: Lydgate
+  books: 
+  - title: Reson and Sensualyte
+    Publishing Year: 
+    description: "Lydgate dreams that Nature offers him a choice between\n\
+      Reason and Sensuality "
+    Publishing Location: 
+    Publisher: 
+- author: |-
+    <span style="font-family:Verdana;
+    font-weight:normal;mso-bidi-font-weight:bold">La</span> Marche
+  books: 
+  - title: "Le Chevalier D\xE9lib\xE9r\xE9"
+    Publishing Year: 
+    description: |-
+      Very popular allegorical poem. 13 woodcuts. Only 3
+      examples known Another ed. nd np (Gouda: van Os, 1489) has colored woodcuts.
+      &#8216;One of the most important illustrated books of the period.&#8217;
+      Another ed. Paris: Lambert, 1493, Holland
+      Schiedam: np,nd, Lyons: Hauard, nd, Paris: Treperel, 1500, Paris: le Noir, nd, Anvers:
+      Steelsius, 1553, Anvers: Nucio, 1555, Salamanca:
+      Batista, 1560, Barcelona: Bornat, 1565, Salamanca: Laso, 1575, Anvers:
+      Plantin, 1591
+    Publishing Location: 
+    Publisher: 
+- author: Martianus
+  books: 
+  - title: |-
+      De Nuptiis Philoligiae et
+      Mercurii
+    Publishing Year: 
+    description: "\xA0(<em>The Marriage of Learning and Eloquence</em>) &nbsp;Written\n\
+      about c500 AD, this was a milestone in the development of literary allegory and\n\
+      personification, and a textbook description of each of the liberal arts as they\n\
+      were given by Mercury to his bride. It was popular throughout the Middle Ages\n\
+      and later; there were eight editions of this book between 1499 and 1599 and\n\
+      Leibniz himself contemplated editing an edition. Eds: Vienna: Victorem, 1516, Lyons: Raphelengius,\n\
+      1599."
+    Publishing Location: 
+    Publisher: 
+- author: Marvell
+  books: 
+  - title: |-
+      Dialogue between the Soul and the
+      BodyA Dialogue
+      between the Resolved Soul and Created Pleasure
+    Publishing Year: 
+    description: In the tradition of the medieval debat.
+    Publishing Location: 
+    Publisher: 
+- author: Henry Parker
+  books: 
+  - title: Dialogue of Dives and Pauper
+    Publishing Year: 
+    description: "An explanation of the ten commandments and the duties of\n\
+      the rich towards the poor. This was the first dated book printed by Pynson. "
+    Publishing Location: 
+    Publisher: 
+- author: Petrarch
+  books: 
+  - title: Trionfi
+    Publishing Year: 
+    description: "A series of poems on the successive triumphs of Love,\n\
+      Chastity, Death, Famine, Time and Eternity. The Trionfi outshone the Canzonieri\n\
+      and Dante&#8217;s Commedia in popularity for more than 100 years. Inspired by\n\
+      the triumphal processions&nbsp;of the emperors and generals of Rome&nbsp;after their victories, they\n\
+      featured captives and attendants who were either personified allegorical\n\
+      figures or great men and women from the past "
+    Publishing Location: 
+    Publisher: 
+- author: |-
+    Philo
+    of Alexandria
+  books: 
+  - title: |-
+      Legum
+      Allegoria
+    Publishing Year: 
+    description: |-
+      (Allegorical Interpretation)&nbsp;a detailed allegorical
+      interpretation of the stories of Genesis&nbsp;which also prefigured the
+      Christian practice of typology
+    Publishing Location: 
+    Publisher: 
+- author: Philon
+  books: 
+  - title: Les Oeuvres...Contenans l'interpretation de plusieurs divins & sacres mysteres
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: |-
+    Christine de
+    Pisan
+  books: 
+  - title: |-
+      Epistre
+      d&#8216;Othea
+    Publishing Year: 
+    description: <a href="books1.php4#Pisan">more</a>
+    Publishing Location: 
+    Publisher: 
+- author: Prudentius
+  books: 
+  - title: Psychomachia
+    Publishing Year: 
+    description: |-
+      Personified depiction of the vices and virtues,
+      particularly the latter as female figures, became the model for the allegorical
+      struggle of good over evil for the remainder of the Middle Ages until the 14th
+      century.
+    Publishing Location: 
+    Publisher: 
+- author: Rabelais
+  books: 
+  - title: Pantagruel and Gargantua
+    Publishing Year: 
+    description: |-
+      Published over a number of years starting in 1532<br />
+      <a href="books1.php4#Rabelais">more</a>
+    Publishing Location: 
+    Publisher: 
+- author: Fernando de Rojas
+  books: 
+  - title: Celestina
+    Publishing Year: 
+    description: One of the first Spanish comedies
+    Publishing Location: 
+    Publisher: 
+- author: Hans Sachs
+  books: 
+  - title: Die Wittenbergische Nacthigall
+    Publishing Year: 
+    description: Allegorical poem in honor of Luther
+    Publishing Location: 
+    Publisher: 
+- author: "SachsLang "
+  books: 
+  - title: Die Christliche Gedult
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: John Skelton
+  books: 
+  - title: The Bowge of Court
+    Publishing Year: 
+    description: Allegory of the court of Henry VII
+    Publishing Location: 
+    Publisher: 
+- author: Spenser
+  books: 
+  - title: The Faerie Queen
+    Publishing Year: "1590"
+    Publishing Location: London
+    Publisher: Ponsonbie
+  - title: |-
+      The
+      Shepheardes Calendar
+    Publishing Year: "1579"
+    description: <a href="books1.php4#Spenser">more</a>
+    Publishing Location: London
+    Publisher: Singleton
+  - title: |-
+      Spenser&#8217;s
+      Shepheardes Calendar
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: "Statius "
+  books: 
+  - title: Thebaid
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Swift
+  books: 
+  - title: Jonathan Gulliver&#8217;s TravelsTale of a Tub
+    Publishing Year: 
+    description: An interpretation of Reformation history
+    Publishing Location: 
+    Publisher: 
+  - title: |-
+      The Battle of the
+      Books
+    Publishing Year: 
+    description: An example of the Dialog as an allegorical struggle.
+    Publishing Location: 
+    Publisher: 
+- author: Bernard Sylvestris
+  books: 
+  - title: De Universitate mundi
+    Publishing Year: 
+    description: (Of the Universe)
+    Publishing Location: 
+    Publisher: 
+- author: Emanuele Tesauro
+  books: 
+  - title: Il Cannochiale Aristotelico
+    Publishing Year: "1678"
+    description: |-
+      The leading 17th century commentary on the
+      Aristotle&#8217;s theories of metaphor.
+    Publishing Location: Venice
+    Publisher: Curti
+- author: Jacques Gaferel
+  books: 
+  - title: Curiositez Inouyes
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Jean l&rsquo;Heureux
+  books: 
+  - title: Disquisitio antiquarian de gemmis Basilidianis
+    Publishing Year: "1657"
+    Publishing Location: Anvers
+    Publisher: Chifflet
+- author: Athanasius Kircher
+  books: 
+  - title: Arithmologia
+    Publishing Year: "1665"
+    description: Contains references to amulets
+    Publishing Location: Rome
+    Publisher: Varesii
+- author: Menestrier
+  books: 
+  - title: La Philosophie des Images Enigmatiques
+    Publishing Year: 
+    Publishing Location: 
+    Publisher: 
+- author: Julius Reichelti
+  books: 
+  - title: De Amuletis
+    Publishing Year: "1676"
+    description: "Provides an argument against the magical properties of amulets  "
+    Publishing Location: Strassbourg
+    Publisher: Wechtler
