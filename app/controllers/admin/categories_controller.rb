@@ -30,7 +30,8 @@ class Admin::CategoriesController < ApplicationController
     @cat = Category.find params[:id]
     @cat.modified_at = Time.now
     if @cat.update_attributes params[:category]
-      redirect_to '/categories/' + params[:id].to_s
+      flash[:notice] = 'Category succesfully updated!'
+      redirect_to :action => 'add_books', :id => params[:id]
     else
       flash[:error] =  'Problem updating Category.'
       render 'edit'
@@ -41,10 +42,16 @@ class Admin::CategoriesController < ApplicationController
     @category = Category.new params[:category]
 
     if @category.save
-      redirect_to '/categories/' + params[:id].to_s
+      flash[:notice] = 'Category succesfully created!'
+      redirect_to :action => 'add_books', :id => params[:id]
     else
       render 'new'
     end
+  end
+
+  def add_books
+    @category = Category.find params[:id], :include => :books
+    @subtitle = 'Attach Books'
   end
 
   def destroy

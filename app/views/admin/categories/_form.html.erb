@@ -3,7 +3,7 @@
   <fieldset>
     <p><label>Title:</label><%= f.text_field :title, :class => 'text-long' %></p>
     <p><label>Redirect To:</label>
-      <input type="text" class="text-long autocomplete" />
+      <input type="text" class="text-long ac_redirect" />
       <input type="hidden" name="category[redirect_id]" >
     </p>
     <div class="ui-state-highlight redirect">
@@ -18,7 +18,6 @@
       <p><label>Authorities:</label><%= f.text_field :authorities, :class => 'text-long' %></p>
       <p><label>Body:</label><%= f.text_area :body %></p>
       <p><label>Extra:</label><%= f.text_area :extra %></p>
-      <input type="submit" value="<%= submit_label %>" />
     </fieldset>
 
     <h3>Alternate Languages for Title</h3>
@@ -29,11 +28,11 @@
       </div>
       <div class="words">
         <p><label>Words:</label><%= language.text_field :words, :class => 'text-long' %>
-          <a href="javascript:void(0)" id="add_language"><span class="add_language"></span></a>
         </p>
       </div>
     <% end %>
     </fieldset>
+    <input type="submit" value="Proceed to Attach Books" />
 <% end %>
 <% content_for :head do %>
   <%= include_puny_mce :plugins => %w(Paste Image Link TextColor EditSource Entities) %>

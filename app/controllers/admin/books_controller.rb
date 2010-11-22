@@ -47,4 +47,15 @@ class Admin::BooksController < ApplicationController
       render 'new'
     end
   end
+
+  def search
+    respond_to do |format|
+      format.js do 
+        books = Book.find(:all, :conditions => ['full_title LIKE ? OR short_title LIKE ?', '%' + params[:term] + '%', '%' + params[:term] + '%'], :limit => 5, :order => 'short_title ASC', :include => :authors)
+        options = books.collect {|book| {:label => book.short_title, :value => '', :id => book.id}}
+        options = [{:label => 'No Matches', :value => '', :id => ''}] if books.empty?
+        render :text => options.to_json
+      end
+    end    
+  end
 end

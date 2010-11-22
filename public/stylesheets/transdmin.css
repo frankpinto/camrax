@@ -42,30 +42,37 @@
   margin-top: 4px;
 }
 
-div.redirect {
+div.redirect, div.bibliography{
   clear: both;
   margin-left: 14px;
   margin-bottom: 14px;
   padding: 3px 0px 3px 0px;
   width: 50%;
+}
+
+div.redirect {
   display: none;
 }
 
-div.redirect span {
+div.redirect span, div.bibliography span {
   vertical-align: text-top;
 }
 
-div.redirect span.bullet {
+div.bibliography div {
+  clear: both;
+}
+
+div.redirect span.bullet, div.bibliography span.bullet {
  float: left;
  margin-right: 0.3em;
 }
 
-div.redirect span#redirect {
+div.redirect span#redirect, div.bibliography span#bibliography {
   position: relative;
   top: 3px;
 }
 
-div.redirect span.ui-icon-close {
+div.redirect span.ui-icon-close, div.bibliography span.ui-icon-close {
  float: right;
  margin-right: 0.3em;
 }

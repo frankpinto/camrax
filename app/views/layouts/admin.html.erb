@@ -64,6 +64,11 @@
             </h2>
             
             <div id="main">
+              <% for name in APP[:flash_names] %>
+                <% if flash[name] %>
+                  <%= "<div class=\"#{name}\">#{flash[name]}</div>" %>
+                <% end %>
+              <% end %>
               <%= yield %>
             </div>
             <!-- // #main -->

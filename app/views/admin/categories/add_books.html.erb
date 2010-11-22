@@ -1,0 +1,40 @@
+<% form_for [:admin, @category] do |f| %>
+  <h3>Input a Book</h3>
+  <fieldset>
+    <p>
+      <label>Book Title (Short or Long):</label>
+      <input class="text-long ac_bibliography" />
+      <% @category.books.each do |book| %>
+        <input type="hidden" name="category[book_ids][]" id="book_<%= book.id %>" value="<%= book.id %>" />
+      <% end %>
+    </p>
+  </fieldset>
+
+  <h3>Bibliography</h3>
+  <div class="ui-state-highlight bibliography" <%= 'style="display: none"' if @category.books.empty? %>>
+    <% f.fields_for :books do |book| %>
+      <% unless book.object.modern? %>
+        <div>
+          <span class="ui-icon ui-icon-radio-on bullet"></span>
+          <span><%= book.object.short_title %></span>
+          <a href="javascript:void(0)" id="book_link_<%= book.object.id %>" class="close"><span class="ui-icon ui-icon-close"></span></a>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+
+  <h3>Modern Sources</h3>
+  <div class="ui-state-highlight bibliography" <%= 'style="display: none"' if @category.books.empty? %>>
+    <% f.fields_for :books do |book| %>
+      <% if book.object.modern? %>
+        <div>
+          <span class="ui-icon ui-icon-radio-on bullet"></span>
+          <span><%= book.object.short_title %></span>
+          <a href="javascript:void(0)" id="book_link_<%= book.object.id %>" class="close"><span class="ui-icon ui-icon-close"></span></a>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+
+  <input type="submit" value="Save Attached Books" />
+<% end %>

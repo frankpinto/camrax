@@ -4,20 +4,9 @@
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
-  before_filter :menu
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
-
-  def menu
-    cats = Category.find(:all, :order => 'title ASC')
-    @menu_categories = {}
-    @alphabet = ('a'..'z').to_a
-    cats.each do |category|
-      @menu_categories[category.title[0...1].downcase] = [] if @menu_categories[category.title[0...1].downcase].nil?
-      @menu_categories[category.title[0...1].downcase] << category
-    end
-  end
 
   def logged_in?
     session[:logged_in]
