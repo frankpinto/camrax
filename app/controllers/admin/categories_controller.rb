@@ -9,7 +9,7 @@ class Admin::CategoriesController < ApplicationController
   end
 
   def index
-    @categories = Category.find(:all, :order => 'created_at ASC', :limit => '10')
+    @categories = Category.find(:all, :order => 'modified_at DESC, created_at DESC', :limit => '10')
     @category = Category.new
     @category.languages = [Language.new]
     @subtitle = 'Dashboard'
@@ -46,6 +46,19 @@ class Admin::CategoriesController < ApplicationController
     else
       flash[:error] =  'Problem updating Category.'
       render 'edit'
+    end
+  end
+
+  def attach
+    @cat = Category.find params[:id]
+    @cat.modified_at = Time.now
+
+    if @cat.update_attributes params[:category]
+      flash[:notice] = 'Books succcesfully added'
+      redirect_to :action => 'index'
+    else
+      flash[:error] =  'Problem adding books.'
+      render 'add_books'
     end
   end
 
@@ -96,6 +109,17 @@ class Admin::CategoriesController < ApplicationController
     respond_to do |format|
       format.js do 
         cats = Category.find(:all, :conditions => ['title LIKE ?', '%' + params[:term] + '%'], :limit => 5, :order => 'title ASC')
+        options = cats.collect {|cat| {:label => cat.title, :value => '', :id => cat.id}}
+        options = [{:label => 'No Matches', :value => '', :id => ''}] if cats.empty?
+        render :text => options.to_json
+      end
+    end
+  end
+
+  def sub_search
+    respond_to do |format|
+      format.js do 
+        cats = Subcategory.find(:all, :conditions => ['title LIKE ?', '%' + params[:term] + '%'], :limit => 5, :order => 'title ASC')
         options = cats.collect {|cat| {:label => cat.title, :value => '', :id => cat.id}}
         options = [{:label => 'No Matches', :value => '', :id => ''}] if cats.empty?
         render :text => options.to_json

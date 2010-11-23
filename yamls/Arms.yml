@@ -1,1948 +1,296 @@
 --- 
-- author: Johannes Agricola
-  books: 
-  - title: Book of German Proverbs
-    Publishing Year: 
-    description: Many editions, the largest of which had 750 proverbs.
-    Publishing Location: 
-    Publisher: 
-- author: Tim Agnellini
-  books: 
-  - title: Proverbii Weigel
-    Publishing Year: 
-    description: "Persian and Turkish proverbs trans. into Latin and Italian "
-    Publishing Location: 
-    Publisher: 
-- author: Alardus Amstelredamus,
-  books: 
-  - title: Selectae Similitudines sive Collationes
-    Publishing Year: "1543"
-    description: "First Published in Cologne in 1539, written after the example of Erasmus's <em>Adagia</em>.   "
-    Publishing Location: Paris
-    Publisher: Girault
-- author: Anon
-  books: 
-  - title: Adagia ie Proverbiorum, paroemiarum et parabol
-    Publishing Year: 
-    description: A collection of Proverbs and other forms from Erasmus, Junius, Canterus, Stephanus
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Adagia in Latin and English
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Adagia Optimorum Utriusque Linguae
-    Publishing Year: "1603"
-    Publishing Location: Venice
-    Publisher: Paulus Manutius
-- author: Anon
-  books: 
-  - title: Adagia sive Proverbia Graecorum Plantin
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Adagialia sacra Novi Test. Schotto
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Adagios Portuguezes
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Michael Apostolios
-  books: 
-  - title: Paroemiae
-    Publishing Year: "1609"
-    description: 1st Latin and Greek edition. Byzantine proverbs
-    Publishing Location: Leiden
-    Publisher: Elsevier
-- author: "Cato "
-  books: 
-  - title: Collectio Distichorum Vulgaris
-    Publishing Year: 
-    description: (Moral Distichs)
-    Publishing Location: 
-    Publisher: 
-- author: Randle Cotgravc
-  books: 
-  - title: A dictionarie of the French and English tongues
-    Publishing Year: 
-    description: In addition to translations, this dictionary contains many proverbs.
-    Publishing Location: 
-    Publisher: 
-- author: Thomas Drax
-  books: 
-  - title: Bibliotheca Scholastica Instructissima; or a Treasure of Ancient Adages
-    Publishing Year: "1633"
-    Publishing Location: London
-    Publisher: ""
-- author: Duplessis
-  books: 
-  - title: Bibliographie paroemiolog.
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Desiderius Erasmus
-  books: 
-  - title: Adagia
-    Publishing Year: 
-    description: "First edition "
-    Publishing Location: 
-    Publisher: 
-  - title: Adagiorum Opus
-    Publishing Year: 
-    description: "1st Aldine ed. 1508. Other editions, Lyons: Gryphius 1550, Lyons: Gryphius 1559, Froben 1559."
-    Publishing Location: 
-    Publisher: 
-  - title: Collectanea adagiorum veterum
-    Publishing Year: "1510"
-    Publishing Location: Strassburg
-    Publisher: Schurer
-  - title: Adagiorum epitome
-    Publishing Year: "1545"
-    Publishing Location: Antwerp
-    Publisher: Hillenius
-  - title: Adagiorum chiliades
-    Publishing Year: "1559"
-    Publishing Location: Lyon
-    Publisher: Gryphe
-- author: Henri Estienne
-  books: 
-  - title: Les Pr&eacute;mices ou les Proverbes Epigrammatis&eacute;s
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Comicorum Graecorum sententiae, id est gnomai
-    Publishing Year: "1569"
-    description: This is perhaps the tiniest book produced by Henri Estienne (32mo)
-    Publishing Location: Geneva
-    Publisher: Estiene
-- author: Sebastian Franck
-  books: 
-  - title: Sprichw&ouml;rter
-    Publishing Year: "1570"
-    Publishing Location: Frankfurt
-    Publisher: Egenolffs heirs
-- author: Giraldi
-  books: 
-  - title: Philosophi Pythagorae symbolorum interpretatio
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Gruter
-  books: 
-  - title: Florilegium ethico-politicum
-    Publishing Year: 
-    description: "A large collection of Latin, Greek, German, Dutch, Italian, French, Spanish and English proverbs. Gruter was librarian of the Palatine library in Heidelberg and a neoLatin poet.&nbsp;&nbsp;&nbsp; "
-    Publishing Location: 
-    Publisher: 
-- author: Heywood
-  books: 
-  - title: Proverbs
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Joseph Lange
-  books: 
-  - title: Adagia, sive Sententiae proverbiales
-    Publishing Year: "1596"
-    Publishing Location: Strasbourg
-    Publisher: Rihelius
-- author: Jacques Lanniet
-  books: 
-  - title: Receuil des plus illustres proverbes
-    Publishing Year: 
-    description: A collection of illustrated proverbs 3+1 vols&nbsp; 4th Part contains proverbs based on the life of Till Eulenspiegel&ndash; very rare.
-    Publishing Location: 
-    Publisher: 
-- author: Mitelli
-  books: 
-  - title: Proverbi figurati
-    Publishing Year: 
-    description: Frontispiece and 48 pl.
-    Publishing Location: 
-    Publisher: 
-- author: Cesar Oudin
-  books: 
-  - title: Refranes o Proverbios Castellanos
-    Publishing Year: "1624"
-    description: |-
-      Third French edition 288 pages. Oudin was also the first French translator of Don Quixote.<br />
-        Second edition Paris: Orry, 1609<br />
-        Another edition Paris: De La Coste, 1659
-    Publishing Location: Paris
-    Publisher: Billaine
-- author: John Ray
-  books: 
-  - title: A collection of English proverbs
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: le Roux
-  books: 
-  - title: Dictionnaire comique, satirique, critique, libre et proverbial
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Andreas Schott, "
-  books: 
-  - title: Adagia
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Richard Taverner
-  books: 
-  - title: Proverbs or Adages Gathered out of the Chiliades of Erasmus
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: |-
-    de
-    Lille
-  books: 
-  - title: Anticlaudianus
-    Publishing Year: "1536"
-    description: |-
-      Another ed. Venice: Combeis, 1582; Antwerp: Trognaesius,
-      1621. Originally composed in 1181, this was satire in the style of
-      Claudian&#8217;s In Rufinus
-    Publishing Location: Basle
-    Publisher: Petrus
-- author: Albricus
-  books: 
-  - title: |-
-      Allegoria poetica &#8230;poeticarum
-      fabularum
-    Publishing Year: "1520"
-    Publishing Location: de Marnef
-    Publisher: Unknown
-- author: Apuleius
-  books: 
-  - title: |-
-      Metamorphosis (Asinus
-      Aureus)
-    Publishing Year: 
-    description: Mid 2<sup>nd</sup> Century AD
-    Publishing Location: 
-    Publisher: 
-  - title: The Golden Ass
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Comentarii a P. Beroaldo conditi in asinu
-    Publishing Year: "1504"
-    Publishing Location: Zanis
-    Publisher: Unknown
-  - title: |-
-      --------------------------------------L'ane
-      dore, XI (Traduit en francais par J. Louveau)
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Jean D&#8217;Arras
-  books: 
-  - title: L&#8217;Histoire de Melusine
-    Publishing Year: "1477"
-    description: |-
-      A romance &#8211; the tale of the tutelary water-sprite of
-      the house of Lusignan
-    Publishing Location: Lyons
-    Publisher: Huss, c
-- author: Adrien Baillet
-  books: 
-  - title: La Vie de Descartes
-    Publishing Year: "1691"
-    description: |-
-      (<em>The Dream of
-      Descartes</em>) describes the epiphany in which Descartes chooses the
-      path of self-knowledge.
-    Publishing Location: Paris
-    Publisher: Hosqhenels
-- author: |-
-    de
-    Verville
-  books: 
-  - title: |-
-      Le
-      cabinet de Minerve
-    Publishing Year: 
-    description: Other eds 1597, 1601 See also Colonna
-    Publishing Location: 
-    Publisher: 
-- author: John Bunyan
-  books: 
-  - title: Pilgrims Progress
-    Publishing Year: "1678"
-    description: "\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0\xA0 Another ed. London:\n\
-      Sturt, 1760. Numerous other editions later and in many languages."
-    Publishing Location: London
-    Publisher: J. Sturt
-- author: Robert Burton
-  books: 
-  - title: The Anatomy of Melancholy
-    Publishing Year: "1621"
-    description: |-
-      Written under the pseudonym Democritus Junior. A satire
-      but also a precursor of modern psychology. Has over 13,000 citations. 8 other
-      editions before 1676 then forgotten until Dr. Johnson brought it back into
-      vogue.
-    Publishing Location: Oxford
-    Publisher: Cripps
-- author: Francesco Colonna
-  books: 
-  - title: Hypnerotomachia
-    Publishing Year: "1499"
-    description: "First edition. Frequently referred to as the most\n\
-      beautiful book of the fifteenth century. "
-    Publishing Location: Poliphili Venice
-    Publisher: Aldus
-  - title: ""
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Cantimpr&eacute;
-  books: 
-  - title: "Bonum universale de apibus Dovai: 1597, 1605, 1627"
-    Publishing Year: 
-    description: <em>Originally written c1260. An allegory on the human condition. Also called Bienboec.</em>
-    Publishing Location: 
-    Publisher: 
-- author: Dante
-  books: 
-  - title: Commedia
-    Publishing Year: 
-    description: |-
-      First printed in Florence
-      in 1481&nbsp;<br />
-      <a href="books1.php4#Dante">more</a>
-    Publishing Location: 
-    Publisher: 
-- author: Deguileville
-  books: 
-  - title: Pelerinage de Vie Humaine
-    Publishing Year: 
-    description: |-
-      (<em>The Pilgrimage of
-      Human Life</em>)&nbsp; The first of the late medieval allegories which
-      depicts the Pilgrim journeying through life, overcoming the perils of material
-      temptation, earning his place in heaven and achieving reunion with God. Mankind
-      travels through life with his Scarf of Faith and Staff of Hope.
-    Publishing Location: 
-    Publisher: 
-- author: "Bonaventure Desp\xE9riers"
-  books: 
-  - title: Cymbalum mundi
-    Publishing Year: "1537"
-    description: |-
-      Allegorical and facetious stories with anagrams. A
-      forerunner of Rabelais. Other editions Lyons:
-      Bonyn, 1538, 1711, Amsterdam: 1732, Amsterdam: 1755, Avignon:
-      1778 * BII, 644
-    Publishing Location: Paris
-    Publisher: Morin
-- author: Dryden
-  books: 
-  - title: The Hind and the Panther Holy-Rood
-    Publishing Year: "1687"
-    description: |-
-      His longest poem, this was a theological and political
-      &#8216;fable&#8217; not wholly admired by contemporaries and certainly not by
-      the authorities.
-    Publishing Location: House
-    Publisher: ""
-- author: William Dunbar
-  books: 
-  - title: The Thissill and the Rois
-    Publishing Year: 
-    description: |-
-      An allegory to commemorate the marriage of Margaret Tudor
-      to Scotland's
-      King James IV.
-    Publishing Location: 
-    Publisher: 
-- author: |-
-    de
-    Guildford
-  books: 
-  - title: |-
-      The Owl and
-      the Nightingale
-    Publishing Year: 
-    description: |-
-      A poem of 2,000 lines in the form of debate between an owl
-      and a nightingale symbolizing respectively asceticism and pleasure or
-      philosophy and art.
-    Publishing Location: 
-    Publisher: 
-- author: Hesiod
-  books: 
-  - title: |-
-      Theogonia <span style="font-family:Verdana;font-style:normal;mso-bidi-font-style:
-        italic">Ferrara</span><span style="font-family:
-      Verdana;font-style:normal;mso-bidi-font-style:italic">: Gallum, 1474</span>
-    Publishing Year: 
-    description: |-
-      Describing the battle for the creation of the Earth in his
-      Theogony this was also the first illustration of the struggle or fight, the
-      first of the two principal themes of allegory. Other eds. Paris: Bogardus, 1543. Many other eds. And
-      trans. particularly contained in Opera Omnia.
-    Publishing Location: 
-    Publisher: 
-- author: Homer
-  books: 
-  - title: Batrachomyomachia
-    Publishing Year: "1486"
-    description: |-
-      <em>(The Battle
-      of the Mice and Frogs</em>) a poem
-      traditionally believed to have been written by Homer. Suidas, the 10th Century
-      encyclopaedist, however, says that the real author was Pigres of Caria&nbsp;in
-      about 480BC<em>Venice</em><em>: Aldus, 1504 </em>this ed.
-      contains Homer&#8217;s complete works, Paris, Gourmontius, 1507 (2<sup>nd</sup>
-      book printed in Greek in Paris), Wittenberg: Grunenberger, 1513, Basle:
-      Froben, 1518, Paris: Tiletanum, 1542.
-    Publishing Location: Venice
-    Publisher: Cretensis
-- author: Lorris,de Meung
-  books: 
-  - title: |-
-      Roman
-      de la Rose
-    Publishing Year: 
-    description: |-
-      Begun end of C13th by Guillaume de Lorris&nbsp;but
-      finished by Jean de Meung&nbsp;after the former died. De Meung had an
-      altogether different style with long, meandering and sometimes irrelevant
-      commentaries.<br />
-      Another edition Paris: Galliot du Pr&eacute;, 1526
-    Publishing Location: 
-    Publisher: 
-- author: Lydgate
-  books: 
-  - title: Reson and Sensualyte
-    Publishing Year: 
-    description: "Lydgate dreams that Nature offers him a choice between\n\
-      Reason and Sensuality "
-    Publishing Location: 
-    Publisher: 
-- author: |-
-    <span style="font-family:Verdana;
-    font-weight:normal;mso-bidi-font-weight:bold">La</span> Marche
-  books: 
-  - title: "Le Chevalier D\xE9lib\xE9r\xE9"
-    Publishing Year: 
-    description: |-
-      Very popular allegorical poem. 13 woodcuts. Only 3
-      examples known Another ed. nd np (Gouda: van Os, 1489) has colored woodcuts.
-      &#8216;One of the most important illustrated books of the period.&#8217;
-      Another ed. Paris: Lambert, 1493, Holland
-      Schiedam: np,nd, Lyons: Hauard, nd, Paris: Treperel, 1500, Paris: le Noir, nd, Anvers:
-      Steelsius, 1553, Anvers: Nucio, 1555, Salamanca:
-      Batista, 1560, Barcelona: Bornat, 1565, Salamanca: Laso, 1575, Anvers:
-      Plantin, 1591
-    Publishing Location: 
-    Publisher: 
-- author: Martianus
-  books: 
-  - title: |-
-      De Nuptiis Philoligiae et
-      Mercurii
-    Publishing Year: 
-    description: "\xA0(<em>The Marriage of Learning and Eloquence</em>) &nbsp;Written\n\
-      about c500 AD, this was a milestone in the development of literary allegory and\n\
-      personification, and a textbook description of each of the liberal arts as they\n\
-      were given by Mercury to his bride. It was popular throughout the Middle Ages\n\
-      and later; there were eight editions of this book between 1499 and 1599 and\n\
-      Leibniz himself contemplated editing an edition. Eds: Vienna: Victorem, 1516, Lyons: Raphelengius,\n\
-      1599."
-    Publishing Location: 
-    Publisher: 
-- author: Marvell
-  books: 
-  - title: |-
-      Dialogue between the Soul and the
-      BodyA Dialogue
-      between the Resolved Soul and Created Pleasure
-    Publishing Year: 
-    description: In the tradition of the medieval debat.
-    Publishing Location: 
-    Publisher: 
-- author: Henry Parker
-  books: 
-  - title: Dialogue of Dives and Pauper
-    Publishing Year: 
-    description: "An explanation of the ten commandments and the duties of\n\
-      the rich towards the poor. This was the first dated book printed by Pynson. "
-    Publishing Location: 
-    Publisher: 
-- author: Petrarch
-  books: 
-  - title: Trionfi
-    Publishing Year: 
-    description: "A series of poems on the successive triumphs of Love,\n\
-      Chastity, Death, Famine, Time and Eternity. The Trionfi outshone the Canzonieri\n\
-      and Dante&#8217;s Commedia in popularity for more than 100 years. Inspired by\n\
-      the triumphal processions&nbsp;of the emperors and generals of Rome&nbsp;after their victories, they\n\
-      featured captives and attendants who were either personified allegorical\n\
-      figures or great men and women from the past "
-    Publishing Location: 
-    Publisher: 
-- author: |-
-    Philo
-    of Alexandria
-  books: 
-  - title: |-
-      Legum
-      Allegoria
-    Publishing Year: 
-    description: |-
-      (Allegorical Interpretation)&nbsp;a detailed allegorical
-      interpretation of the stories of Genesis&nbsp;which also prefigured the
-      Christian practice of typology
-    Publishing Location: 
-    Publisher: 
-- author: Philon
-  books: 
-  - title: Les Oeuvres...Contenans l'interpretation de plusieurs divins & sacres mysteres
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: |-
-    Christine de
-    Pisan
-  books: 
-  - title: |-
-      Epistre
-      d&#8216;Othea
-    Publishing Year: 
-    description: <a href="books1.php4#Pisan">more</a>
-    Publishing Location: 
-    Publisher: 
-- author: Prudentius
-  books: 
-  - title: Psychomachia
-    Publishing Year: 
-    description: |-
-      Personified depiction of the vices and virtues,
-      particularly the latter as female figures, became the model for the allegorical
-      struggle of good over evil for the remainder of the Middle Ages until the 14th
-      century.
-    Publishing Location: 
-    Publisher: 
-- author: Rabelais
-  books: 
-  - title: Pantagruel and Gargantua
-    Publishing Year: 
-    description: |-
-      Published over a number of years starting in 1532<br />
-      <a href="books1.php4#Rabelais">more</a>
-    Publishing Location: 
-    Publisher: 
-- author: Fernando de Rojas
-  books: 
-  - title: Celestina
-    Publishing Year: 
-    description: One of the first Spanish comedies
-    Publishing Location: 
-    Publisher: 
-- author: Hans Sachs
-  books: 
-  - title: Die Wittenbergische Nacthigall
-    Publishing Year: 
-    description: Allegorical poem in honor of Luther
-    Publishing Location: 
-    Publisher: 
-- author: "SachsLang "
-  books: 
-  - title: Die Christliche Gedult
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: John Skelton
-  books: 
-  - title: The Bowge of Court
-    Publishing Year: 
-    description: Allegory of the court of Henry VII
-    Publishing Location: 
-    Publisher: 
-- author: Spenser
-  books: 
-  - title: The Faerie Queen
-    Publishing Year: "1590"
-    Publishing Location: London
-    Publisher: Ponsonbie
-  - title: |-
-      The
-      Shepheardes Calendar
-    Publishing Year: "1579"
-    description: <a href="books1.php4#Spenser">more</a>
-    Publishing Location: London
-    Publisher: Singleton
-  - title: |-
-      Spenser&#8217;s
-      Shepheardes Calendar
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Statius "
-  books: 
-  - title: Thebaid
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Swift
-  books: 
-  - title: Jonathan Gulliver&#8217;s TravelsTale of a Tub
-    Publishing Year: 
-    description: An interpretation of Reformation history
-    Publishing Location: 
-    Publisher: 
-  - title: |-
-      The Battle of the
-      Books
-    Publishing Year: 
-    description: An example of the Dialog as an allegorical struggle.
-    Publishing Location: 
-    Publisher: 
-- author: Bernard Sylvestris
-  books: 
-  - title: De Universitate mundi
-    Publishing Year: 
-    description: (Of the Universe)
-    Publishing Location: 
-    Publisher: 
-- author: Emanuele Tesauro
-  books: 
-  - title: Il Cannochiale Aristotelico
-    Publishing Year: "1678"
-    description: |-
-      The leading 17th century commentary on the
-      Aristotle&#8217;s theories of metaphor.
-    Publishing Location: Venice
-    Publisher: Curti
-- author: Jacques Gaferel
-  books: 
-  - title: Curiositez Inouyes
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Jean l&rsquo;Heureux
-  books: 
-  - title: Disquisitio antiquarian de gemmis Basilidianis
-    Publishing Year: "1657"
-    Publishing Location: Anvers
-    Publisher: Chifflet
-- author: Athanasius Kircher
-  books: 
-  - title: Arithmologia
-    Publishing Year: "1665"
-    description: Contains references to amulets
-    Publishing Location: Rome
-    Publisher: Varesii
-- author: Menestrier
-  books: 
-  - title: La Philosophie des Images Enigmatiques
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Julius Reichelti
-  books: 
-  - title: De Amuletis
-    Publishing Year: "1676"
-    description: "Provides an argument against the magical properties of amulets  "
-    Publishing Location: Strassbourg
-    Publisher: Wechtler
-- author: Alberti
-  books: 
-  - title: Sentenze
-    Publishing Year: 
-    description: An exposition of the Aurea Dicta of Pythagoras
-    Publishing Location: 
-    Publisher: 
-- author: Robert Allott
-  books: 
-  - title: Wits Theatre of the Little World
-    Publishing Year: "1599"
-    Publishing Location: London
-    Publisher: Nicholas Ling
-  - title: Politeuphia
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Wits Treasury
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: England's Parnassus
-    Publishing Year: "600"
-    Publishing Location: London
-    Publisher: "1"
-  - title: Wisedoms Pallace
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Apophthegmata Patrum
-    Publishing Year: 
-    description: Sayings of the Christian fathers, a collection of monastic writings by early Christian writers also often known as the &lsquo;Sayings of the Desert Fathers.&rsquo;
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Fiore de Virtu
-    Publishing Year: "1493"
-    description: The only known example of a work of this kind
-    Publishing Location: Venice
-    Publisher: Metheo Capcasa
-- author: Anon
-  books: 
-  - title: Florilegium gallicum
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Florilegium Anglicum
-    Publishing Year: 
-    description: "Extracts from about 40 ancient authors in alphabetical order&nbsp; "
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Gesta Romanorum
-    Publishing Year: 
-    description: Deeds of the Romans first printed 1472-1475 in Cologne 1st English Edition was in 1510 printed by Wynkin de Worde based on different group of manuscripts.
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Sentences morales
-    Publishing Year: "1558"
-    Publishing Location: Lyon
-    Publisher: B. Rigaud
-- author: Aristotle
-  books: 
-  - title: Sententiae
-    Publishing Year: "1558"
-    Publishing Location: Paris
-    Publisher: Marnef
-- author: Francis Bacon
-  books: 
-  - title: Apophthegmes new and old
-    Publishing Year: "1625"
-    description: "First Ed. &lsquo;Apophthegmes serve not for pleasure only and ornament but also for action and business&rsquo;. From the Advancement of Learning: Bk II Ch XII "
-    Publishing Location: London
-    Publisher: Barret and Whitaker
-- author: Barcklay
-  books: 
-  - title: The Felicitie of Man
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Baldwyn
-  books: 
-  - title: Treatise of Morall Philosophie
-    Publishing Year: "1549"
-    description: "A collection of Sententiae. 24 Editions between 1549 and 1640.   "
-    Publishing Location: London
-    Publisher: ""
-- author: du Bartas
-  books: 
-  - title: Sepmaines
-    Publishing Year: 
-    description: "Jesuit book of spiritual sayings illustrated with pictures "
-    Publishing Location: 
-    Publisher: 
-- author: Thomas Becon
-  books: 
-  - title: Anthologia Lactantii
-    Publishing Year: "1558"
-    Publishing Location: Lyons
-    Publisher: Baudin
-- author: Pierre Boaistuau
-  books: 
-  - title: Theatrum Mundi
-    Publishing Year: 
-    description: " Another edition London 1581 English translation by John Alday 1574"
-    Publishing Location: 
-    Publisher: 
-- author: Henri Baude
-  books: 
-  - title: Dictz moraulx pur faire tapisserie
-    Publishing Year: 
-    description: "(<em>Moral Sayings with which to make Tapistry</em>)&nbsp; It combined a picture with a moral poem, the different elements of the whole giving different glosses on the proverb. "
-    Publishing Location: 
-    Publisher: 
-- author: Etienne Binet
-  books: 
-  - title: Essais de merveilles de nature
-    Publishing Year: 
-    description: "Jesuit book of spiritual sayings illustrated with pictures "
-    Publishing Location: 
-    Publisher: 
-- author: John Bodenham
-  books: 
-  - title: Belvedere
-    Publishing Year: 
-    description: "A commonplace book "
-    Publishing Location: 
-    Publisher: 
-- author: Lucio Brusoni
-  books: 
-  - title: Facetiarum exemplorumque
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Rerum memorabolium
-    Publishing Year: "1600"
-    Publishing Location: Francofurti
-    Publisher: Stein
-- author: Lelio Capilupi
-  books: 
-  - title: Centones ex Virgilio
-    Publishing Year: "1555"
-    description: Centos praising the popes and addressing the political events of the time
-    Publishing Location: Rome
-    Publisher: Doricus
-- author: William Camden
-  books: 
-  - title: Remaines concerning Britaine
-    Publishing Year: "1605"
-    description: |
-      First edition. A lighthearted manual containing expositions and lists of proverbs, devises, epigrams&nbsp;and other genres as they particularly concerned the British. For a copy of Gruter&rsquo;s collection of proverbs see below. <br />
-        2nd ed. 1614<br />
-        3rd ed. 1623<br />
-        4th ed.
-        1629<br />
-        5th ed. London: Walters, 1637<br />
-        6th ed. 1657<br />
-        7th ed. 1674
-
-    Publishing Location: London
-    Publisher: Unknown
-- author: Caxtons
-  books: 
-  - title: The Dictes and Sayings of the Philosophers
-    Publishing Year: 
-    description: This was supposedly the first dated book printed in England by Caxton&nbsp;in 1477, a translation of the Dits Moraulx des Philosophes, which incorporated quotations from classical philosophers and was a translation of an Arabic original, made by Guillaume de Tignonville&nbsp;at the turn of the 15th Century. The English translation was made by Earl Rivers,&nbsp;the brother in law of King Henry IV.
-    Publishing Location: 
-    Publisher: 
-- author: Corrozet
-  books: 
-  - title: Hecatomgraphie
-    Publishing Year: 
-    description: An emblem book subtitled contenans plusieurs appophthegmes proverbes, Sentences &amp; dictz &nbsp;
-    Publishing Location: 
-    Publisher: 
-- author: Corvinus A Belderen
-  books: 
-  - title: Digesta per Aphorismos
-    Publishing Year: "1649"
-    Publishing Location: Amsterdam
-    Publisher: Elzevier
-- author: Robert Dallington
-  books: 
-  - title: Aphorismes, Civil and Militarie
-    Publishing Year: "1629"
-    Publishing Location: London
-    Publisher: Robert Allot
-- author: Mirabelli Domenico
-  books: 
-  - title: Polyanthea
-    Publishing Year: "1507"
-    description: "Second edition. First edition Savona, 1503  "
-    Publishing Location: Venezia
-    Publisher: Unknown
-- author: Doni
-  books: 
-  - title: Il CancellieriLa zucca
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Christian Egenolff, "
-  books: 
-  - title: Anthologia Gnomica
-    Publishing Year: "1579"
-    Publishing Location: Frankfurt
-    Publisher: S. Feyerabend
-- author: Edmund Elviden
-  books: 
-  - title: The closet of counsels
-    Publishing Year: 
-    description: Two books of sentences and anecdotes
-    Publishing Location: 
-    Publisher: 
-- author: Desiderius Erasmus
-  books: 
-  - title: Apophthegmatum ex optimis utriusque linguae scriptoribus
-    Publishing Year: "1531"
-    description: "See: <strong>Manutius</strong>, Paulus <em>Apophthegmatum </em>Venice: Zenari, 1583 - revision of Erasmus' <em>Apophthegmata</em>\t "
-    Publishing Location: Basle
-    Publisher: ""
-  - title: Apophthegmatum libri octo
-    Publishing Year: "1538"
-    Publishing Location: Cologne
-    Publisher: Ioannes Gymnicus
-  - title: De Copia
-    Publishing Year: 
-    description: How to construct a commonplace book. Another edition Horst, 1559
-    Publishing Location: 
-    Publisher: 
-- author: Henry Estienne
-  books: 
-  - title: Apophthegmes des prince et de rois
-    Publishing Year: 
-    description: Also a Latin edition of the same year. Mostly apophthegms from Plutarch and Diogenes Laertius.
-    Publishing Location: 
-    Publisher: 
-  - title: Anthologia Gnomica
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Comicorum Graecorum sententiae, id est gnomai
-    Publishing Year: "1569"
-    Publishing Location: Geneva
-    Publisher: Estiene
-  - title: Parodiae Morales
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Sentences des Comiques grecs
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Virtutum encomia
-    Publishing Year: "1573"
-    description: A common book with blank pages
-    Publishing Location: H. Stephanus
-    Publisher: Unknown
-- author: Thomas Farnaby
-  books: 
-  - title: Index Poeticus
-    Publishing Year: 
-    description: "Gives a selection of books suitable for use in classrooms including a dozen Emblem books.&nbsp;&nbsp; "
-    Publishing Location: 
-    Publisher: 
-- author: William Fiston
-  books: 
-  - title: The wellspring of wittie conceites
-    Publishing Year: "1584"
-    Publishing Location: London
-    Publisher: ""
-- author: Thomas Fenne
-  books: 
-  - title: Fennes Frutes
-    Publishing Year: "1590"
-    Publishing Location: London
-    Publisher: ""
-- author: Foxe
-  books: 
-  - title: locorum communium tituli
-    Publishing Year: 
-    description: "A commonplace book. Foxe was best known for his Book of English Martyrs: Day, 1563"
-    Publishing Location: 
-    Publisher: 
-- author: "Hieronimo Garimberto, "
-  books: 
-  - title: Concetti
-    Publishing Year: "1567"
-    description: A very popular C16 commonplace book
-    Publishing Location: Venice
-    Publisher: Domenico Farri
-- author: Giambatista Giraldi
-  books: 
-  - title: Cinzio Escatommiti
-    Publishing Year: 
-    description: see <a href="epigramintro.php4">Epigrams</a>
-    Publishing Location: 
-    Publisher: 
-- author: Robert Greene
-  books: 
-  - title: The Royal Exchange
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Grosnez
-  books: 
-  - title: Motz Dorez
-    Publishing Year: 
-    description: A Collection of ballads, proverbs, distichs and other forms
-    Publishing Location: 
-    Publisher: 
-- author: Jan Gruter
-  books: 
-  - title: Florilegium ethicopoliticum
-    Publishing Year: 
-    description: Collection of proverbs copied in English by Camden see Camden above
-    Publishing Location: 
-    Publisher: 
-- author: Laurentius Haechthanus
-  books: 
-  - title: Mikrokosmos
-    Publishing Year: 
-    description: The basis of some of Peachams emblems.
-    Publishing Location: 
-    Publisher: 
-- author: Harsdorffer
-  books: 
-  - title: Frauenzimmer Gesprachspiele
-    Publishing Year: 
-    description: "A multivolume work describing social activities of the time including games involving emblems.&nbsp;&nbsp; "
-    Publishing Location: 
-    Publisher: 
-- author: Johann Heidfeld,
-  books: 
-  - title: Sphinx Theologica-Philosophica
-    Publishing Year: "1600"
-    description: At least 13 editions--the last in 1772 a translation into German and Dutch. A book of aphorisms and riddles.
-    Publishing Location: Herbern
-    Publisher: ""
-- author: Hibernia
-  books: 
-  - title: Manipulus Florum or Flores Doctorum
-    Publishing Year: 
-    description: In addition to the cento of the Empress Eudocia this includes the Virgilian cento of Proba, a Greek paraphrase of the Gospel of St. John by the Egyptian Nonnus and, in come copies, proverbial phrases extracted from Homer
-    Publishing Location: 
-    Publisher: 
-- author: Laertius, Diogenes
-  books: 
-  - title: De Vitis, dogmatis and apophthegmatis
-    Publishing Year: "1570"
-    Publishing Location: Geneva
-    Publisher: Estienne
-- author: Lagnerius
-  books: 
-  - title: Ciceronis Sententiae
-    Publishing Year: 
-    description: "Many editions including English "
-    Publishing Location: 
-    Publisher: 
-- author: Nicholas Ling
-  books: 
-  - title: "Politeuphuia: Wits Commonwealth"
-    Publishing Year: "1597"
-    description: "Published by John Bodenham "
-    Publishing Location: London
-    Publisher: ""
-- author: Loinus
-  books: 
-  - title: Gnomologiae, sive sententiae   collectaneae, et similia&nbsp;Demosthenes
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Lycosthenes
-  books: 
-  - title: Apophthegmata
-    Publishing Year: "1555"
-    description: "London and Paris editions in 1579 but see also Erasmus. <br />\n    Another ed. Paris: Jacobum du Puys, 1581\n    <br />\n  Another ed. Stoer, 1594.<br />\n  Another ed. Lyon: Antoine de Harsy, 1573.\n  "
-    Publishing Location: Basle
-    Publisher: ""
-- author: Manuzio
-  books: 
-  - title: Apophthegmatum
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: John Marbecke
-  books: 
-  - title: A Book of Notes and Commonplaces
-    Publishing Year: "1581"
-    Publishing Location: London
-    Publisher: ""
-- author: Gilles Menage
-  books: 
-  - title: Menagiana
-    Publishing Year: "1762"
-    description: "Another edition Paris: Pieree Delaulne, 1694"
-    Publishing Location: Amsterdam
-    Publisher: Harrevelt
-- author: Francis Meres
-  books: 
-  - title: Palladis Tamia
-    Publishing Year: 
-    description: "The second part of <em>Wits Commonwealth</em>; a commonplace book with quotations and similitudes from 125 English writers, published by John Bodenham. "
-    Publishing Location: 
-    Publisher: 
-- author: Nani Mirabelli
-  books: 
-  - title: Polyanthea
-    Publishing Year: "1507"
-    description: First edition 1503. &nbsp;&nbsp;
-    Publishing Location: Venice
-    Publisher: Unknown
-- author: Mirandula
-  books: 
-  - title: Flores Poets
-    Publishing Year: 
-    description: "A collection of&nbsp; extracts from a wide variety Latin authors. <br />\n  1st edition Cologne: 1480. <br />\n  Another edition Cologne: 1490.<br />\n  Another edition\n  Strasbourg: Rihel, 1559<br />\n  Another edition Lyons: Tornaesium, 1570<br />\n  Another edition Venice: 1507<br />\n  Another edition\n  Lyons: 1512<br />\n  Other editions\n  Paris: 1513, 1538, 1539, 1565, 1574, 1582, 1585, 1586, 1588, 1611<br />\n  Other editions London: Greed, 1598; London: Johnson, 1611<br />\n  "
-    Publishing Location: 
-    Publisher: 
-- author: MishnahSira
-  books: 
-  - title: Sententiae Sententiae morales
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: De Montagnone
-  books: 
-  - title: Hierenias Compendium moralium notabilum
-    Publishing Year: 
-    description: Compilation of sayings, fables and proverbs&nbsp; Printed in 1505.
-    Publishing Location: 
-    Publisher: 
-- author: Anthony Munday
-  books: 
-  - title: Belvedere
-    Publishing Year: 
-    description: "Published by John Bodenham "
-    Publishing Location: 
-    Publisher: 
-- author: John Parinchef
-  books: 
-  - title: An extracte of examples
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Patricius
-  books: 
-  - title: Homerici Centones
-    Publishing Year: "1578"
-    description: Henri Estienne's collection of centos
-    Publishing Location: Geneva
-    Publisher: Henri Estienne
-- author: William Paulet
-  books: 
-  - title: The lord marques idleness
-    Publishing Year: "1586"
-    Publishing Location: London
-    Publisher: ""
-- author: Henry Peacham
-  books: 
-  - title: Garden of Eloquence
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Carlo Pellegrini
-  books: 
-  - title: Museum Historico-legale Bipartitum
-    Publishing Year: 
-    description: An encyclopaedia of the Music of the Spheres
-    Publishing Location: 
-    Publisher: 
-- author: Platt
-  books: 
-  - title: Manuale Sententias
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Plutarch
-  books: 
-  - title: Apophthegmata
-    Publishing Year: "1568"
-    Publishing Location: Geneva
-    Publisher: Estienne
-- author: Potocki, Waclaw
-  books: 
-  - title: Moralica aboRzeczy
-    Publishing Year: 
-    description: Moralia or Maxims from Latin or Polish parables
-    Publishing Location: 
-    Publisher: 
-- author: Posselius
-  books: 
-  - title: Apophthegmata ex Plutarcho
-    Publishing Year: "1595"
-    description: "Another edition Frankfurt: 1616"
-    Publishing Location: Wittenberg
-    Publisher: ""
-- author: Pythagoras
-  books: 
-  - title: Poemata Pythagorae
-    Publishing Year: 
-    description: A collection of the sayings of many Greek authors including the Carmina Aurea of Pythagoras
-    Publishing Location: 
-    Publisher: 
-- author: Francois Rabelais,
-  books: 
-  - title: Aphorismorum Hippocratis
-    Publishing Year: "1543"
-    description: "Second edition. First edition 1532. Edited by Rabelais; translated by others. "
-    Publishing Location: Lyons
-    Publisher: Gryphius
-- author: Reusner
-  books: 
-  - title: Polyanthia sive Paradisus poeticus
-    Publishing Year: 
-    description: "Used as a basis for Whitney&rsquo;s Emblems See Whit 243&nbsp; "
-    Publishing Location: 
-    Publisher: 
-  - title: Symbolorum imperatorium
-    Publishing Year: 
-    description: A collection of extracts, adages and sayings associated with the Roman Emperors.&nbsp;&nbsp;
-    Publishing Location: 
-    Publisher: 
-- author: Louis de Richeome
-  books: 
-  - title: Tableaux sacrez
-    Publishing Year: 
-    description: "First of French Jesuit books which consisted of a series of spiritual truths illustrated by pictures.&nbsp; In the ecphrastic and emblematic tradition "
-    Publishing Location: 
-    Publisher: 
-  - title: La Peinture spirituelle
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Sandaeus
-  books: 
-  - title: Aviarium Marianum
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Maria Flos Mysticum
-    Publishing Year: 
-    description: "Two books about the bird and flower symbols associated with the Virgin Mary and the source for Hawkins emblem book Partheneia Sacra&nbsp; "
-    Publishing Location: 
-    Publisher: 
-- author: Catalecta Scaliger
-  books: 
-  - title: Virgilii et vetorum Poetarum
-    Publishing Year: 
-    description: Scaliger has been described by one commentator as &lsquo;perhaps the greatest scholar of all time&rsquo;. The Catalecta of Virgil were a selection of short pieces in different metres.
-    Publishing Location: 
-    Publisher: 
-- author: John Shirley
-  books: 
-  - title: The Triumph of Wit
-    Publishing Year: "1707"
-    description: First edition 1688. Eighth edition 1724
-    Publishing Location: London
-    Publisher: N. Boddyngton
-- author: Simon Robson
-  books: 
-  - title: The choise of change
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Martin Ruland
-  books: 
-  - title: Synonyma, seu, Copia verborum graecorum
-    Publishing Year: "1585"
-    Publishing Location: Lyons
-    Publisher: Lertout
-- author: Balduinus Ronsseus
-  books: 
-  - title: De hominis primordiis centones
-    Publishing Year: "1559"
-    description: Centos describing the human body
-    Publishing Location: Louvain
-    Publisher: Bergainge
-- author: Textor
-  books: 
-  - title: Officina
-    Publishing Year: 
-    description: "&nbsp;A popular Latin grammar&nbsp;&nbsp;&nbsp; "
-    Publishing Location: 
-    Publisher: 
-  - title: Epitheta
-    Publishing Year: 
-    description: " A compilation like Stobaeus. One of the most universally scoured linguistic resources of the 16th Century&rsquo; (M 172 Ftnte)"
-    Publishing Location: 
-    Publisher: 
-- author: Theognis
-  books: 
-  - title: Sententiae Graecolatinae
-    Publishing Year: "1603"
-    Publishing Location: Leipzig
-    Publisher: Schurer
-- author: Edward Topsell
-  books: 
-  - title: The history of four footed beasts and serpents
-    Publishing Year: 
-    description: A compilation of animal symbolism in 3 volumes of which the 3rd was written by T. Muffet. Topsell also wrote The Fowles of Heaven or History of Birdes. The first printed edition of Topsell's manuscript of 1613-14, was not published until 1972. Topsell covered birds whose names begin with the letters A, B, and C. He never finished the manuscript, and was also unable to procure funding to have it published.
-    Publishing Location: 
-    Publisher: 
-- author: <strong>Sandaeus</strong>Sandaeus
-  books: 
-  - title: Theologica Symbolica
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: James Sandford
-  books: 
-  - title: The Garden of Pleasure
-    Publishing Year: 
-    description: A translation of the work of Lodovico Guicciardini&nbsp;
-    Publishing Location: 
-    Publisher: 
-- author: Andreas Schott
-  books: 
-  - title: Adages
-    Publishing Year: "1612"
-    description: A translation of the proverbs of Diogenianus of about 100 AD
-    Publishing Location: Antwerp
-    Publisher: Plantin
-- author: Stobaeus
-  books: 
-  - title: ""
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Volume 1 Books 1 and II &ndash; Eclogues
-  books: 
-  - title: ""
-    Publishing Year: 
-    description: "4 volumes edited Aug. Meineke "
-    Publishing Location: 
-    Publisher: 
-- author: " Volume 2 Books 3 and 4 - Sentences"
-  books: 
-  - title: ""
-    Publishing Year: 
-    description: "Graesse says this edition is Lyons: Frellon, 1608 though there may be two editions. "
-    Publishing Location: 
-    Publisher: 
-- author: " Combined Volumes 1 and II"
-  books: 
-  - title: ""
-    Publishing Year: 
-    description: "5 vol. (critical edition) "
-    Publishing Location: 
-    Publisher: 
-- author: " Extracts"
-  books: 
-  - title: ""
-    Publishing Year: 
-    description: Collection of Apophthegms including Stobaeus translated by Nicolas Perrot
-    Publishing Location: 
-    Publisher: 
-- author: Nicholas Udall
-  books: 
-  - title: Floures for Latin Speaking
-    Publishing Year: 
-    description: Subtitled &lsquo;Gathered from Terence&rsquo;
-    Publishing Location: 
-    Publisher: 
-- author: "&nbs "
-  books: 
-  - title: ""
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Gaius Valerius Maximus, "
-  books: 
-  - title: Facta et dicta memorabilia
-    Publishing Year: "1475"
-    Publishing Location: Paris
-    Publisher: Symonel
-  - title: Moralium exemplorum libri novem
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: L Valla
-  books: 
-  - title: Dilaectae disputationes
-    Publishing Year: 
-    description: "Resurrected dialectic/rhetoric as opposed to logic&nbsp; "
-    Publishing Location: 
-    Publisher: 
-- author: Vaughan
-  books: 
-  - title: The Golden Grove of civill discourses
-    Publishing Year: 
-    description: "Second edition London: 1608"
-    Publishing Location: 
-    Publisher: 
-- author: George Whetstone
-  books: 
-  - title: An Heptameron of civil discourses
-    Publishing Year: "1582"
-    Publishing Location: London
-    Publisher: ""
-- author: Benjamin Whichcote
-  books: 
-  - title: "Several Discourses: Moral and Religious Aphorisms"
-    Publishing Year: 
-    description: Whichcote is considered to be the father of the Cambridge Platonists
-    Publishing Location: 
-    Publisher: 
-- author: William Wrednot,
-  books: 
-  - title: Palladis Palatium The Fourth
-    Publishing Year: "1604"
-    Publishing Location: London
-    Publisher: Burton
-- author: Laurentius Abstemius
-  books: 
-  - title: Fabulae
-    Publishing Year: "1449"
-    Publishing Location: Venice
-    Publisher: Johannes de Cereto di Tridino
-- author: Aesop
-  books: 
-  - title: ""
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Esopi appologi sive mythologi cum quibusdam carminum et fabularum
-    Publishing Year: "1501"
-    description: "Aesopus &amp; Brandt. In addition to a selection of Aesop's fables, there are 141 fables by Brandt, author of <em>The Ship of Fools</em> "
-    Publishing Location: Bale
-    Publisher: Jacob Wolff de Pforzheim
-  - title: Et Aliorum Faculae
-    Publishing Year: "1675"
-    Publishing Location: Venice
-    Publisher: Remondini
-  - title: Fables of Aesop according to Sir Roger L'Estrange
-    Publishing Year: "1931"
-    Publishing Location: Paris
-    Publisher: Harrison of Paris
-  - title: Fabulae
-    Publishing Year: "1581"
-    description: "An exact repeat of the 1570 edition. 3rd ed. By de Tournes 61 plates, some attributed to Salomon. <br />\n    Other editions: Janot 1542, de Tournes 1547 in French, de Tournes 1551 in Greek "
-    Publishing Location: Lyons
-    Publisher: de Tournes
-  - title: Fabulae
-    Publishing Year: "1619"
-    Publishing Location: Cologne
-    Publisher: Apvd Ioannem Tornaesium
-  - title: Fabularum
-    Publishing Year: "1695"
-    Publishing Location: Dilligen
-    Publisher: J.C. Bencard
-  - title: Fabellae graece et latine
-    Publishing Year: "1561"
-    Publishing Location: Venice
-    Publisher: Francesco Rampazetto
-  - title: The Fables
-    Publishing Year: 
-    description: "First edition of Ogilby translation "
-    Publishing Location: 
-    Publisher: 
-  - title: Vita
-    Publishing Year: "1492"
-    Publishing Location: Venice
-    Publisher: Monteferrato
-  - title: ----------Vita et Fabulae
-    Publishing Year: 
-    description: Latin and Italian. Superb illustrations
-    Publishing Location: 
-    Publisher: 
-- author: Alberti
-  books: 
-  - title: Philodoxeos fabula
-    Publishing Year: 
-    description: Written in 1424 Alberti attributed it to the ancient writer Lepidus. He revealed his authorship in a second edition in 1434
-    Publishing Location: 
-    Publisher: 
-  - title: Fables diverses
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anonymous
-  books: 
-  - title: XXV fabulen der dieren
-    Publishing Year: "1617"
-    description: "Flemish verse. "
-    Publishing Location: Delft
-    Publisher: Adriaen  Gerritsen
-- author: William Barrett
-  books: 
-  - title: Fables of Aesop
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Behn, "
-  books: 
-  - title: Aesop's Fables lllustrated
-    Publishing Year: 
-    description: 110 etchings from 1666 with 31 new plates by Barlow
-    Publishing Location: 
-    Publisher: 
-- author: Bidpai
-  books: 
-  - title: ""
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: La Moral' Filosophia Tratta Da Gli Antichi Scrittori
-    Publishing Year: 
-    description: "First Italian edition of the Bidpai fables. "
-    Publishing Location: 
-    Publisher: 
-  - title: The Morall Philosophie of Doni
-    Publishing Year: 
-    description: Translation of Doni&rsquo;s version of the Fables of Bidpai
-    Publishing Location: 
-    Publisher: 
-  - title: Der alten Weisen
-    Publishing Year: 
-    description: "Another edition Frankfurt: N. Basse, 1583 "
-    Publishing Location: 
-    Publisher: 
-- author: Ulrich Boner
-  books: 
-  - title: Der Edelstein
-    Publishing Year: 
-    description: "The first book printed in German. Containing 101 woodcuts printed by hand. Only one copy remains. Another edition 1464. "
-    Publishing Location: 
-    Publisher: 
-- author: "Calder, "
-  books: 
-  - title: Fables of Aesop According to Sir Roger L'Estrange
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Gilles Corrozet
-  books: 
-  - title: Les fables d&rsquo;Esope
-    Publishing Year: "1542"
-    description: "(Fables of Aesop the Phrygian). 100 Fables, French Verse. 2nd edition 1583: 123 Fables. "
-    Publishing Location: Paris
-    Publisher: D. Janet
-- author: Cyril
-  books: 
-  - title: Speculum sapientie Beati Cirilli epi[scopi]
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Edward de Dene, "
-  books: 
-  - title: De warahtighe fabulen der dieren
-    Publishing Year: "1567"
-    description: "107 fables, Flemish verse<br />\n    Amsterdam 1617, 1681, 1717, 1710, 1786. Joosc Vondel, Vorsttliicke Warande der Dieren <br />\n    Dutch translation of de Dene "
-    Publishing Location: Bruges
-    Publisher: Peter de Clerck for Marcus Gheeraerts
-- author: Deprez
-  books: 
-  - title: Le theatre des animaux
-    Publishing Year: 
-    description: "100 fables, French verse (later editions 1608 (?), 1613, 1644 pr. by J. le Clerc). "
-    Publishing Location: 
-    Publisher: 
-- author: Dryden
-  books: 
-  - title: Ancient and Modern
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Gabriel Faerno
-  books: 
-  - title: Fabulae centum
-    Publishing Year: "1564"
-    description: |-
-      1563, 1564 and 1565 printings are identical first editions. Whitney used some of them in his A Choice of Emblemes. <br />
-          Another edition Brussels: Foppens 1682<br />
-          Another edition French &amp; Latin, translated by Perrault, 1744<br />
-          Another edition Leiden: Christoffel Raphelengius, 1600
-    Publishing Location: Rome
-    Publisher: Vincentius Luchinus
-- author: La Fontaine
-  books: 
-  - title: Fables Choisies
-    Publishing Year: 
-    description: |-
-      Another edition Paris: Barbin, 1668<br />
-          First illustrated edition outside France published Antwerp: H. van Dunewalt, 1688
-    Publishing Location: 
-    Publisher: 
-- author: Giorgio Fossati
-  books: 
-  - title: Raccolta di Varie Favole
-    Publishing Year: "1744"
-    Publishing Location: Venice
-    Publisher: Carlo Pecora
-- author: Arnold Freitag
-  books: 
-  - title: Mythologia ethica
-    Publishing Year: "1579"
-    description: "125 fables, Latin prose. "
-    Publishing Location: Antwerp
-    Publisher: Christopher Plantin for Philippe Galle
-  - title: --------------------Viridiarum moralisphilosophiae
-    Publishing Year: 
-    description: "Latin prose. Piracy of Freitag, 115 etchings, 3 new. "
-    Publishing Location: 
-    Publisher: 
-- author: du Fresne
-  books: 
-  - title: Fables diverses tirecs d'Esopc et 		d'autres
-    Publishing Year: 
-    description: Etchings by Gilles Sadeler
-    Publishing Location: 
-    Publisher: 
-  - title: ----------------------------------Fables d'Esope avec les figures de Sadeler traduction 	nouvelle
-    Publishing Year: 
-    description: "Sadeler's etchings. Another edition Paris: 1743"
-    Publishing Location: 
-    Publisher: 
-- author: Francisco Garau
-  books: 
-  - title: El Sabio Instuido de la naturaleza
-    Publishing Year: "1702"
-    Publishing Location: Barcelona
-    Publisher: Figuero
-- author: Guillaume Haudent
-  books: 
-  - title: Trois cent soixante et six apologues
-    Publishing Year: 
-    description: 366 fables, French verse.
-    Publishing Location: 
-    Publisher: 
-- author: Robert Henryson
-  books: 
-  - title: The moral tales of Aesop
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Peeter Heyns, "
-  books: 
-  - title: Esbatiment Moral, Des Animavx
-    Publishing Year: "1578"
-    description: "125 fables, French sonnets "
-    Publishing Location: Antwerp
-    Publisher: Gerard Smits for Philippe Galle
-  - title: -------------------Tresor de fables
-    Publishing Year: 
-    description: Reversed copies of Antwerp 1578 Heyns edition.
-    Publishing Location: 
-    Publisher: 
-- author: "Hyginus, "
-  books: 
-  - title: Fabularum Liber
-    Publishing Year: 
-    description: |-
-      Second edition Hervagiana, 1549<br />
-          Another edition Paris: Parant, 1578<br />
-          Another edition Lyons: Degabiano, 1608
-    Publishing Location: 
-    Publisher: 
-- author: L'Estrange,
-  books: 
-  - title: Fables of Aesop
-    Publishing Year: 
-    description: "First L'Estrange edition "
-    Publishing Location: 
-    Publisher: 
-- author: Mainardo
-  books: 
-  - title: "Facetie: Fabule: Motti"
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: la Mottem
-  books: 
-  - title: Fables Nouvelles
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Asinus ad liram
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Nevelet
-  books: 
-  - title: Mythologica Aesopica
-    Publishing Year: 
-    description: "2nd Edition Beckenstein: Frankfurt, 1660 Much enlarged and richly illustrated.&nbsp;"
-    Publishing Location: 
-    Publisher: 
-- author: John Ogilvy
-  books: 
-  - title: The fables of Aesop paraphrased in verse and adorned with sculpturt and illustrated with annotations
-    Publishing Year: "1651"
-    description: "80 etchings by F. Cleyn. <br />\n    Another edition London: Thomas Roycroft for John Ogilby, 1665. <br />\n    2nd edition 1668. 81 etchings: 57 by Wenceslaus Hollar.<br />\n    Another edition\n    London: Thomas Roycroft for John Ogilby, 1668 as <em>Aesopics; or a second colhction of fables paraphrased in verse</em> 40 etchings: 3 of Hollar's from 1665 "
-    Publishing Location: London
-    Publisher: Thomas Warrcn for Andrew Crook
-- author: Oudry
-  books: 
-  - title: Fables Choisies, mis en vers par J. de la Fontaine
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Perret
-  books: 
-  - title: XXV Fables des animaux
-    Publishing Year: 
-    description: "Plates from Delft 1617. Another edition Antwerp: Plantin for Perret, 1578. French verse after Gheeraerts's 1567 etchings by Gilles Sadeler"
-    Publishing Location: 
-    Publisher: 
-  - title: -------------------------------Woudt van wondcrlicke sinne-fabulen der dieren
-    Publishing Year: 
-    description: "Perret's version with Flemish translation by Adriaen van de Venne. Plates from Delft 1617. "
-    Publishing Location: 
-    Publisher: 
-- author: "&nbsp; Phaedrus"
-  books: 
-  - title: Fabularum Aesopiarum
-    Publishing Year: "1667"
-    description: "1st illustrated Dutch edition<br />\n    Another edition Paris: Barbou, 1754<br />\n    Another edition Paris: Frederic Leonard, 1675 "
-    Publishing Location: Amsterdam
-    Publisher: Weyerstraet
-- author: PhilpottCodrington
-  books: 
-  - title: "Aesop's Fables: with \this life: in English, French and Latin"
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Sala
-  books: 
-  - title: Fables et emblemes en vers
-    Publishing Year: 
-    description: (Fables and Emblems in verse) In this latter work, most of the poems are summarized by a commonplace proverb . It is known that Sala used versions of the Fables of Romulus, the medieval version of Aesop as inspiration.&nbsp;
-    Publishing Location: 
-    Publisher: 
-- author: Anthony Smyters
-  books: 
-  - title: Esopus fabelen in rijm
-    Publishing Year: "1612"
-    description: "122 fables, Dutch verse. "
-    Publishing Location: Rotterdam
-    Publisher: J. van Waesberghe
-- author: <strong>der Thier</strong>, Gespracbder Thier
-  books: 
-  - title: Theatrum morum
-    Publishing Year: 
-    description: "German verse. 139 etchings, 114 exact copies of Gheeraerts. "
-    Publishing Location: 
-    Publisher: 
-- author: Valla, Gellius, Erasmus et alia
-  books: 
-  - title: Aesopus Phrygian vita et fabulae
-    Publishing Year: "1535"
-    description: 445 fables Latin prose
-    Publishing Location: Paris
-    Publisher: H. Estienne
-- author: Verdizotti
-  books: 
-  - title: Cento Favole Morali
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Cento Favole Bellissime
-    Publishing Year: "1661"
-    Publishing Location: Venice
-    Publisher: Franceso Ginammi
-- author: Vondel
-  books: 
-  - title: Vorstelijcke warande der dieren
-    Publishing Year: 
-    description: "Another edition Amsterdam: P. Pers. Joost Vondel, 1617. 115 fables, Dutch verse (later editions 1681, 1717, 1720, 1786)"
-    Publishing Location: 
-    Publisher: 
-- author: "Links:"
-  books: 
-  - title: ""
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Pierre Coustau
-  books: 
-  - title: Pegma
-    Publishing Year: "1555"
-    Publishing Location: Lyons
-    Publisher: Bonhomme
-- author: Plato
-  books: 
-  - title: The Republic
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Emanuele Tesauro
-  books: 
-  - title: Il Cannochiale Aristotelico
-    Publishing Year: "1678"
-    description: " The leading 17th century commentary on the Aristotle&rsquo;s theories of metaphor."
-    Publishing Location: Venice
-    Publisher: Curti
-- author: Camillo Agrippa
-  books: 
-  - title: Trattato di scienza d'arme
-    Publishing Year: "1604"
-    description: "Another edition Rome: Blado, 1553"
-    Publishing Location: Venice
-    Publisher: Roberto Meglietti
-- author: Guillaume Alexis
-  books: 
-  - title: Le Grand Blason des faulses amours
-    Publishing Year: "1486"
-    description: "&nbsp; &nbsp; &nbsp; &nbsp;Other editions: Levet, 1489; Caillaut, 1490; Paris: Trepperel, 1495 and 1505-1515; Paris: Pierre Leuet 1489; Paris: Jehan Lambert, 1493; Mareschal and Chaussard, 1497; Lyon: 1501 and 1506; Paris: Jacques Nyverd, 1530; Rouen: Jeha Bruges, 1525; Paris: Richard, Mace, n.d."
-    Publishing Location: Levet
-    Publisher: Unknown
-- author: Alticotio
-  books: 
-  - title: Commedia intitulata i cinque disperati
-    Publishing Year: "1524"
-    description: "Other editions: Venice: Marchio Sessa, 1526; Venice: Giovan-maria Pinardo, 1526 "
-    Publishing Location: Siena
-    Publisher: Bart
-- author: Anon
-  books: 
-  - title: Blason des couleurs
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
-  books: 
-  - title: Blasons de la goutte, de honneur, et de la quarte
-    Publishing Year: "1547"
-    Publishing Location: Lyon
-    Publisher: Tournes
-- author: Edmund Bolton
-  books: 
-  - title: The Elements of Armories
-    Publishing Year: "1610"
-    Publishing Location: London
-    Publisher: Eld
-- author: Bossewell
-  books: 
-  - title: Works of Armorie, devyded into three bookes entitled, the concords of armorie, the armorie of honor and of coates and crestes
-    Publishing Year: 
-    description: First edition. Incorporates material from Gerard Legh and from Alciati and Paradin.&nbsp; Emphasis on the symbolic meanings of coats of arms with animal derivations from the bestiaries.&nbsp; Second edition 1597
-    Publishing Location: 
-    Publisher: 
-- author: Brechtel
-  books: 
-  - title: Bayrischer Thurnier Geschlechter Register
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Caramuel y Lobkowitz, "
-  books: 
-  - title: Declaraci&oacute;n Mystica de las Armas
-    Publishing Year: 
-    description: A mystic-symbolic defence of the coats of arms of the Spanish monarchy
-    Publishing Location: 
-    Publisher: 
-- author: Guillaume Coquillart
-  books: 
-  - title: Blason des armes et des dames
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Giovanni de Rinaldi
-  books: 
-  - title: Il Mostrvosissimi Mostro
-    Publishing Year: "1599"
-    description: "First published at Ferrara in 1584. Also appeared as <em>Il Vago, et Dilettevole, Giardino</em> Pavia: 1593. Deals with the iconology of colors and the symbolism of herbs and flowers. "
-    Publishing Location: Venice
-    Publisher: Lucio Spineda
-  - title: Significato dei Colori e de' Mazzoli
-    Publishing Year: "1599"
-    Publishing Location: Venice
-    Publisher: Fulvio Pellegrino Morato
-  - title: Trattato dei Colori delle Arme nelle Livree et nelle Divise
-    Publishing Year: "1599"
-    Publishing Location: Venice
-    Publisher: Sicile
-- author: Ludovico Dolce
-  books: 
-  - title: Dialogo dei colori
-    Publishing Year: "1565"
-    Publishing Location: Venice
-    Publisher: ""
-- author: Abraham Fraunce
-  books: 
-  - title: Insignium, Armorum, Emblematum
-    Publishing Year: 
-    description: (Book of Arms Hieroglyphs, symbols and Emblems)&nbsp;
-    Publishing Location: 
-    Publisher: 
-- author: "Grand Pre "
-  books: 
-  - title: Cesar Armorial
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: John Guillim
-  books: 
-  - title: A Display of Heraldrie
-    Publishing Year: 
-    description: "At least 7 editions in 17th century. &lsquo;The skill of Armory consisteth (of) Blazoning and Marshalling&hellip;.Blazoning is the description of the Arms in apt and significant termes.&rsquo; Marshalling is the combination of the arms of husband and wife. Second edition, London: Richard Badger for Ralph Mab 1632. "
-    Publishing Location: 
-    Publisher: 
-- author: Gerard Legh
-  books: 
-  - title: The accedens of armorie
-    Publishing Year: "1568"
-    Publishing Location: London
-    Publisher: Richard Tottel
-- author: Menestrier
-  books: 
-  - title: Principes heraldiques ou du veritable art du Blason
-    Publishing Year: 
-    description: "3rd edition Lyons: Coral, 1669"
-    Publishing Location: 
-    Publisher: 
-  - title: Histoire du Roy Louis le Grand
-    Publishing Year: "1691"
-    description: "&nbsp;Second edition (1st: 1689)"
-    Publishing Location: Paris
-    Publisher: I.B. Nolin
-  - title: Le v&eacute;ritable art du blason
-    Publishing Year: "1673"
-    description: "Another edition Lyons: Bruyset, 1750"
-    Publishing Location: Paris
-    Publisher: Estienne Michallet
-- author: Milles, Thomas
-  books: 
-  - title: The Catalogue of Honor
-    Publishing Year: "1610"
-    Publishing Location: London
-    Publisher: William Jaggard
-- author: Prade
-  books: 
-  - title: Le troph&eacute;e d'armes h&eacute;raldiques
-    Publishing Year: 
-    description: Third edition. First edition 1650.
-    Publishing Location: 
-    Publisher: 
-- author: Schmidtde Vries
-  books: 
-  - title: DeDoorlughtige Weereld
-    Publishing Year: 
-    description: Three volumes
-    Publishing Location: 
-    Publisher: 
-- author: Jean Scohier
-  books: 
-  - title: L'estat et comportement des armes
-    Publishing Year: "1597"
-    description: First edition
-    Publishing Location: Brussels
-    Publisher: Mommart
-- author: Charles Segoing
-  books: 
-  - title: Mercure armorial
-    Publishing Year: "1652"
-    description: Second edition
-    Publishing Location: Paris
-    Publisher: Francois Clovsier
-- author: Sicillo
-  books: 
-  - title: Trattato de i colori nelle arme
-    Publishing Year: "1565"
-    description: "First edition 1649 "
-    Publishing Location: Venedig
-    Publisher: Nicolino
-- author: Emmanuele Tesauro
-  books: 
-  - title: Il cannochiale aristotelico
-    Publishing Year: "1678"
-    description: "&lsquo;Coats of Arms are metaphors expressed on a shield signifying some action or hereditary conceit of a family.&nbsp; Now with figures in a kind of simple hieroglyph, now with colors properly called devises.&rsquo;"
-    Publishing Location: Venice
-    Publisher: Curti
-- author: James Yorke
-  books: 
-  - title: The Union of Honour
-    Publishing Year: "1640"
-    Publishing Location: London
-    Publisher: Griffin
+- 
+  author: "Camillo Agrippa"
+  books: 
+    - 
+      Publisher: "Roberto Meglietti"
+      ? "Publishing Location"
+      : Venice
+      ? "Publishing Year"
+      : "1604"
+      description: "Another edition Rome: Blado, 1553"
+      title: "Trattato di scienza d'arme"
+- 
+  author: "Guillaume Alexis"
+  books: 
+    - 
+      Publisher: Unknown
+      ? "Publishing Location"
+      : Levet
+      ? "Publishing Year"
+      : "1486"
+      description: "&nbsp; &nbsp; &nbsp; &nbsp;Other editions: Levet, 1489; Caillaut, 1490; Paris: Trepperel, 1495 and 1505-1515; Paris: Pierre Leuet 1489; Paris: Jehan Lambert, 1493; Mareschal and Chaussard, 1497; Lyon: 1501 and 1506; Paris: Jacques Nyverd, 1530; Rouen: Jeha Bruges, 1525; Paris: Richard, Mace, n.d."
+      title: "Le Grand Blason des faulses amours"
+- 
+  author: Alticotio
+  books: 
+    - 
+      Publisher: Bart
+      ? "Publishing Location"
+      : Siena
+      ? "Publishing Year"
+      : "1524"
+      description: "Other editions: Venice: Marchio Sessa, 1526; Venice: Giovan-maria Pinardo, 1526"
+      title: "Commedia intitulata i cinque disperati"
+- 
+  author: Anon
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Blason des couleurs"
+- 
+  author: Anon
+  books: 
+    - 
+      Publisher: Tournes
+      ? "Publishing Location"
+      : Lyon
+      ? "Publishing Year"
+      : "1547"
+      title: "Blasons de la goutte, de honneur, et de la quarte"
+- 
+  author: "Edmund Bolton"
+  books: 
+    - 
+      Publisher: Eld
+      ? "Publishing Location"
+      : London
+      ? "Publishing Year"
+      : "1610"
+      title: "The Elements of Armories"
+- 
+  author: Bossewell
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "First edition. Incorporates material from Gerard Legh and from Alciati and Paradin.&nbsp; Emphasis on the symbolic meanings of coats of arms with animal derivations from the bestiaries.&nbsp; Second edition 1597"
+      title: "Works of Armorie, devyded into three bookes entitled, the concords of armorie, the armorie of honor and of coates and crestes"
+- 
+  author: Brechtel
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Bayrischer Thurnier Geschlechter Register"
+- 
+  author: "Caramuel y Lobkowitz, "
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "A mystic-symbolic defence of the coats of arms of the Spanish monarchy"
+      title: "Declaraci&oacute;n Mystica de las Armas"
+- 
+  author: "Guillaume Coquillart"
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Blason des armes et des dames"
+- 
+  author: "Giovanni de Rinaldi"
+  books: 
+    - 
+      Publisher: "Lucio Spineda"
+      ? "Publishing Location"
+      : Venice
+      ? "Publishing Year"
+      : "1599"
+      description: "First published at Ferrara in 1584. Also appeared as <em>Il Vago, et Dilettevole, Giardino</em> Pavia: 1593. Deals with the iconology of colors and the symbolism of herbs and flowers."
+      title: "Il Mostrvosissimi Mostro"
+    - 
+      Publisher: "Fulvio Pellegrino Morato"
+      ? "Publishing Location"
+      : Venice
+      ? "Publishing Year"
+      : "1599"
+      title: "Significato dei Colori e de' Mazzoli"
+    - 
+      Publisher: Sicile
+      ? "Publishing Location"
+      : Venice
+      ? "Publishing Year"
+      : "1599"
+      title: "Trattato dei Colori delle Arme nelle Livree et nelle Divise"
+- 
+  author: "Ludovico Dolce"
+  books: 
+    - 
+      Publisher: ""
+      ? "Publishing Location"
+      : Venice
+      ? "Publishing Year"
+      : "1565"
+      title: "Dialogo dei colori"
+- 
+  author: "Abraham Fraunce"
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "(Book of Arms Hieroglyphs, symbols and Emblems)&nbsp;"
+      title: "Insignium, Armorum, Emblematum"
+- 
+  author: "Grand Pre "
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Cesar Armorial"
+- 
+  author: "John Guillim"
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "At least 7 editions in 17th century. &lsquo;The skill of Armory consisteth (of) Blazoning and Marshalling&hellip;.Blazoning is the description of the Arms in apt and significant termes.&rsquo; Marshalling is the combination of the arms of husband and wife. Second edition, London: Richard Badger for Ralph Mab 1632."
+      title: "A Display of Heraldrie"
+- 
+  author: "Gerard Legh"
+  books: 
+    - 
+      Publisher: "Richard Tottel"
+      ? "Publishing Location"
+      : London
+      ? "Publishing Year"
+      : "1568"
+      title: "The accedens of armorie"
+- 
+  author: Menestrier
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "3rd edition Lyons: Coral, 1669"
+      title: "Principes heraldiques ou du veritable art du Blason"
+    - 
+      Publisher: "I.B. Nolin"
+      ? "Publishing Location"
+      : Paris
+      ? "Publishing Year"
+      : "1691"
+      description: "&nbsp;Second edition (1st: 1689)"
+      title: "Histoire du Roy Louis le Grand"
+    - 
+      Publisher: "Estienne Michallet"
+      ? "Publishing Location"
+      : Paris
+      ? "Publishing Year"
+      : "1673"
+      description: "Another edition Lyons: Bruyset, 1750"
+      title: "Le v&eacute;ritable art du blason"
+- 
+  author: "Milles, Thomas"
+  books: 
+    - 
+      Publisher: "William Jaggard"
+      ? "Publishing Location"
+      : London
+      ? "Publishing Year"
+      : "1610"
+      title: "The Catalogue of Honor"
+- 
+  author: Prade
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "Third edition. First edition 1650."
+      title: "Le troph&eacute;e d'armes h&eacute;raldiques"
+- 
+  author: "Schmidtde Vries"
+  books: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "Three volumes"
+      title: "DeDoorlughtige Weereld"
+- 
+  author: "Jean Scohier"
+  books: 
+    - 
+      Publisher: Mommart
+      ? "Publishing Location"
+      : Brussels
+      ? "Publishing Year"
+      : "1597"
+      description: "First edition"
+      title: "L'estat et comportement des armes"
+- 
+  author: "Charles Segoing"
+  books: 
+    - 
+      Publisher: "Francois Clovsier"
+      ? "Publishing Location"
+      : Paris
+      ? "Publishing Year"
+      : "1652"
+      description: "Second edition"
+      title: "Mercure armorial"
+- 
+  author: Sicillo
+  books: 
+    - 
+      Publisher: Nicolino
+      ? "Publishing Location"
+      : Venedig
+      ? "Publishing Year"
+      : "1565"
+      description: "First edition 1649"
+      title: "Trattato de i colori nelle arme"
+- 
+  author: "Emmanuele Tesauro"
+  books: 
+    - 
+      Publisher: Curti
+      ? "Publishing Location"
+      : Venice
+      ? "Publishing Year"
+      : "1678"
+      description: "&lsquo;Coats of Arms are metaphors expressed on a shield signifying some action or hereditary conceit of a family.&nbsp; Now with figures in a kind of simple hieroglyph, now with colors properly called devises.&rsquo;"
+      title: "Il cannochiale aristotelico"
+- 
+  author: "James Yorke"
+  books: 
+    - 
+      Publisher: Griffin
+      ? "Publishing Location"
+      : London
+      ? "Publishing Year"
+      : "1640"
+      title: "The Union of Honour"

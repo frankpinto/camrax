@@ -1,0 +1,174 @@
+<% form_for [:admin, @book] do |f| %>
+  <h3>Front-End Placement</h3>
+  <fieldset>
+    <p>
+      <label for="category">Category:</label>
+      <%= f.text_field :category_title, :class => 'text-medium ac_category' %>
+      <input type="hidden" name="book[category_id]" >
+    </p>
+    <div class="ui-state-highlight category">
+      <span class="ui-icon ui-icon-radio-on bullet"></span>
+      <span id="category"></span>
+      <a href="javascript:void(0)" class="close"><span class="ui-icon ui-icon-close"></span></a>
+    </div>
+    <p>
+      <label>Subcategory:</label>
+      <%= f.text_field :subcategory_title, :class => 'text-medium ac_subcategory' %>
+      <input type="hidden" name="book[subcategory_id]" >
+    </p>
+    <div class="ui-state-highlight subcategory">
+      <span class="ui-icon ui-icon-radio-on bullet"></span>
+      <span id="subcategory"></span>
+      <a href="javascript:void(0)" class="close"><span class="ui-icon ui-icon-close"></span></a>
+    </div>
+    <p>
+    </p>
+    <div class="checkbox modern">
+      <p><label>Modern Source?</label></p>
+    </div>
+    <div class="words">
+      <p><%= f.check_box :modern %></p>
+    </div>    
+  </fieldset>
+
+  <h3>Title</h3>
+  <fieldset>
+    <p>
+      <label for="short_title">Short Title:</label>
+      <%= f.text_field :short_title, :class => 'text-medium' %>
+    </p>
+    <p>
+      <label>Full Title:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :full_title, :class => 'text-long' %>
+    </p>
+  </fieldset>
+
+  <h3>Content</h3>
+  <fieldset>
+    <p>
+      <label>Brief Description:</label>
+      <%= f.text_area :brief_description %>
+    </p>
+    <p>
+      <label>Full Description:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_area :full_description %>
+    </p>
+    <p>
+      <label>End Line:</label>
+      <%= f.text_field :endline, :class => 'text-medium' %>
+    </p>
+    <p>
+      <label>Notes:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_area :notes %>
+    </p>
+  </fieldset>
+
+  <h3>Publisher Information:</h3>
+  <fieldset>
+    <p>
+      <label>Publisher:</label>
+      <%= f.text_field :publisher, :class => 'text-long' %>
+    </p>
+    <p>
+      <label>Location:</label>
+      <%= f.text_field :publication_location, :class => 'text-long' %>
+    </p>
+    <p>
+      <label>Date Published:</label>
+      <%= f.text_field :date, :class => 'text-small' %>
+    </p>
+  </fieldset>
+
+  <h3>Original Information:</h3>
+  <fieldset>
+    <p>
+      <label>Cover:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="cover" id="cover" class="text-long" value="Fill with file attachment" />
+    </p>
+    <p>
+      <label>Source:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :origin, :class => 'text-long' %>
+    </p>
+    <p>
+      <label>Language:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :language, :class => 'text-long' %>
+    </p>
+    <p>
+      <label>Number of Pages:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <input type="text" name="book[number_of_pages]" id="number_of_pages" class="text-small" />
+      <%= f.text_field :number_of_pages, :class => 'text-long' %>
+    </p>
+    <p>
+      <label>Size:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :size, :class => 'text-long' %>
+    </p>
+    <p>
+      <label>Location of Original:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :location_of_original, :class => 'text-long' %>
+    </p>
+    <div class="checkbox rrs">
+      <p>
+        <label>Part of RRs Collection?</label>
+        <span class="blue_span">(Does not appear in public)</span><br />
+      </p>
+    </div>
+    <div class="words">
+      <p><%= f.check_box :rrs %></p>
+    </div>    
+    
+    <p>
+      <label>Condition:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :condition, :class => 'text-medium' %>
+    </p>
+    <p>
+      <label>Printer:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :printer, :class => 'text-long' %>
+    </p>
+  </fieldset>
+
+  <h3>Extra Information:</h3>
+  <fieldset>
+    <p>
+      <label>Bibliography:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_area :bibliography %>
+    </p>
+    <p>
+      <label>ISBN #:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :isbn, :class => 'text-medium' %>
+    </p>
+    <p>
+      <label>ID #:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :id_number, :class => 'text-medium' %>
+    </p>
+    <p>
+      <label>Spare 1:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :spare1, :class => 'text-medium' %>
+    </p>
+    <p>
+      <label>Spare 2:</label>
+      <span class="blue_span">(Does not appear in public)</span><br />
+      <%= f.text_field :spare2, :class => 'text-medium' %>
+    </p>
+  </fieldset>
+
+  <input type="submit" value="<%= submit_label %>" />
+<% end %>
+<% content_for :head do %>
+  <%= include_puny_mce :plugins => %w(Paste Link TextColor Entities EditSource) %>
+<% end %>
+<%= puny_mce [%w(notes book_notes), %w(brief_description book_brief_description), %w(full_description book_full_description), %w(bibliography book_bibliography)], :profile => :source %>

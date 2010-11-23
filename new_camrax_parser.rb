@@ -3,6 +3,9 @@ require 'hpricot'
 require 'htmlentities'
 require 'open-uri'
 require 'yaml'
+require 'ya2yaml'
+require 'rchardet'
+require 'iconv'
 
 class CamraxParser
   attr_accessor :bibliography
@@ -11,6 +14,7 @@ class CamraxParser
   attr_accessor :category_urls
   attr_accessor :category
   attr_accessor :url
+  $KCODE = 'UTF8'
 
   def initialize
     # Format will be: [
@@ -22,7 +26,6 @@ class CamraxParser
     # {'title' => '', 'extras' => ''},
     # {'title' => '', 'extras' => ''}
     # ]}, etc.]
-    self.collection = []
     self.category_urls = []
 
     # To hold the whole web page
@@ -56,7 +59,13 @@ class CamraxParser
 
   def run
     self.category_urls.each do |category, url|
-      self.bibliography = open(url) {|f| Hpricot(f, :fixup_tags => true) }
+      self.collection = []
+      self.bibliography = open(url) do |f| 
+        page = f.read
+        encoding = CharDet.detect(page)['encoding']
+        converted_page = Iconv.conv(encoding + '//IGNORE', 'utf-8', page)
+        Hpricot(converted_page, :fixup_tags => true)
+      end
       # Get start div tag
       start_div = (bibliography/'div[@class="titlediv"]')[0].next
       start_div = start_div.next while start_div.class == Hpricot::Text
@@ -78,7 +87,7 @@ class CamraxParser
           # If the paragraphs class matches those above then it is the
           # description of the book that was just added. Thus, grab the last book
           # added and add a description to it.
-          collection.last['books'].last['description'] = p.inner_html
+          collection.last['books'].last['description'] = p.inner_html.strip
         else
           # New title. Titles are always italicized using either em or italic
           title_tag = p/'em'
@@ -148,13 +157,13 @@ class CamraxParser
 
       # Write collection of books in a nice format to a file
       file = File.open('C:\Users\Frank Pinto\Documents\Spruce\camrax\yamls\\' + category + '.yml', 'w')
-      file.puts collection.to_yaml
+      file.puts collection.ya2yaml
       file.close
     end
 
     # Write all categories in a nice format to a file
     file   = File.open('C:\Users\Frank Pinto\Documents\Spruce\camrax\yamls\All_Categories.yml', File::WRONLY|File::APPEND|File::CREAT)
-    file.puts self.category_urls.to_yaml
+    file.puts self.category_urls.ya2yaml
     file.close
   end
 end

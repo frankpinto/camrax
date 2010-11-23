@@ -3,11 +3,55 @@
 
 $(document).ready(function(){
 
+  // Set up the autocomplete for the category that the book belongs to
+  $('input.ac_category').autocomplete({
+      source: '/admin/categories/search',
+      select: function(event, ui) {
+          // Check to make sure there are matches
+          if (ui.item.label == 'No Matches')
+            return;
+
+          text = ui.item.label;
+          $('span#category').html(text);
+          $('div.ui-state-highlight.category').slideDown();
+          $("input[name='book\\[category_id\\]']").val(ui.item.id);
+      }
+    });
+
+  $('div.category a.close').click(function() {
+        $('div.ui-state-highlight.category').slideUp();
+        $("input[name='book\\[category_id\\]']").val('');
+    });
+
+  // Set up the autocomplete for the subcategory that the book belongs to
+  $('input.ac_subcategory').autocomplete({
+      source: '/admin/categories/sub_search',
+      select: function(event, ui) {
+          // Check to make sure there are matches
+          if (ui.item.label == 'No Matches')
+            return;
+
+          text = ui.item.label;
+          $('span#subcategory').html(text);
+          $('div.ui-state-highlight.subcategory').slideDown();
+          $("input[name='book\\[subcategory_id\\]']").val(ui.item.id);
+      }
+    });
+
+  $('div.subcategory a.close').click(function() {
+        $('div.ui-state-highlight.subcategory').slideUp();
+        $("input[name='book\\[subcategory_id\\]']").val('');
+    });
+
   // Set up the autocomplete for categories that redirect. Also set up the
   // button to remove the redirect
   $('input.ac_redirect').autocomplete({
       source: '/admin/categories/search',
       select: function(event, ui) {
+          // Check to make sure there are matches
+          if (ui.item.label == 'No Matches')
+            return;
+
           text = ui.item.label;
           $('span#redirect').html(text);
           $('div.ui-state-highlight').slideDown();

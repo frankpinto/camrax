@@ -1,206 +1,333 @@
 --- 
-- author: Johannes Agricola
+- 
+  author: "Johannes Agricola"
   books: 
-  - title: Book of German Proverbs
-    Publishing Year: 
-    description: Many editions, the largest of which had 750 proverbs.
-    Publishing Location: 
-    Publisher: 
-- author: Tim Agnellini
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "Many editions, the largest of which had 750 proverbs."
+      title: "Book of German Proverbs"
+- 
+  author: "Tim Agnellini"
   books: 
-  - title: Proverbii Weigel
-    Publishing Year: 
-    description: "Persian and Turkish proverbs trans. into Latin and Italian "
-    Publishing Location: 
-    Publisher: 
-- author: Alardus Amstelredamus,
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "Persian and Turkish proverbs trans. into Latin and Italian"
+      title: "Proverbii Weigel"
+- 
+  author: "Alardus Amstelredamus,"
   books: 
-  - title: Selectae Similitudines sive Collationes
-    Publishing Year: "1543"
-    description: "First Published in Cologne in 1539, written after the example of Erasmus's <em>Adagia</em>.   "
-    Publishing Location: Paris
-    Publisher: Girault
-- author: Anon
+    - 
+      Publisher: Girault
+      ? "Publishing Location"
+      : Paris
+      ? "Publishing Year"
+      : "1543"
+      description: "First Published in Cologne in 1539, written after the example of Erasmus's <em>Adagia</em>."
+      title: "Selectae Similitudines sive Collationes"
+- 
+  author: Anon
   books: 
-  - title: Adagia ie Proverbiorum, paroemiarum et parabol
-    Publishing Year: 
-    description: A collection of Proverbs and other forms from Erasmus, Junius, Canterus, Stephanus
-    Publishing Location: 
-    Publisher: 
-- author: Anon
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "A collection of Proverbs and other forms from Erasmus, Junius, Canterus, Stephanus"
+      title: "Adagia ie Proverbiorum, paroemiarum et parabol"
+- 
+  author: Anon
   books: 
-  - title: Adagia in Latin and English
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Adagia in Latin and English"
+- 
+  author: Anon
   books: 
-  - title: Adagia Optimorum Utriusque Linguae
-    Publishing Year: "1603"
-    Publishing Location: Venice
-    Publisher: Paulus Manutius
-- author: Anon
+    - 
+      Publisher: "Paulus Manutius"
+      ? "Publishing Location"
+      : Venice
+      ? "Publishing Year"
+      : "1603"
+      title: "Adagia Optimorum Utriusque Linguae"
+- 
+  author: Anon
   books: 
-  - title: Adagia sive Proverbia Graecorum Plantin
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Adagia sive Proverbia Graecorum Plantin"
+- 
+  author: Anon
   books: 
-  - title: Adagialia sacra Novi Test. Schotto
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Anon
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Adagialia sacra Novi Test. Schotto"
+- 
+  author: Anon
   books: 
-  - title: Adagios Portuguezes
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Michael Apostolios
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Adagios Portuguezes"
+- 
+  author: "Michael Apostolios"
   books: 
-  - title: Paroemiae
-    Publishing Year: "1609"
-    description: 1st Latin and Greek edition. Byzantine proverbs
-    Publishing Location: Leiden
-    Publisher: Elsevier
-- author: "Cato "
+    - 
+      Publisher: Elsevier
+      ? "Publishing Location"
+      : Leiden
+      ? "Publishing Year"
+      : "1609"
+      description: "1st Latin and Greek edition. Byzantine proverbs"
+      title: Paroemiae
+- 
+  author: "Cato "
   books: 
-  - title: Collectio Distichorum Vulgaris
-    Publishing Year: 
-    description: (Moral Distichs)
-    Publishing Location: 
-    Publisher: 
-- author: Randle Cotgravc
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "(Moral Distichs)"
+      title: "Collectio Distichorum Vulgaris"
+- 
+  author: "Randle Cotgravc"
   books: 
-  - title: A dictionarie of the French and English tongues
-    Publishing Year: 
-    description: In addition to translations, this dictionary contains many proverbs.
-    Publishing Location: 
-    Publisher: 
-- author: Thomas Drax
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "In addition to translations, this dictionary contains many proverbs."
+      title: "A dictionarie of the French and English tongues"
+- 
+  author: "Thomas Drax"
   books: 
-  - title: Bibliotheca Scholastica Instructissima; or a Treasure of Ancient Adages
-    Publishing Year: "1633"
-    Publishing Location: London
-    Publisher: ""
-- author: Duplessis
+    - 
+      Publisher: ""
+      ? "Publishing Location"
+      : London
+      ? "Publishing Year"
+      : "1633"
+      title: "Bibliotheca Scholastica Instructissima; or a Treasure of Ancient Adages"
+- 
+  author: Duplessis
   books: 
-  - title: Bibliographie paroemiolog.
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Desiderius Erasmus
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Bibliographie paroemiolog."
+- 
+  author: "Desiderius Erasmus"
   books: 
-  - title: Adagia
-    Publishing Year: 
-    description: "First edition "
-    Publishing Location: 
-    Publisher: 
-  - title: Adagiorum Opus
-    Publishing Year: 
-    description: "1st Aldine ed. 1508. Other editions, Lyons: Gryphius 1550, Lyons: Gryphius 1559, Froben 1559."
-    Publishing Location: 
-    Publisher: 
-  - title: Collectanea adagiorum veterum
-    Publishing Year: "1510"
-    Publishing Location: Strassburg
-    Publisher: Schurer
-  - title: Adagiorum epitome
-    Publishing Year: "1545"
-    Publishing Location: Antwerp
-    Publisher: Hillenius
-  - title: Adagiorum chiliades
-    Publishing Year: "1559"
-    Publishing Location: Lyon
-    Publisher: Gryphe
-- author: Henri Estienne
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "First edition"
+      title: Adagia
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "1st Aldine ed. 1508. Other editions, Lyons: Gryphius 1550, Lyons: Gryphius 1559, Froben 1559."
+      title: "Adagiorum Opus"
+    - 
+      Publisher: Schurer
+      ? "Publishing Location"
+      : Strassburg
+      ? "Publishing Year"
+      : "1510"
+      title: "Collectanea adagiorum veterum"
+    - 
+      Publisher: Hillenius
+      ? "Publishing Location"
+      : Antwerp
+      ? "Publishing Year"
+      : "1545"
+      title: "Adagiorum epitome"
+    - 
+      Publisher: Gryphe
+      ? "Publishing Location"
+      : Lyon
+      ? "Publishing Year"
+      : "1559"
+      title: "Adagiorum chiliades"
+- 
+  author: "Henri Estienne"
   books: 
-  - title: Les Pr&eacute;mices ou les Proverbes Epigrammatis&eacute;s
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-  - title: Comicorum Graecorum sententiae, id est gnomai
-    Publishing Year: "1569"
-    description: This is perhaps the tiniest book produced by Henri Estienne (32mo)
-    Publishing Location: Geneva
-    Publisher: Estiene
-- author: Sebastian Franck
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Les Pr&eacute;mices ou les Proverbes Epigrammatis&eacute;s"
+    - 
+      Publisher: Estiene
+      ? "Publishing Location"
+      : Geneva
+      ? "Publishing Year"
+      : "1569"
+      description: "This is perhaps the tiniest book produced by Henri Estienne (32mo)"
+      title: "Comicorum Graecorum sententiae, id est gnomai"
+- 
+  author: "Sebastian Franck"
   books: 
-  - title: Sprichw&ouml;rter
-    Publishing Year: "1570"
-    Publishing Location: Frankfurt
-    Publisher: Egenolffs heirs
-- author: Giraldi
+    - 
+      Publisher: "Egenolffs heirs"
+      ? "Publishing Location"
+      : Frankfurt
+      ? "Publishing Year"
+      : "1570"
+      title: Sprichw&ouml;rter
+- 
+  author: Giraldi
   books: 
-  - title: Philosophi Pythagorae symbolorum interpretatio
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Gruter
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Philosophi Pythagorae symbolorum interpretatio"
+- 
+  author: Gruter
   books: 
-  - title: Florilegium ethico-politicum
-    Publishing Year: 
-    description: "A large collection of Latin, Greek, German, Dutch, Italian, French, Spanish and English proverbs. Gruter was librarian of the Palatine library in Heidelberg and a neoLatin poet.&nbsp;&nbsp;&nbsp; "
-    Publishing Location: 
-    Publisher: 
-- author: Heywood
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "A large collection of Latin, Greek, German, Dutch, Italian, French, Spanish and English proverbs. Gruter was librarian of the Palatine library in Heidelberg and a neoLatin poet.&nbsp;&nbsp;&nbsp;"
+      title: "Florilegium ethico-politicum"
+- 
+  author: Heywood
   books: 
-  - title: Proverbs
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Joseph Lange
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: Proverbs
+- 
+  author: "Joseph Lange"
   books: 
-  - title: Adagia, sive Sententiae proverbiales
-    Publishing Year: "1596"
-    Publishing Location: Strasbourg
-    Publisher: Rihelius
-- author: Jacques Lanniet
+    - 
+      Publisher: Rihelius
+      ? "Publishing Location"
+      : Strasbourg
+      ? "Publishing Year"
+      : "1596"
+      title: "Adagia, sive Sententiae proverbiales"
+- 
+  author: "Jacques Lanniet"
   books: 
-  - title: Receuil des plus illustres proverbes
-    Publishing Year: 
-    description: A collection of illustrated proverbs 3+1 vols&nbsp; 4th Part contains proverbs based on the life of Till Eulenspiegel&ndash; very rare.
-    Publishing Location: 
-    Publisher: 
-- author: Mitelli
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "A collection of illustrated proverbs 3+1 vols&nbsp; 4th Part contains proverbs based on the life of Till Eulenspiegel&ndash; very rare."
+      title: "Receuil des plus illustres proverbes"
+- 
+  author: Mitelli
   books: 
-  - title: Proverbi figurati
-    Publishing Year: 
-    description: Frontispiece and 48 pl.
-    Publishing Location: 
-    Publisher: 
-- author: Cesar Oudin
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      description: "Frontispiece and 48 pl."
+      title: "Proverbi figurati"
+- 
+  author: "Cesar Oudin"
   books: 
-  - title: Refranes o Proverbios Castellanos
-    Publishing Year: "1624"
-    description: |-
-      Third French edition 288 pages. Oudin was also the first French translator of Don Quixote.<br />
-        Second edition Paris: Orry, 1609<br />
-        Another edition Paris: De La Coste, 1659
-    Publishing Location: Paris
-    Publisher: Billaine
-- author: John Ray
+    - 
+      Publisher: Billaine
+      ? "Publishing Location"
+      : Paris
+      ? "Publishing Year"
+      : "1624"
+      description: |-
+          Third French edition 288 pages. Oudin was also the first French translator of Don Quixote.<br />
+            Second edition Paris: Orry, 1609<br />
+            Another edition Paris: De La Coste, 1659
+      title: "Refranes o Proverbios Castellanos"
+- 
+  author: "John Ray"
   books: 
-  - title: A collection of English proverbs
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: le Roux
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "A collection of English proverbs"
+- 
+  author: "le Roux"
   books: 
-  - title: Dictionnaire comique, satirique, critique, libre et proverbial
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: "Andreas Schott, "
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Dictionnaire comique, satirique, critique, libre et proverbial"
+- 
+  author: "Andreas Schott, "
   books: 
-  - title: Adagia
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
-- author: Richard Taverner
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: Adagia
+- 
+  author: "Richard Taverner"
   books: 
-  - title: Proverbs or Adages Gathered out of the Chiliades of Erasmus
-    Publishing Year: 
-    Publishing Location: 
-    Publisher: 
+    - 
+      Publisher: ~
+      ? "Publishing Location"
+      : ~
+      ? "Publishing Year"
+      : ~
+      title: "Proverbs or Adages Gathered out of the Chiliades of Erasmus"

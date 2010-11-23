@@ -9,7 +9,7 @@ class Admin::BooksController < ApplicationController
   end  
 
   def index
-    @books = Book.find(:all, :order => 'created_at ASC', :limit => '10')
+    @books = Book.find(:all, :order => 'modified_at DESC, created_at DESC', :limit => '10')
     @book = Book.new
     @subtitle = 'Dashboard'
   end
@@ -26,24 +26,55 @@ class Admin::BooksController < ApplicationController
   end
 
   def create
+    # Either id or create new both not both
+    if !params[:book][:category_id].blank? && params[:book].has_key?(:category_title)
+      params[:book].delete(:category_title) 
+    elsif params[:book].has_key? :category_id
+      params[:book].delete(:category_id)
+    end
+    if (!params[:book][:subcategory_id].blank? && params[:book].has_key?(:subcategory_title))
+      params[:book].delete(:subcategory_title) 
+    elsif params[:book].has_key? :subcategory_id
+      params[:book].delete(:subcategory_id) 
+    end
+
     @book = Book.new params[:book]
     if @book.save
       flash[:notice] = "Book saved successfully"
-      redirect_to :index
+      redirect_to '/admin/books'
     else
-      flash[:notice] = "Error in saving book."
+      flash[:error] = "Error in saving book."
       render 'new'
     end
   end
 
+  def edit
+    @book = Book.find params[:id]
+    @subtitle = 'Edit ' + @book.short_title    
+  end
+
   def update
-    @book = Book.new params[:book]
+    # Either id or create new both not both
+    if !params[:book][:category_id].blank? && params[:book].has_key?(:category_title)
+      params[:book].delete(:category_title) 
+    elsif params[:book].has_key? :category_id
+      params[:book].delete(:category_id)
+    end
+    if (!params[:book][:subcategory_id].blank? && params[:book].has_key?(:subcategory_title))
+      params[:book].delete(:subcategory_title) 
+    elsif params[:book].has_key? :subcategory_id
+      params[:book].delete(:subcategory_id) 
+    end
+
+    @book = Book.find params[:id]
+    @book.modified_at = Time.now
+    
     if @book.save
       flash[:notice] = "Book saved successfully"
-      redirect_to :index
+      redirect_to '/admin/books'
     else
-      flash[:notice] = "Error in saving book."
-      render 'new'
+      flash[:error] = "Error in saving book."
+      render 'edit'
     end
   end
 

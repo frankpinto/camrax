@@ -50,11 +50,11 @@
   width: 50%;
 }
 
-div.redirect {
+div.redirect, div.category, div.subcategory {
   display: none;
 }
 
-div.redirect span, div.bibliography span {
+div.redirect span, div.category span, div.subcategory span, div.bibliography span {
   vertical-align: text-top;
 }
 
@@ -62,17 +62,17 @@ div.bibliography div {
   clear: both;
 }
 
-div.redirect span.bullet, div.bibliography span.bullet {
+div.redirect span.bullet, div.category span.bullet, div.subcategory span.bullet, div.bibliography span.bullet {
  float: left;
  margin-right: 0.3em;
 }
 
-div.redirect span#redirect, div.bibliography span#bibliography {
+div.redirect span#redirect, div.category span#category, div.subcategory span#subcategory, div.bibliography span#bibliography {
   position: relative;
   top: 3px;
 }
 
-div.redirect span.ui-icon-close, div.bibliography span.ui-icon-close {
+div.redirect span.ui-icon-close, div.category span.ui-icon-close, div.subcategory span.ui-icon-close, div.bibliography span.ui-icon-close {
  float: right;
  margin-right: 0.3em;
 }
@@ -113,4 +113,19 @@ span.add_language {
   width: 16px;
   position: relative;
   top: 8px;
+}
+
+div.checkbox {
+  float: left;
+  display: block;
+}
+
+div.modern {
+  width: 120px;
+  position: relative;
+  top: 2px;
+}
+
+div.rrs {
+  width: 150px;
 }
