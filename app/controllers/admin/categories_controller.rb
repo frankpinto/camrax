@@ -28,6 +28,16 @@ class Admin::CategoriesController < ApplicationController
   end
 
   def update
+    # Either id or create new both not both
+    if !params[:category][:redirect_id].blank?
+      params[:category].delete(:redirect_title) 
+    elsif !params[:category][:redirect_title].blank?
+      params[:category].delete(:redirect_id)
+    else
+      params[:category].delete(:redirect_title) 
+      params[:category][:redirect_id] = nil
+    end
+    
     @cat = Category.find params[:id]
     @cat.modified_at = Time.now
 

@@ -75,7 +75,7 @@ INSERT INTO categories (title) VALUES("Enigmas");
 INSERT INTO categories (title) VALUES("Epic Poems");
 INSERT INTO categories (title) VALUES("Epigrams");
 INSERT INTO categories (title) VALUES("Epitaphs");
-INSERT INTO categories (title) VALUES("Epopées");
+INSERT INTO categories (title) VALUES("Epopees");
 INSERT INTO categories (title) VALUES("Epistola Laconica");
 INSERT INTO categories (title) VALUES("Equestrian Games");
 INSERT INTO categories (title) VALUES("Equivoques");

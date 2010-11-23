@@ -27,15 +27,21 @@ class Admin::BooksController < ApplicationController
 
   def create
     # Either id or create new both not both
-    if !params[:book][:category_id].blank? && params[:book].has_key?(:category_title)
+    if !params[:book][:category_id].blank?
       params[:book].delete(:category_title) 
-    elsif params[:book].has_key? :category_id
+    elsif !params[:book][:category_title].blank?
       params[:book].delete(:category_id)
+    else
+      params[:book].delete(:category_title) 
+      params[:book][:category_id] = nil
     end
-    if (!params[:book][:subcategory_id].blank? && params[:book].has_key?(:subcategory_title))
+    if !params[:book][:subcategory_id].blank?
       params[:book].delete(:subcategory_title) 
-    elsif params[:book].has_key? :subcategory_id
+    elsif !params[:book][:subcategory_title].blank?
       params[:book].delete(:subcategory_id) 
+    else
+      params[:book].delete(:subcategory_title) 
+      params[:book][:subcategory_id] = nil
     end
 
     @book = Book.new params[:book]

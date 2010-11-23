@@ -3,7 +3,7 @@
   <fieldset>
     <p><label>Title:</label><%= f.text_field :title, :class => 'text-long' %></p>
     <p><label>Redirect To:</label>
-      <input type="text" class="text-long ac_redirect" />
+      <%= f.text_field :redirect_title, :class => 'text-long ac_redirect' %>
       <input type="hidden" name="category[redirect_id]" >
     </p>
     <div class="ui-state-highlight redirect">

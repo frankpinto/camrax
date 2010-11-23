@@ -19,4 +19,12 @@ class Category < ActiveRecord::Base
     books.each {|book| return true if book.modern}
     return false
   end
+
+  def redirect_title
+    redirect.title if redirect
+  end
+
+  def redirect_title=(name)
+    self.redirect = Category.find_or_create_by_title(name) unless name.blank?
+  end
 end
