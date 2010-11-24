@@ -16,6 +16,22 @@ a:hover{
 }
 
 
+	
+#catnav ul li a, #catnav ul li a:visited,
+#specialfeatures a, #specialfeatures a:visited,
+#nav ul li a, #nav ul li a:visited,
+#titlediv a, #titlediv  a:visited{
+	color:#666666;
+	text-decoration:none;	
+}
+	
+#catnav ul li a:hover,
+#specialfeatures a:hover,
+#nav ul li a:hover,
+#titlediv a:hover{
+	color:#941a1a;
+}
+
 
 #header{
 	width:1200px;	
@@ -33,11 +49,6 @@ a:hover{
 		text-transform:uppercase;
 		font-size:8pt;
 	}
-		#nav img{
-		vertical-align:text-top;
-		margin-top:4px;
-			
-		}
 	
 		#nav ul{
 			margin:0px;
@@ -50,16 +61,6 @@ a:hover{
 			margin:0px 3px;
 			color:#941a1a;
 		}
-		
-		#nav ul li a, #nav ul li a:visited {
-			color:grey;
-			text-decoration:none;
-		}
-		
-		
-		#nav ul li a:hover{
-			color:#941a1a;
-		}
 	
 	
 	#specialfeatures{
@@ -68,15 +69,7 @@ a:hover{
 		margin-top:40px;
 		
 	}
-		#specialfeatures a, #specialfeatures a:visited{
-			color:grey;
-			text-decoration:none;	
-		}
 		
-		#specialfeatures a:hover{
-			color:#941a1a;
-		}
-	
 		#specialfeatures ul{
 			list-style:none;
 			margin-top:2px;
@@ -105,6 +98,76 @@ a:hover{
 		margin-left:220px;
 		width:900px;	
 	}
+	
 
 
+#titlediv{
+	text-align:center;
+}
+
+	#titlediv h2, #titlediv h3 {
+		margin:5px;
+		font-weight:normal;	
+		text-transform:uppercase;
+	}
+	
+	#titlediv p{
+		margin:0px;
+		font-size:9pt;
+		color:#941a1a;	
+	}
+
+
+#catnav{
+	text-align:center;
+}
+	#catnav ul{
+		padding:0px;
+		margin:0px 0px 5px;		
+	}
+	
+	#catnav ul li{
+		list-style:none;
+		display:inline;
+		margin:0px 1px;	
+		color:#941a1a;
+	}
+
+#catbody{
+	width:750px;
+	text-align:justify;
+}
+
+
+#bibbody{
+	margin-top:30px;
+}
+	#bibbody p{
+		margin:0px;
+	}
+
+	#bibbook{
+		background: transparent url('/images/bookbg_mid.png') repeat-y;
+		padding:5px 5px 0px 5px;
+		color:#666666;
+	}
+	#bibbook strong{
+		font-weight:normal;
+		color:black	
+	}
+	
+	#bibbook em{
+		color:#941a1a;
+	}
+	
+	#bibbook p.description{
+		font-size:10pt;
+	}
+		
+	
+	#bibbookbot{
+		background: transparent url('/images/bookbg_bottom.png') no-repeat;	
+		height:8px;
+		margin-bottom:10px;
+	}
 
