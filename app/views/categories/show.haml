@@ -1,0 +1,28 @@
+#titlediv
+	%h2= @category.title.upcase
+	%p
+		- @category.languages.each do |l|
+			l.language + ': ' + l.words
+	%p
+		Authorities: 
+		= @category.authorities
+			
+	#catnav
+		%ul
+			%li
+				= link_to "Bibliography", "/categories/#{@category.id}/books"
+			%li &bull;
+			%li
+				= link_to "Modern Scholarship", "/categories/#{@category.id}/scholars"
+			
+#catbody= @category.body
+
+
+			
+#catnav
+	%ul
+		%li
+			= link_to "Bibliography", "/categories/#{@category.id}/books"
+		%li &bull;
+		%li
+			= link_to "Modern Scholarship", "/categories/#{@category.id}/scholars"
