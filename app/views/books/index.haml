@@ -1,0 +1,29 @@
+#titlediv
+	%h2= @category.title.upcase
+	%h3 Bibliography or Modern Scholarship.. depending
+
+	#catnav
+		%ul
+			%li= link_to "Introduction", "/categories/#{@category.id}"
+			%li &bull;
+			%li= link_to "Modern Scholarship", "/categories/#{@category.id}/scholars"
+	%p
+		&bull;
+		= link_to "Print This Page", ""
+		&bull;
+
+#bibbody
+	- @books.each do |book|
+		#bibbook
+			%p
+				%strong
+					= book.authors[0].last_name + ', ' if book.authors[0].last_name
+					= book.authors[0].first_name
+				%em= book.short_title
+				= book.publication_location if book.publication_location
+				= ': ' + book.publisher if book.publisher
+				= ', ' + book.date if book.date
+			%p.description= book.brief_description
+		#bibbookbot
+		
+</div>

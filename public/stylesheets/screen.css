@@ -1,0 +1,173 @@
+
+body{
+	font-family:"Times New Roman";
+	color:black;
+	margin:0px;	
+	background:white url('/images/bg.jpg') repeat;
+	
+}
+
+a, a:visited{
+	color:#941a1a;	
+}
+
+a:hover{
+	color:black;	
+}
+
+
+	
+#catnav ul li a, #catnav ul li a:visited,
+#specialfeatures a, #specialfeatures a:visited,
+#nav ul li a, #nav ul li a:visited,
+#titlediv a, #titlediv  a:visited{
+	color:#666666;
+	text-decoration:none;	
+}
+	
+#catnav ul li a:hover,
+#specialfeatures a:hover,
+#nav ul li a:hover,
+#titlediv a:hover{
+	color:#941a1a;
+}
+
+
+#header{
+	width:1200px;	
+	text-align:center;
+	background:none;
+	margin:0 auto;
+}
+
+	#nav{
+		background:transparent url('/images/nav_bg.png') repeat;
+		height:30px;
+		width:622px;	
+		margin-left:290px;
+		padding:13px 0px 0px 0px;
+		text-transform:uppercase;
+		font-size:8pt;
+	}
+	
+		#nav ul{
+			margin:0px;
+			padding: 0px;
+		}
+		
+		#nav ul li{
+			list-style:none;
+			display:inline;
+			margin:0px 3px;
+			color:#941a1a;
+		}
+	
+	
+	#specialfeatures{
+		float:right;
+		font-size:11pt;
+		margin-top:40px;
+		
+	}
+		
+		#specialfeatures ul{
+			list-style:none;
+			margin-top:2px;
+			text-align:left;
+			padding-left:52px;
+			
+		}
+	
+	#title{
+		margin-top:30px;
+		margin-left:210px;	
+	}
+
+
+#main{	
+	width:1150px;
+	margin: 50px auto;
+}
+
+	#sidebar{
+		float:left;	
+		text-align:center;
+	}
+	
+	#content{
+		margin-left:220px;
+		width:900px;	
+	}
+	
+
+
+#titlediv{
+	text-align:center;
+}
+
+	#titlediv h2, #titlediv h3 {
+		margin:5px;
+		font-weight:normal;	
+		text-transform:uppercase;
+	}
+	
+	#titlediv p{
+		margin:0px;
+		font-size:9pt;
+		color:#941a1a;	
+	}
+
+
+#catnav{
+	text-align:center;
+}
+	#catnav ul{
+		padding:0px;
+		margin:0px 0px 5px;		
+	}
+	
+	#catnav ul li{
+		list-style:none;
+		display:inline;
+		margin:0px 1px;	
+		color:#941a1a;
+	}
+
+#catbody{
+	width:750px;
+	text-align:justify;
+}
+
+
+#bibbody{
+	margin-top:30px;
+}
+	#bibbody p{
+		margin:0px;
+	}
+
+	#bibbook{
+		background: transparent url('/images/bookbg_mid.png') repeat-y;
+		padding:5px 5px 0px 5px;
+		color:#666666;
+	}
+	#bibbook strong{
+		font-weight:normal;
+		color:black	
+	}
+	
+	#bibbook em{
+		color:#941a1a;
+	}
+	
+	#bibbook p.description{
+		font-size:10pt;
+	}
+		
+	
+	#bibbookbot{
+		background: transparent url('/images/bookbg_bottom.png') no-repeat;	
+		height:8px;
+		margin-bottom:10px;
+	}
+

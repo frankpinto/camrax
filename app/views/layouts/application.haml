@@ -1,0 +1,67 @@
+!!!
+
+%html{:xmlns => "http://www.w3.org/1999/xhtml", :lang => "en"}
+	%head
+		
+		= stylesheet_link_tag 'nav'
+		= stylesheet_link_tag 'book'
+		= stylesheet_link_tag 'screen'
+
+		%title The Library of Symbolism: The Symbolic Literature of the Renaissance
+
+		%meta{ :name => "keywords", :content => "symbols, symbolism, literature, renaissance literature, emblems, devices, enigmas, hieroglyphs, signs, allegories, bestiaries, dreams, epigrams, exempla, fables, figure poems, herbals, iconologies, imprese, lapidaries, mythologies, paradoxes, prophesies, proverbs, rebuses, reverses, similitudes, talismans, visions, volucraries, oracles, masques, epics, mysticism, Platonism, Plato, Aristotle, occult, magic, Hermetism, Alchemy, Kabbala"}
+
+		%meta{:name => "Description", :content => "A vast body of literature which climaxed two thousand years of the symbolic culture of Western Europe, combining neoPlatonism, kabbalism, alchemy, magic, hermetism, elements of rhetoric, the Greek myths, fables, proverbs and aphorisms of the Christian fathers."}
+
+	%body
+		
+		#header
+		
+			#nav
+				%ul
+					%li 
+						%a{:href => "/"} Home
+					%li &bull;
+					%li 
+						%a{:href => "/authors"}  Author Biographies
+					%li &bull;
+					%li 
+						%a{:href => "/bookdescriptions"}  Book Descriptions
+					%li &bull;
+					%li 
+						%a{:href => "/contributors"}  Contributors
+					%li &bull;
+					%li 
+						%a{:href => "/bookpreviews"}  Book Previews
+					%li &bull;
+					%li 
+						%a{:href => "/links"}  Links
+
+			#specialfeatures
+				%img{:src => "/images/specialfeatures.png"}
+				%ul
+					%li 
+						%a{:href => "/slideshows"}  Slideshows
+					%li
+						%a{:href => "/newsletter"}  Newsletters
+					%li
+						%a{:href => "/bookfinding"}  Book Finding Service
+					%li
+						%a{:href => "/research"}  Research Service
+				
+			#title
+				%img{:src => "/images/title.png"}
+
+			
+		#main
+		
+			#sidebar
+				%img{:src => "/images/search_bg.png"}
+				<br />
+			
+				%img{:src => "/images/nav.jpg"}
+			
+
+			#content= yield		
+
+
