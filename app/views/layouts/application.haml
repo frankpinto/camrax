@@ -6,6 +6,7 @@
 		= stylesheet_link_tag 'nav'
 		= stylesheet_link_tag 'book'
 		= stylesheet_link_tag 'screen'
+		= javascript_include_tag 'dropdown'
 
 		%title The Library of Symbolism: The Symbolic Literature of the Renaissance
 
@@ -59,9 +60,12 @@
 				%img{:src => "/images/search_bg.png"}
 				<br />
 			
-				%img{:src => "/images/nav.jpg"}
-			
+				= sidebar_menu @alphabet, @menu_categories
 
 			#content= yield		
+			%script
+				- @alphabet.each do |letter|
+					- if @menu_categories[letter]
+						at_attach("menu_parent#{letter}", "menu_child#{letter}", "hover", "y", "pointer");
 
 

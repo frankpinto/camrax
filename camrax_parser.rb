@@ -10,15 +10,6 @@ class CamraxParser
   attr_accessor :misbehaving
 
   def initialize
-    # Format will be: [
-    # {'author' => '', 'books' => [
-    # {'title' => '', 'extras' => ''},
-    # {'title' => '', 'extras' => '', description' => ''}
-    # ]},
-    # {'author' => '', 'books' => [
-    # {'title' => '', 'extras' => ''},
-    # {'title' => '', 'extras' => ''}
-    # ]}, etc.]
     self.collection = []
 
     # To hold the whole web page
